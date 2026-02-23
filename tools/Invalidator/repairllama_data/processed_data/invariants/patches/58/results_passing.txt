@@ -1,0 +1,2455 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 102 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.apache.commons.lang.math.NumberUtils.createInteger(java.lang.String) : 13 invocations
+  org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String) : 10 invocations
+  org.apache.commons.lang.math.NumberUtils.createFloat(java.lang.String) : 7 invocations
+  org.apache.commons.lang.math.NumberUtils.min(float[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.min(short[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.max(double[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.createBigDecimal(java.lang.String) : 9 invocations
+  org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String) : 22 invocations
+  org.apache.commons.lang.math.NumberUtils.createDouble(java.lang.String) : 9 invocations
+  org.apache.commons.lang.math.NumberUtils.createBigInteger(java.lang.String) : 8 invocations
+  org.apache.commons.lang.math.NumberUtils.min(double[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.max(byte[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.max(long[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.min(byte[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.min(long[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.max(float[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.max(short[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.max(int[]) : 2 invocations
+  org.apache.commons.lang.math.NumberUtils.min(int[]) : 2 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.apache.commons.lang.math.NumberUtils:::CLASS
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO != null
+org.apache.commons.lang.math.NumberUtils.LONG_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.LONG_ONE != null
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO != null
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE != null
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO != null
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE != null
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO != null
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE != null
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO != null
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE != null
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO != null
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE != null
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.NumberUtils():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(double, double):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(double, double):::EXIT1380
+return == -1
+orig(lhs) < orig(rhs)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(double, double):::EXIT1383
+return == 1
+orig(lhs) > orig(rhs)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(double, double):::EXIT1392
+orig(lhs) == orig(rhs)
+return == 0
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(double, double):::EXIT1401
+return == -1
+orig(rhs) one of { 0.0, Double.NaN }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(double, double):::EXIT1403
+return == 1
+orig(lhs) one of { 0.0, Double.NaN }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(double, double):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(float, float):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(float, float):::EXIT1441
+return == -1
+orig(lhs) < orig(rhs)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(float, float):::EXIT1444
+return == 1
+orig(lhs) > orig(rhs)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(float, float):::EXIT1453
+orig(lhs) == orig(rhs)
+return == 0
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(float, float):::EXIT1462
+return == -1
+orig(rhs) one of { 0.0, Double.NaN }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(float, float):::EXIT1464
+return == 1
+orig(lhs) one of { 0.0, Double.NaN }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.compare(float, float):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigDecimal(java.lang.String):::ENTER
+str.toString == "1234.5"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigDecimal(java.lang.String):::EXIT634
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigDecimal(java.lang.String):::EXIT640
+return has only one value
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigDecimal(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return == null)  <==>  (orig(str) == null)
+(return has only one value)  <==>  (orig(str) has only one value)
+(return has only one value)  ==>  (str.toString == "1234.5")
+str.toString == "1234.5"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigInteger(java.lang.String):::ENTER
+str.toString one of { "109223372036854775807", "12345", "12345678901234567890" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigInteger(java.lang.String):::EXIT618
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigInteger(java.lang.String):::EXIT620
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createBigInteger(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return == null)  <==>  (orig(str) == null)
+str.toString one of { "109223372036854775807", "12345", "12345678901234567890" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createDouble(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createDouble(java.lang.String):::EXIT568
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createDouble(java.lang.String):::EXIT570
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createDouble(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return == null)  <==>  (orig(str) == null)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createFloat(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createFloat(java.lang.String):::EXIT552
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createFloat(java.lang.String):::EXIT554
+return != null
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createFloat(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return != null)  <==>  (orig(str) != null)
+(return == null)  <==>  (orig(str) == null)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createInteger(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createInteger(java.lang.String):::EXIT585
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createInteger(java.lang.String):::EXIT588
+return != null
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createInteger(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return == null)  <==>  (orig(str) == null)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String):::EXIT602
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String):::EXIT604
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return == null)  <==>  (orig(str) == null)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT399
+return == null
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT405
+str.toString == "--2.3"
+return == null
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT408
+return.getClass().getName() == java.lang.Integer.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT452
+return.getClass().getName() == java.lang.Long.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT455
+str.toString == "12345678901234567890L"
+return has only one value
+return.getClass().getName() == java.math.BigInteger.class
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT463
+str.toString one of { "-221.23F", "1234.5F", "1234.5f" }
+return.getClass().getName() == java.lang.Float.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT472
+str.toString one of { "123.4E21D", "1234.5D", "1234.5d" }
+return.getClass().getName() == java.lang.Double.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT491
+return.getClass().getName() == java.lang.Integer.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT495
+str.toString one of { "102147483647", "2147483648" }
+return.getClass().getName() == java.lang.Long.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT498
+str.toString == "109223372036854775807"
+return has only one value
+return.getClass().getName() == java.math.BigInteger.class
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT504
+return != null
+return.getClass().getName() == java.lang.Float.class
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT511
+str.toString one of { "-1.1E200", "1.1E-200", "1.1E200" }
+return.getClass().getName() == java.lang.Double.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::ENTER
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+size(array1[]) == 2
+size(array2[]) one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT654
+array1[] == array2[]
+array1[] == orig(array2[])
+orig(array1) == orig(array2)
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT654;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT657
+array2[] == [50, 20]
+array2[] elements one of { 20, 50 }
+return == false
+orig(size(array2[])) == 2
+array1[] is the reverse of array2[]
+size(array2[])-1 in array1[]
+orig(size(array2[])) in array1[]
+size(array1[])-1 in array2[]
+orig(size(array1[])) in array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT657;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT660
+array2[] one of { [50], [50, 20, 10] }
+return == false
+orig(array1) has only one value
+orig(size(array2[])) one of { 1, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT660;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT665
+orig(size(array1[])) == orig(size(array2[]))
+array2[] == [20, 50]
+array2[] elements one of { 20, 50 }
+return == false
+orig(array1) has only one value
+orig(array2) has only one value
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT665;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT669
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+orig(array1) has only one value
+orig(array2) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT669;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array1[] == orig(array1[])
+array2[] == orig(array2[])
+(return == false)  ==>  (array2[] elements one of { 10, 20, 50 })
+(return == false)  ==>  (orig(size(array2[])) one of { 1, 2, 3 })
+(return == true)  ==>  (array1[] == array2[])
+(return == true)  ==>  (array2[] == [50, 20])
+(return == true)  ==>  (array2[] elements one of { 20, 50 })
+(return == true)  ==>  (orig(size(array2[])) == 2)
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT;condition="return == true"
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(byte[], byte[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::ENTER
+array1[] == [50.6, 20.6]
+array1[] elements one of { 20.6, 50.6 }
+array2[] elements one of { 10.6, 20.6, 50.6 }
+size(array1[]) == 2
+size(array2[]) one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT789
+array1[] == array2[]
+array1[] == orig(array2[])
+orig(array1) == orig(array2)
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT789;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT792
+array2[] == [50.6, 20.6]
+array2[] elements one of { 20.6, 50.6 }
+return == false
+orig(size(array2[])) == 2
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT792;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT795
+array2[] one of { [50.6], [50.6, 20.6, 10.6] }
+return == false
+orig(array1) has only one value
+orig(size(array2[])) one of { 1, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT795;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT800
+orig(size(array1[])) == orig(size(array2[]))
+array2[] == [20.6, 50.6]
+array2[] elements one of { 20.6, 50.6 }
+return == false
+orig(array1) has only one value
+orig(array2) has only one value
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT800;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT804
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+orig(array1) has only one value
+orig(array2) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT804;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array1[] == orig(array1[])
+array2[] == orig(array2[])
+(return == false)  ==>  (array2[] elements one of { 10.6, 20.6, 50.6 })
+(return == false)  ==>  (orig(size(array2[])) one of { 1, 2, 3 })
+(return == true)  ==>  (array1[] == array2[])
+(return == true)  ==>  (array2[] == [50.6, 20.6])
+(return == true)  ==>  (array2[] elements one of { 20.6, 50.6 })
+(return == true)  ==>  (orig(size(array2[])) == 2)
+array1[] == [50.6, 20.6]
+array1[] elements one of { 20.6, 50.6 }
+array2[] elements one of { 10.6, 20.6, 50.6 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT;condition="return == true"
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(double[], double[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::ENTER
+array1[] == [50.6, 20.6]
+array1[] elements one of { 20.6, 50.6 }
+array2[] elements one of { 10.6, 20.6, 50.6 }
+size(array1[]) == 2
+size(array2[]) one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT762
+array1[] == array2[]
+array1[] == orig(array2[])
+orig(array1) == orig(array2)
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT762;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT765
+array2[] == [50.6, 20.6]
+array2[] elements one of { 20.6, 50.6 }
+return == false
+orig(size(array2[])) == 2
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT765;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT768
+array2[] one of { [50.6], [50.6, 20.6, 10.6] }
+return == false
+orig(array1) has only one value
+orig(size(array2[])) one of { 1, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT768;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT773
+orig(size(array1[])) == orig(size(array2[]))
+array2[] == [20.6, 50.6]
+array2[] elements one of { 20.6, 50.6 }
+return == false
+orig(array1) has only one value
+orig(array2) has only one value
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT773;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT777
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+orig(array1) has only one value
+orig(array2) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT777;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array1[] == orig(array1[])
+array2[] == orig(array2[])
+(return == false)  ==>  (array2[] elements one of { 10.6, 20.6, 50.6 })
+(return == false)  ==>  (orig(size(array2[])) one of { 1, 2, 3 })
+(return == true)  ==>  (array1[] == array2[])
+(return == true)  ==>  (array2[] == [50.6, 20.6])
+(return == true)  ==>  (array2[] elements one of { 20.6, 50.6 })
+(return == true)  ==>  (orig(size(array2[])) == 2)
+array1[] == [50.6, 20.6]
+array1[] elements one of { 20.6, 50.6 }
+array2[] elements one of { 10.6, 20.6, 50.6 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT;condition="return == true"
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(float[], float[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::ENTER
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+size(array1[]) == 2
+size(array2[]) one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT708
+array1[] == array2[]
+array1[] == orig(array2[])
+orig(array1) == orig(array2)
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT708;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT711
+array2[] == [50, 20]
+array2[] elements one of { 20, 50 }
+return == false
+orig(size(array2[])) == 2
+array1[] is the reverse of array2[]
+size(array2[])-1 in array1[]
+orig(size(array2[])) in array1[]
+size(array1[])-1 in array2[]
+orig(size(array1[])) in array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT711;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT714
+array2[] one of { [50], [50, 20, 10] }
+return == false
+orig(array1) has only one value
+orig(size(array2[])) one of { 1, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT714;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT719
+orig(size(array1[])) == orig(size(array2[]))
+array2[] == [20, 50]
+array2[] elements one of { 20, 50 }
+return == false
+orig(array1) has only one value
+orig(array2) has only one value
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT719;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT723
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+orig(array1) has only one value
+orig(array2) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT723;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array1[] == orig(array1[])
+array2[] == orig(array2[])
+(return == false)  ==>  (array2[] elements one of { 10, 20, 50 })
+(return == false)  ==>  (orig(size(array2[])) one of { 1, 2, 3 })
+(return == true)  ==>  (array1[] == array2[])
+(return == true)  ==>  (array2[] == [50, 20])
+(return == true)  ==>  (array2[] elements one of { 20, 50 })
+(return == true)  ==>  (orig(size(array2[])) == 2)
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT;condition="return == true"
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(int[], int[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::ENTER
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+size(array1[]) == 2
+size(array2[]) one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT735
+array1[] == array2[]
+array1[] == orig(array2[])
+orig(array1) == orig(array2)
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT735;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT738
+array2[] == [50, 20]
+array2[] elements one of { 20, 50 }
+return == false
+orig(size(array2[])) == 2
+array1[] is the reverse of array2[]
+size(array2[])-1 in array1[]
+orig(size(array2[])) in array1[]
+size(array1[])-1 in array2[]
+orig(size(array1[])) in array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT738;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT741
+array2[] one of { [50], [50, 20, 10] }
+return == false
+orig(array1) has only one value
+orig(size(array2[])) one of { 1, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT741;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT746
+orig(size(array1[])) == orig(size(array2[]))
+array2[] == [20, 50]
+array2[] elements one of { 20, 50 }
+return == false
+orig(array1) has only one value
+orig(array2) has only one value
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT746;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT750
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+orig(array1) has only one value
+orig(array2) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT750;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array1[] == orig(array1[])
+array2[] == orig(array2[])
+(return == false)  ==>  (array2[] elements one of { 10, 20, 50 })
+(return == false)  ==>  (orig(size(array2[])) one of { 1, 2, 3 })
+(return == true)  ==>  (array1[] == array2[])
+(return == true)  ==>  (array2[] == [50, 20])
+(return == true)  ==>  (array2[] elements one of { 20, 50 })
+(return == true)  ==>  (orig(size(array2[])) == 2)
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT;condition="return == true"
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(long[], long[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::ENTER
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+size(array1[]) == 2
+size(array2[]) one of { 1, 2, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT681
+array1[] == array2[]
+array1[] == orig(array2[])
+orig(array1) == orig(array2)
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT681;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT684
+array2[] == [50, 20]
+array2[] elements one of { 20, 50 }
+return == false
+orig(size(array2[])) == 2
+array1[] is the reverse of array2[]
+size(array2[])-1 in array1[]
+orig(size(array2[])) in array1[]
+size(array1[])-1 in array2[]
+orig(size(array1[])) in array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT684;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT687
+array2[] one of { [50], [50, 20, 10] }
+return == false
+orig(array1) has only one value
+orig(size(array2[])) one of { 1, 3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT687;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT692
+orig(size(array1[])) == orig(size(array2[]))
+array2[] == [20, 50]
+array2[] elements one of { 20, 50 }
+return == false
+orig(array1) has only one value
+orig(array2) has only one value
+array1[] is the reverse of array2[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT692;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT696
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+orig(array1) has only one value
+orig(array2) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT696;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array1[] == orig(array1[])
+array2[] == orig(array2[])
+(return == false)  ==>  (array2[] elements one of { 10, 20, 50 })
+(return == false)  ==>  (orig(size(array2[])) one of { 1, 2, 3 })
+(return == true)  ==>  (array1[] == array2[])
+(return == true)  ==>  (array2[] == [50, 20])
+(return == true)  ==>  (array2[] elements one of { 20, 50 })
+(return == true)  ==>  (orig(size(array2[])) == 2)
+array1[] == [50, 20]
+array1[] elements one of { 20, 50 }
+array2[] elements one of { 10, 20, 50 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT;condition="return == true"
+array1[] == array2[]
+array1[] == orig(array2[])
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.equals(short[], short[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::ENTER
+str != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT534
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT534;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT537
+str.toString == ""
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT537;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1481
+str.toString == ""
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1481;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1485
+str.toString one of { "1234.5", "1ab", "abc" }
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1485;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1488
+str.toString == "12345"
+return == true
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1488;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return == true)  ==>  (orig(str) has only one value)
+(return == true)  ==>  (str.toString == "12345")
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT;condition="return == true"
+str.toString == "12345"
+return == true
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1506
+str.toString == ""
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1506;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1527
+str.toString one of { "0xFAE-1", "0xGF" }
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1527;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1530
+str.toString one of { "0x0", "0xABC123" }
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1530;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1546
+str.toString one of { "-123E2.12", ".12.3" }
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1546;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1562
+str.toString one of { "--2.3", "-123E+-212" }
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1562;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1567
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1567;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1574
+return == true
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1574;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1578
+str.toString == "-123E"
+return == false
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1578;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1585
+(str.toString == "123.4E-D")  <==>  (return == false)
+(str.toString == "123.4E-D")  ==>  (orig(str) has only one value)
+(str.toString one of { "-221.23F", "123.4E21D" })  <==>  (return == true)
+str.toString one of { "-221.23F", "123.4E-D", "123.4E21D" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1585;condition="return == true"
+str.toString one of { "-221.23F", "123.4E21D" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1585;condition="not(return == true)"
+str.toString == "123.4E-D"
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1590
+(str.toString == "1234E5l")  <==>  (return == false)
+(str.toString == "22338L")  <==>  (return == true)
+str.toString one of { "1234E5l", "22338L" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1590;condition="return == true"
+str.toString == "22338L"
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1590;condition="not(return == true)"
+str.toString == "1234E5l"
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1593
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT1593;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+(return == true)  ==>  (orig(str) != null)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT;condition="return == true"
+return == true
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isNumber(java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(byte, byte, byte):::ENTER
+a one of { 123, 124, 125 }
+b one of { 123, 124, 125 }
+c one of { 123, 125 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(byte, byte, byte):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 125
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(byte[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(byte[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { 5, 9, 10 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(double, double, double):::ENTER
+a one of { 12.3, 13.3, 14.3 }
+b one of { 12.3, 13.3, 14.3 }
+c one of { 12.3, 14.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(double, double, double):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return one of { 13.3, 14.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(double[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(double[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(float, float, float):::ENTER
+a one of { 12.3, 13.3, 14.3 }
+b one of { 12.3, 13.3, 14.3 }
+c one of { 12.3, 14.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(float, float, float):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return one of { 13.3, 14.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(float[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(float[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(int, int, int):::ENTER
+a one of { 12344, 12345 }
+b one of { 12343, 12344, 12345 }
+c one of { 12343, 12345 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(int, int, int):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 12345
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(int[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(int[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { 5, 9, 10 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(long, long, long):::ENTER
+a one of { 12344, 12345 }
+b one of { 12343, 12344, 12345 }
+c one of { 12343, 12345 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(long, long, long):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 12345
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(long[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(long[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { 5, 9, 10 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(short, short, short):::ENTER
+a one of { 1234, 1235, 1236 }
+b one of { 1234, 1235, 1236 }
+c one of { 1234, 1236 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(short, short, short):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 1236
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(short[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.max(short[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { 5, 9, 10 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(byte, byte, byte):::ENTER
+a one of { 123, 124 }
+b one of { 123, 124, 125 }
+c one of { 123, 125 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(byte, byte, byte):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 123
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(byte[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(byte[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { -10, 5, 6 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(double, double, double):::ENTER
+a one of { 12.3, 13.3, 14.3 }
+b one of { 12.3, 13.3, 14.3 }
+c one of { 12.3, 14.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(double, double, double):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return one of { 12.3, 13.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(double[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(double[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(float, float, float):::ENTER
+a one of { 12.3, 13.3, 14.3 }
+b one of { 12.3, 13.3, 14.3 }
+c one of { 12.3, 14.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(float, float, float):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return one of { 12.3, 13.3 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(float[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(float[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(int, int, int):::ENTER
+a one of { 12345, 12346 }
+b one of { 12345, 12346, 12347 }
+c one of { 12345, 12347 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(int, int, int):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 12345
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(int[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(int[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { -10, 5, 6 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(long, long, long):::ENTER
+a one of { 12345, 12346 }
+b one of { 12345, 12346, 12347 }
+c one of { 12345, 12347 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(long, long, long):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 12345
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(long[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(long[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { -10, 5, 6 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(short, short, short):::ENTER
+a one of { 1234, 1235 }
+b one of { 1234, 1235, 1236 }
+c one of { 1234, 1236 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(short, short, short):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+return == 1234
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(short[]):::ENTER
+size(array[]) one of { 1, 2, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.min(short[]):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+array[] == orig(array[])
+return one of { -10, 5, 6 }
+return in array[]
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.stringToInt(java.lang.String):::ENTER
+str.toString one of { "", "12345", "abc" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.stringToInt(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+str.toString one of { "", "12345", "abc" }
+return one of { 0, 12345 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.stringToInt(java.lang.String, int):::ENTER
+str.toString one of { "1234.5", "12345" }
+defaultValue == 5
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.stringToInt(java.lang.String, int):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+str.toString one of { "1234.5", "12345" }
+return one of { 5, 12345 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toDouble(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toDouble(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toDouble(java.lang.String, double):::ENTER
+defaultValue one of { 0.0, 5.0, 5.1 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toDouble(java.lang.String, double):::EXIT326
+return == orig(defaultValue)
+return == 0.0
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toDouble(java.lang.String, double):::EXIT329
+orig(defaultValue) one of { 0.0, 5.1 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toDouble(java.lang.String, double):::EXIT331
+return == orig(defaultValue)
+str.toString one of { "", "a", "abc" }
+return one of { 0.0, 5.0 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toDouble(java.lang.String, double):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toFloat(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toFloat(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toFloat(java.lang.String, float):::ENTER
+defaultValue one of { 0.0, 5.0, 5.1 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toFloat(java.lang.String, float):::EXIT274
+return == orig(defaultValue)
+return == 0.0
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toFloat(java.lang.String, float):::EXIT277
+orig(defaultValue) one of { 0.0, 5.1 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toFloat(java.lang.String, float):::EXIT279
+return == orig(defaultValue)
+str.toString one of { "", "a", "abc" }
+return one of { 0.0, 5.0 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toFloat(java.lang.String, float):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toInt(java.lang.String):::ENTER
+str.toString one of { "", "12345", "abc" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toInt(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+str.toString one of { "", "12345", "abc" }
+return one of { 0, 12345 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toInt(java.lang.String, int):::ENTER
+defaultValue one of { 0, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toInt(java.lang.String, int):::EXIT173
+return == orig(defaultValue)
+return == 0
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toInt(java.lang.String, int):::EXIT176
+str.toString == "12345"
+return == 12345
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toInt(java.lang.String, int):::EXIT178
+return == orig(defaultValue)
+str.toString one of { "", "1234.5", "abc" }
+return one of { 0, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toInt(java.lang.String, int):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+return one of { 0, 5, 12345 }
+return >= orig(defaultValue)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toLong(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toLong(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toLong(java.lang.String, long):::ENTER
+defaultValue one of { 0, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toLong(java.lang.String, long):::EXIT222
+return == orig(defaultValue)
+return == 0
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toLong(java.lang.String, long):::EXIT225
+getConfidence: daikon.inv.unary.scalar.NonZero (return) => -Infinity
+  return != 0; class daikon.inv.unary.scalar.NonZero(return): return != 0
+str.toString one of { "-9223372036854775808", "12345", "9223372036854775807" }
+return one of { -9223372036854775808L, 12345, 9223372036854775807L }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toLong(java.lang.String, long):::EXIT227
+return == orig(defaultValue)
+return one of { 0, 5 }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.toLong(java.lang.String, long):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests:::OBJECT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.NumberUtilsTestPassingTests(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.NumberUtilsTestPassingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT1290
+val.toString == "--2.3"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT1290;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT1292
+return == true
+orig(val) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT1292;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT1294
+return == false
+orig(val) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT1294;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT
+val.toString == orig(val.toString)
+(return == true)  ==>  (orig(val) != null)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT;condition="return == true"
+return == true
+orig(val) != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.checkCreateNumber(java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.suite():::EXIT
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCompareDouble():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCompareDouble():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCompareFloat():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCompareFloat():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testConstants():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testConstants():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testConstructor():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testConstructor():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigDecimal():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigDecimal():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigDecimalFailure(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigDecimalFailure(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigInteger():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigInteger():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigIntegerFailure(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateBigIntegerFailure(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateDouble():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateDouble():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateDoubleFailure(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateDoubleFailure(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateFloat():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateFloat():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateFloatFailure(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateFloatFailure(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateInteger():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateInteger():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateIntegerFailure(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateIntegerFailure(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateLong():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateLong():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateLongFailure(java.lang.String):::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateLongFailure(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateNumber():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testCreateNumber():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsByte():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsByte():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsDouble():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsDouble():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsFloat():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsFloat():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsInt():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsInt():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsLong():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsLong():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsShort():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testEqualsShort():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testIsDigits():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testIsDigits():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testIsNumber():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testIsNumber():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testLang300():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testLang300():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxByte():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxByte():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxDouble():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxDouble():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxFloat():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxFloat():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxInt():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxInt():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxLong():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxLong():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxShort():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaxShort():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumByte():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumByte():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumDouble():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumDouble():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumFloat():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumFloat():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumInt():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumInt():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumLong():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumLong():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumShort():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMaximumShort():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinByte():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinByte():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinDouble():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinDouble():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinFloat():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinFloat():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinInt():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinInt():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinLong():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinLong():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinShort():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinShort():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumByte():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumByte():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumDouble():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumDouble():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumFloat():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumFloat():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumInt():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumInt():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumLong():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumLong():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumShort():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testMinimumShort():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToDoubleString():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToDoubleString():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToDoubleStringD():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToDoubleStringD():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToIntString():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToIntString():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToIntStringI():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testStringToIntStringI():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToFloatString():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToFloatString():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToFloatStringF():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToFloatStringF():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToIntString():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToIntString():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToIntStringI():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToIntStringI():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToLongString():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToLongString():::EXIT
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToLongStringL():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestPassingTests.testToLongStringL():::EXIT
+Exiting Daikon.

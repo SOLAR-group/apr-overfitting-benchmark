@@ -1,0 +1,64 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 2 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.apache.commons.lang.WordUtilsTestFailingTests.testAbbreviate() : 1 invocation
+  org.apache.commons.lang.WordUtils.abbreviate(java.lang.String, int, int, java.lang.String) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.apache.commons.lang.WordUtils.abbreviate(java.lang.String, int, int, java.lang.String):::ENTER
+lower >= 0
+appendToEnd.toString one of { "", "-" }
+str.toString >= appendToEnd.toString
+lower != upper
+===========================================================================
+org.apache.commons.lang.WordUtils.abbreviate(java.lang.String, int, int, java.lang.String):::EXIT608
+return == orig(str)
+appendToEnd.toString == ""
+return == null
+orig(lower) == 1
+orig(upper) == -1
+orig(appendToEnd) has only one value
+===========================================================================
+org.apache.commons.lang.WordUtils.abbreviate(java.lang.String, int, int, java.lang.String):::EXIT611
+str.toString == appendToEnd.toString
+str.toString == return.toString
+str.toString == orig(appendToEnd.toString)
+return == orig(str)
+return == orig(appendToEnd)
+str.toString == ""
+return has only one value
+orig(lower) == 1
+orig(upper) == -1
+===========================================================================
+org.apache.commons.lang.WordUtils.abbreviate(java.lang.String, int, int, java.lang.String):::EXIT641
+return != null
+orig(str) != null
+str.toString > appendToEnd.toString
+appendToEnd.toString < return.toString
+===========================================================================
+org.apache.commons.lang.WordUtils.abbreviate(java.lang.String, int, int, java.lang.String):::EXIT
+str.toString == orig(str.toString)
+appendToEnd.toString == orig(appendToEnd.toString)
+appendToEnd.toString one of { "", "-" }
+str.toString >= appendToEnd.toString
+str.toString >= return.toString
+appendToEnd.toString <= return.toString
+===========================================================================
+org.apache.commons.lang.WordUtilsTestFailingTests:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestFailingTests.WordUtilsTestFailingTests(java.lang.String):::ENTER
+name has only one value
+name.toString == "testAbbreviate"
+===========================================================================
+org.apache.commons.lang.WordUtilsTestFailingTests.WordUtilsTestFailingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+name.toString == "testAbbreviate"
+===========================================================================
+org.apache.commons.lang.WordUtilsTestFailingTests.suite():::EXIT
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+Exiting Daikon.

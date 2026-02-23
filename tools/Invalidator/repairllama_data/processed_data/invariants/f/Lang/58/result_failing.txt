@@ -1,0 +1,180 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.apache.commons.lang.math.NumberUtils:::CLASS
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO != null
+org.apache.commons.lang.math.NumberUtils.LONG_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.LONG_ONE != null
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO != null
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE != null
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO != null
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE != null
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO != null
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE != null
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO != null
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE != null
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE != null
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO has only one value
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO != null
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE != null
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE has only one value
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE != null
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String):::ENTER
+str.toString one of { "-1", "01", "1" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String):::EXIT630
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createLong(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+str.toString one of { "-1", "01", "1" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::ENTER
+str.toString one of { "-1l", "01l", "1l" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT456
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.createNumber(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+str.toString one of { "-1l", "01l", "1l" }
+return.getClass().getName() == java.lang.Long.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::ENTER
+str.toString one of { "-1l", "01l", "1l" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT560
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT560;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+str.toString one of { "-1l", "01l", "1l" }
+return == false
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isAllZeros(java.lang.String):::EXIT;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::ENTER
+str.toString one of { "01", "1" }
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1514
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT1514;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT
+org.apache.commons.lang.math.NumberUtils.LONG_ZERO == orig(org.apache.commons.lang.math.NumberUtils.LONG_ZERO)
+org.apache.commons.lang.math.NumberUtils.LONG_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_ONE)
+org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.LONG_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ZERO)
+org.apache.commons.lang.math.NumberUtils.INTEGER_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_ONE)
+org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.INTEGER_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ZERO)
+org.apache.commons.lang.math.NumberUtils.SHORT_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_ONE)
+org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.SHORT_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ZERO)
+org.apache.commons.lang.math.NumberUtils.BYTE_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_ONE)
+org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.BYTE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ZERO)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_ONE)
+org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.DOUBLE_MINUS_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ZERO)
+org.apache.commons.lang.math.NumberUtils.FLOAT_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_ONE)
+org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE == orig(org.apache.commons.lang.math.NumberUtils.FLOAT_MINUS_ONE)
+str.toString == orig(str.toString)
+str.toString one of { "01", "1" }
+return == true
+===========================================================================
+org.apache.commons.lang.math.NumberUtils.isDigits(java.lang.String):::EXIT;condition="return == true"
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestFailingTests:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestFailingTests.NumberUtilsTestFailingTests(java.lang.String):::ENTER
+name has only one value
+name.toString == "testLang300"
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestFailingTests.NumberUtilsTestFailingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+name.toString == "testLang300"
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestFailingTests.suite():::EXIT
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestFailingTests.testLang300():::ENTER
+===========================================================================
+org.apache.commons.lang.math.NumberUtilsTestFailingTests.testLang300():::EXIT
+Exiting Daikon.

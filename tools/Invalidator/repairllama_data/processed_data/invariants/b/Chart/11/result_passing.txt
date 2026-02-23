@@ -1,0 +1,200 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.jfree.chart.util.ShapeUtilities:::CLASS
+org.jfree.chart.util.ShapeUtilities.SQRT2 == 1.4142135
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::ENTER
+p1 has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::EXIT247
+return == false
+orig(p2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::EXIT247;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::EXIT252
+return == true
+orig(p2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::EXIT252;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::EXIT;condition="return == true"
+return == true
+orig(p2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Polygon, java.awt.Polygon):::EXIT;condition="not(return == true)"
+return == false
+orig(p2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::ENTER
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT129
+orig(s1.getClass().getName()) == orig(s2.getClass().getName())
+return == true
+orig(s1) has only one value
+orig(s1.getClass().getName()) == java.awt.geom.Line2D$Double.class
+orig(s2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT129;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT132
+orig(s1.getClass().getName()) == orig(s2.getClass().getName())
+return == true
+orig(s1) has only one value
+orig(s1.getClass().getName()) == java.awt.geom.Ellipse2D$Double.class
+orig(s2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT132;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT135
+orig(s1.getClass().getName()) == orig(s2.getClass().getName())
+return == true
+orig(s1) has only one value
+orig(s1.getClass().getName()) == java.awt.geom.Arc2D$Double.class
+orig(s2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT135;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT138
+orig(s1.getClass().getName()) == orig(s2.getClass().getName())
+orig(s1) has only one value
+orig(s1.getClass().getName()) == java.awt.Polygon.class
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT138;condition="return == true"
+orig(s2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT138;condition="not(return == true)"
+orig(s2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT141
+orig(s1.getClass().getName()) == orig(s2.getClass().getName())
+return == true
+orig(s1) has only one value
+orig(s1.getClass().getName()) == java.awt.geom.GeneralPath.class
+orig(s2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT141;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT145
+(return == true)  <==>  (orig(s1.getClass().getName()) == orig(s2.getClass().getName()))
+(return == true)  ==>  (orig(s1.getClass().getName()) == java.awt.geom.Rectangle2D$Double.class)
+(return == true)  ==>  (orig(s2.getClass().getName()) == java.awt.geom.Rectangle2D$Double.class)
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT145;condition="return == true"
+orig(s1.getClass().getName()) == java.awt.geom.Rectangle2D$Double.class
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT145;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+(return == true)  ==>  (orig(s1.getClass().getName()) == orig(s2.getClass().getName()))
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT;condition="return == true"
+orig(s1.getClass().getName()) == orig(s2.getClass().getName())
+return == true
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.Shape, java.awt.Shape):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Arc2D, java.awt.geom.Arc2D):::ENTER
+a1.getClass().getName() == a2.getClass().getName()
+a1 has only one value
+a1.getClass().getName() == java.awt.geom.Arc2D$Double.class
+a2 has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Arc2D, java.awt.geom.Arc2D):::EXIT224
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Arc2D, java.awt.geom.Arc2D):::EXIT224;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Arc2D, java.awt.geom.Arc2D):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+return == true
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Arc2D, java.awt.geom.Arc2D):::EXIT;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Ellipse2D, java.awt.geom.Ellipse2D):::ENTER
+e1.getClass().getName() == e2.getClass().getName()
+e1 has only one value
+e1.getClass().getName() == java.awt.geom.Ellipse2D$Double.class
+e2 has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Ellipse2D, java.awt.geom.Ellipse2D):::EXIT193
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Ellipse2D, java.awt.geom.Ellipse2D):::EXIT193;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Ellipse2D, java.awt.geom.Ellipse2D):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+return == true
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Ellipse2D, java.awt.geom.Ellipse2D):::EXIT;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::ENTER
+p1 has only one value
+p2 has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT295
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT295;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+return == true
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::ENTER
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT160
+orig(l1) == orig(l2)
+return == true
+orig(l1) == null
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT160;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT166
+orig(l1.getClass().getName()) == orig(l2.getClass().getName())
+return == false
+orig(l1) has only one value
+orig(l1.getClass().getName()) == java.awt.geom.Line2D$Float.class
+orig(l2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT166;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT171
+return == true
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT171;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+(return == false)  ==>  (orig(l1) has only one value)
+(return == false)  ==>  (orig(l1.getClass().getName()) == java.awt.geom.Line2D$Float.class)
+(return == false)  ==>  (orig(l1.getClass().getName()) == orig(l2.getClass().getName()))
+(return == false)  ==>  (orig(l2) has only one value)
+(return == false)  ==>  (orig(l2.getClass().getName()) == java.awt.geom.Line2D$Float.class)
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.Line2D, java.awt.geom.Line2D):::EXIT;condition="not(return == true)"
+orig(l1.getClass().getName()) == orig(l2.getClass().getName())
+return == false
+orig(l1) has only one value
+orig(l1.getClass().getName()) == java.awt.geom.Line2D$Float.class
+orig(l2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.intersects(java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D):::ENTER
+rect1.getClass().getName() == rect2.getClass().getName()
+rect1.getClass().getName() == java.awt.geom.Rectangle2D$Float.class
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.intersects(java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+return == true
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.intersects(java.awt.geom.Rectangle2D, java.awt.geom.Rectangle2D):::EXIT;condition="return == true"
+Exiting Daikon.

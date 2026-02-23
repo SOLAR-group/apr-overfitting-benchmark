@@ -1,0 +1,7 @@
+{
+  "ID": "Patch3",
+  "tool": "repairllama-ir4",
+  "correctness": "Correct",
+  "bug_id": "8",
+  "project": "Chart"
+}

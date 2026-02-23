@@ -1,0 +1,270 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.jfree.chart.block.BorderArrangement:::CLASS
+===========================================================================
+org.jfree.chart.block.BorderArrangement:::OBJECT
+this.centerBlock.getClass().getName() == this.topBlock.getClass().getName()
+this.centerBlock.getClass().getName() == this.bottomBlock.getClass().getName()
+this.centerBlock.getClass().getName() == this.leftBlock.getClass().getName()
+this.centerBlock.getClass().getName() == this.rightBlock.getClass().getName()
+this.topBlock.getClass().getName() == this.bottomBlock.getClass().getName()
+this.topBlock.getClass().getName() == this.leftBlock.getClass().getName()
+this.topBlock.getClass().getName() == this.rightBlock.getClass().getName()
+this.bottomBlock.getClass().getName() == this.leftBlock.getClass().getName()
+this.bottomBlock.getClass().getName() == this.rightBlock.getClass().getName()
+this.leftBlock.getClass().getName() == this.rightBlock.getClass().getName()
+this.centerBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+this.topBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+this.bottomBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+this.leftBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+this.rightBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+===========================================================================
+org.jfree.chart.block.BorderArrangement.BorderArrangement():::EXIT
+this.centerBlock == this.topBlock
+this.centerBlock == this.bottomBlock
+this.centerBlock == this.leftBlock
+this.centerBlock == this.rightBlock
+this.centerBlock == null
+===========================================================================
+org.jfree.chart.block.BorderArrangement.add(org.jfree.chart.block.Block, java.lang.Object):::ENTER
+this.centerBlock.getClass().getName() == block.getClass().getName()
+this.topBlock.getClass().getName() == block.getClass().getName()
+this.bottomBlock.getClass().getName() == block.getClass().getName()
+this.leftBlock.getClass().getName() == block.getClass().getName()
+this.rightBlock.getClass().getName() == block.getClass().getName()
+block != null
+block.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+key.getClass().getName() == org.jfree.chart.util.RectangleEdge.class
+this.centerBlock.getClass().getName() != key.getClass().getName()
+this.topBlock.getClass().getName() != key.getClass().getName()
+this.bottomBlock.getClass().getName() != key.getClass().getName()
+this.leftBlock.getClass().getName() != key.getClass().getName()
+this.rightBlock.getClass().getName() != key.getClass().getName()
+block.getClass().getName() != key.getClass().getName()
+===========================================================================
+org.jfree.chart.block.BorderArrangement.add(org.jfree.chart.block.Block, java.lang.Object):::EXIT
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(block.getClass().getName())
+this.topBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.topBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.topBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.topBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.topBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.topBlock.getClass().getName() == orig(block.getClass().getName())
+this.bottomBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.bottomBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.bottomBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.bottomBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.bottomBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.bottomBlock.getClass().getName() == orig(block.getClass().getName())
+this.leftBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.leftBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.leftBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.leftBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.leftBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.leftBlock.getClass().getName() == orig(block.getClass().getName())
+this.rightBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.rightBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.rightBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.rightBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.rightBlock.getClass().getName() == orig(block.getClass().getName())
+this.centerBlock.getClass().getName() != orig(key.getClass().getName())
+this.topBlock.getClass().getName() != orig(key.getClass().getName())
+this.bottomBlock.getClass().getName() != orig(key.getClass().getName())
+this.leftBlock.getClass().getName() != orig(key.getClass().getName())
+this.rightBlock.getClass().getName() != orig(key.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrange(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint):::ENTER
+this has only one value
+container has only one value
+container != null
+g2 has only one value
+g2 != null
+g2.getClass().getName() == sun.java2d.SunGraphics2D.class
+constraint has only one value
+constraint != null
+this.centerBlock.getClass().getName() != g2.getClass().getName()
+this.topBlock.getClass().getName() != g2.getClass().getName()
+this.bottomBlock.getClass().getName() != g2.getClass().getName()
+this.leftBlock.getClass().getName() != g2.getClass().getName()
+this.rightBlock.getClass().getName() != g2.getClass().getName()
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrange(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint):::EXIT
+this.centerBlock == orig(this.centerBlock)
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.topBlock == orig(this.topBlock)
+this.topBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.bottomBlock == orig(this.bottomBlock)
+this.bottomBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.leftBlock == orig(this.leftBlock)
+this.leftBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.rightBlock == orig(this.rightBlock)
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+return != null
+this.centerBlock.getClass().getName() != orig(g2.getClass().getName())
+this.topBlock.getClass().getName() != orig(g2.getClass().getName())
+this.bottomBlock.getClass().getName() != orig(g2.getClass().getName())
+this.leftBlock.getClass().getName() != orig(g2.getClass().getName())
+this.rightBlock.getClass().getName() != orig(g2.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrangeNN(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D):::ENTER
+this has only one value
+container has only one value
+container != null
+g2 has only one value
+g2 != null
+g2.getClass().getName() == sun.java2d.SunGraphics2D.class
+this.centerBlock.getClass().getName() != g2.getClass().getName()
+this.topBlock.getClass().getName() != g2.getClass().getName()
+this.bottomBlock.getClass().getName() != g2.getClass().getName()
+this.leftBlock.getClass().getName() != g2.getClass().getName()
+this.rightBlock.getClass().getName() != g2.getClass().getName()
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrangeNN(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D):::EXIT
+this.centerBlock == orig(this.centerBlock)
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.topBlock == orig(this.topBlock)
+this.topBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.bottomBlock == orig(this.bottomBlock)
+this.bottomBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.leftBlock == orig(this.leftBlock)
+this.leftBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.rightBlock == orig(this.rightBlock)
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+return != null
+this.centerBlock.getClass().getName() != orig(g2.getClass().getName())
+this.topBlock.getClass().getName() != orig(g2.getClass().getName())
+this.bottomBlock.getClass().getName() != orig(g2.getClass().getName())
+this.leftBlock.getClass().getName() != orig(g2.getClass().getName())
+this.rightBlock.getClass().getName() != orig(g2.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.clear():::ENTER
+this has only one value
+===========================================================================
+org.jfree.chart.block.BorderArrangement.clear():::EXIT
+this.centerBlock == this.topBlock
+this.centerBlock == this.bottomBlock
+this.centerBlock == this.leftBlock
+this.centerBlock == this.rightBlock
+this.centerBlock == null
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::ENTER
+obj != null
+obj.getClass().getName() == org.jfree.chart.block.BorderArrangement.class
+this.centerBlock.getClass().getName() != obj.getClass().getName()
+this.leftBlock.getClass().getName() != obj.getClass().getName()
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT518
+this.centerBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.centerBlock has only one value
+this.topBlock has only one value
+this.bottomBlock == null
+this.leftBlock has only one value
+this.rightBlock has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT518;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT521
+this.centerBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.centerBlock has only one value
+this.topBlock has only one value
+this.bottomBlock has only one value
+this.leftBlock has only one value
+this.rightBlock has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT521;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT524
+this.centerBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.topBlock == this.bottomBlock
+this.topBlock == this.rightBlock
+this.topBlock == orig(this.bottomBlock)
+this.topBlock == orig(this.rightBlock)
+this.centerBlock has only one value
+this.topBlock == null
+this.leftBlock has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT524;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT527
+this.centerBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.topBlock == this.bottomBlock
+this.topBlock == orig(this.bottomBlock)
+this.centerBlock has only one value
+this.topBlock == null
+this.leftBlock has only one value
+this.rightBlock has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT527;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT530
+this.topBlock == this.bottomBlock
+this.topBlock == this.leftBlock
+this.topBlock == this.rightBlock
+this.topBlock == orig(this.bottomBlock)
+this.topBlock == orig(this.leftBlock)
+this.topBlock == orig(this.rightBlock)
+this.centerBlock has only one value
+this.topBlock == null
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT530;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT532
+return == true
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT532;condition="return == true"
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT
+this.centerBlock == orig(this.centerBlock)
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.topBlock == orig(this.topBlock)
+this.topBlock.getClass().getName() == orig(this.topBlock.getClass().getName())
+this.bottomBlock == orig(this.bottomBlock)
+this.bottomBlock.getClass().getName() == orig(this.bottomBlock.getClass().getName())
+this.leftBlock == orig(this.leftBlock)
+this.leftBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.rightBlock == orig(this.rightBlock)
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+(return == false)  ==>  (orig(obj) has only one value)
+(return == false)  ==>  (orig(this) has only one value)
+(return == false)  ==>  (this.centerBlock has only one value)
+this.centerBlock.getClass().getName() != orig(obj.getClass().getName())
+this.leftBlock.getClass().getName() != orig(obj.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.jfree.chart.block.BorderArrangement.equals(java.lang.Object):::EXIT;condition="not(return == true)"
+this.centerBlock has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+Exiting Daikon.

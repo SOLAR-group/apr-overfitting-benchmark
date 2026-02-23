@@ -1,0 +1,7 @@
+{
+  "ID": "Patch76",
+  "tool": "repairllama-ir4",
+  "correctness": "Correct",
+  "bug_id": "57",
+  "project": "Closure"
+}

@@ -1,0 +1,131 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 5 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.apache.commons.lang.BooleanUtils.xor(boolean[]) : 2 invocations
+  org.apache.commons.lang.BooleanUtils.xor(java.lang.Boolean[]) : 3 invocations
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT657
+str.toString == "true"
+return == true
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT657;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT660
+return == false
+orig(str) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT660;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT666
+return == true
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT666;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT673
+(return == false)  ==>  (orig(str) has only one value)
+(return == false)  ==>  (str.toString == "yep")
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT673;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT673;condition="not(return == true)"
+str.toString == "yep"
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT678
+return == true
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT678;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT682
+str.toString one of { "off", "oof", "tru" }
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT682;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT687
+(return == false)  ==>  (orig(str) has only one value)
+(return == false)  ==>  (str.toString == "trux")
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT687;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT687;condition="not(return == true)"
+str.toString == "trux"
+orig(str) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT693
+return == true
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT693;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT700
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT700;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+(return == true)  ==>  (orig(str) != null)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT;condition="return == true"
+return == true
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests:::OBJECT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.BooleanUtilsTestFailingTests(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.BooleanUtilsTestFailingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.setUp():::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.setUp():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.suite():::EXIT
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.tearDown():::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.tearDown():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_object_emptyInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_object_emptyInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_object_nullElementInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_object_nullElementInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_object_nullInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_object_nullInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_primitive_emptyInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_primitive_emptyInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_primitive_nullInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.testXor_primitive_nullInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.test_toBoolean_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestFailingTests.test_toBoolean_String():::EXIT
+Exiting Daikon.

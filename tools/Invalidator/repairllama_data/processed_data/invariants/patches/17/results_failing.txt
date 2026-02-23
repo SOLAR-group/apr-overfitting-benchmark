@@ -1,0 +1,38 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.jfree.chart.util.ShapeUtilities:::CLASS
+org.jfree.chart.util.ShapeUtilities.SQRT2 == 1.4142135
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::ENTER
+p1 has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT288
+return == false
+orig(p2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT288;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT291
+return == false
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT291;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT297
+return == true
+orig(p2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT297;condition="return == true"
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT
+org.jfree.chart.util.ShapeUtilities.SQRT2 == orig(org.jfree.chart.util.ShapeUtilities.SQRT2)
+(return == true)  ==>  (orig(p2) has only one value)
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT;condition="return == true"
+return == true
+orig(p2) has only one value
+===========================================================================
+org.jfree.chart.util.ShapeUtilities.equal(java.awt.geom.GeneralPath, java.awt.geom.GeneralPath):::EXIT;condition="not(return == true)"
+return == false
+Exiting Daikon.

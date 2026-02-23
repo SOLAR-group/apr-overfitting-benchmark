@@ -1,0 +1,1679 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:::CLASS
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer:::OBJECT
+this.legendItemLabelGenerator.getClass().getName() == this.legendItemToolTipGenerator.getClass().getName()
+this.legendItemLabelGenerator.getClass().getName() == this.legendItemURLGenerator.getClass().getName()
+this.legendItemToolTipGenerator.getClass().getName() == this.legendItemURLGenerator.getClass().getName()
+this.backgroundAnnotations.getClass().getName() == this.foregroundAnnotations.getClass().getName()
+this.rowCount == this.columnCount
+this.plot == null
+this.itemLabelGeneratorList != null
+this.toolTipGeneratorList != null
+this.baseToolTipGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryToolTipGenerator.class
+this.urlGeneratorList != null
+this.baseURLGenerator.getClass().getName() == org.jfree.chart.urls.StandardCategoryURLGenerator.class
+this.legendItemLabelGenerator != null
+this.legendItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategorySeriesLabelGenerator.class
+this.legendItemToolTipGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategorySeriesLabelGenerator.class
+this.legendItemURLGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategorySeriesLabelGenerator.class
+this.backgroundAnnotations != null
+this.backgroundAnnotations[] elements != null
+this.backgroundAnnotations[].getClass().getName() elements == org.jfree.chart.annotations.CategoryTextAnnotation.class
+this.backgroundAnnotations[].getClass().getName() one of { [], [org.jfree.chart.annotations.CategoryTextAnnotation] }
+this.backgroundAnnotations.getClass().getName() == java.util.ArrayList.class
+this.foregroundAnnotations != null
+this.foregroundAnnotations[] elements != null
+this.foregroundAnnotations[].getClass().getName() elements == org.jfree.chart.annotations.CategoryTextAnnotation.class
+this.foregroundAnnotations[].getClass().getName() one of { [], [org.jfree.chart.annotations.CategoryTextAnnotation] }
+this.rowCount == 0
+size(this.backgroundAnnotations[]) one of { 0, 1 }
+size(this.foregroundAnnotations[]) one of { 0, 1 }
+this.getClass().getName() != this.baseItemLabelGenerator.getClass().getName()
+this.getClass().getName() != this.baseToolTipGenerator.getClass().getName()
+this.getClass().getName() != this.baseURLGenerator.getClass().getName()
+this.getClass().getName() != this.legendItemLabelGenerator.getClass().getName()
+this.getClass().getName() != this.legendItemToolTipGenerator.getClass().getName()
+this.getClass().getName() != this.legendItemURLGenerator.getClass().getName()
+this.getClass().getName() != this.backgroundAnnotations.getClass().getName()
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.serialVersionUID > size(this.backgroundAnnotations[])
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.serialVersionUID > size(this.foregroundAnnotations[])
+this.baseItemLabelGenerator.getClass().getName() != this.baseToolTipGenerator.getClass().getName()
+this.baseItemLabelGenerator.getClass().getName() != this.baseURLGenerator.getClass().getName()
+this.baseItemLabelGenerator.getClass().getName() != this.legendItemLabelGenerator.getClass().getName()
+this.baseItemLabelGenerator.getClass().getName() != this.legendItemToolTipGenerator.getClass().getName()
+this.baseItemLabelGenerator.getClass().getName() != this.legendItemURLGenerator.getClass().getName()
+this.baseItemLabelGenerator.getClass().getName() != this.backgroundAnnotations.getClass().getName()
+this.baseToolTipGenerator.getClass().getName() != this.baseURLGenerator.getClass().getName()
+this.baseToolTipGenerator.getClass().getName() != this.legendItemLabelGenerator.getClass().getName()
+this.baseToolTipGenerator.getClass().getName() != this.legendItemToolTipGenerator.getClass().getName()
+this.baseToolTipGenerator.getClass().getName() != this.legendItemURLGenerator.getClass().getName()
+this.baseToolTipGenerator.getClass().getName() != this.backgroundAnnotations.getClass().getName()
+this.baseURLGenerator.getClass().getName() != this.legendItemLabelGenerator.getClass().getName()
+this.baseURLGenerator.getClass().getName() != this.legendItemToolTipGenerator.getClass().getName()
+this.baseURLGenerator.getClass().getName() != this.legendItemURLGenerator.getClass().getName()
+this.baseURLGenerator.getClass().getName() != this.backgroundAnnotations.getClass().getName()
+this.legendItemLabelGenerator.getClass().getName() != this.backgroundAnnotations.getClass().getName()
+this.legendItemToolTipGenerator.getClass().getName() != this.backgroundAnnotations.getClass().getName()
+this.legendItemURLGenerator.getClass().getName() != this.backgroundAnnotations.getClass().getName()
+this.rowCount <= size(this.backgroundAnnotations[])
+this.rowCount >= size(this.backgroundAnnotations[])-1
+this.rowCount <= size(this.foregroundAnnotations[])
+this.rowCount >= size(this.foregroundAnnotations[])-1
+size(this.backgroundAnnotations[]) >= size(this.foregroundAnnotations[])
+size(this.backgroundAnnotations[])-1 <= size(this.foregroundAnnotations[])
+size(this.backgroundAnnotations[])-1 >= size(this.foregroundAnnotations[])-1
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.AbstractCategoryItemRenderer():::EXIT
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.addAnnotation(org.jfree.chart.annotations.CategoryAnnotation, org.jfree.chart.util.Layer):::ENTER
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.foregroundAnnotations[] == []
+this.foregroundAnnotations[].getClass().getName() == []
+annotation.getClass().getName() == org.jfree.chart.annotations.CategoryTextAnnotation.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.addAnnotation(org.jfree.chart.annotations.CategoryAnnotation, org.jfree.chart.util.Layer):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.baseURLGenerator.getClass().getName() == orig(this.baseURLGenerator.getClass().getName())
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemURLGenerator.getClass().getName())
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemURLGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])-1
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+size(this.foregroundAnnotations[]) == orig(size(this.backgroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.backgroundAnnotations[].getClass().getName() == [org.jfree.chart.annotations.CategoryTextAnnotation]
+size(this.backgroundAnnotations[]) == 1
+this.backgroundAnnotations[] elements == this.backgroundAnnotations[this.rowCount]
+orig(annotation.getClass().getName()) in this.backgroundAnnotations[].getClass().getName()
+this.foregroundAnnotations[] elements == orig(annotation)
+orig(this.backgroundAnnotations[]) elements == this.backgroundAnnotations[this.rowCount]
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.clone():::ENTER
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.clone():::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.legendItemURLGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+return.getClass().getName() == orig(this.getClass().getName())
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+return.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.legendItemLabelGenerator.getClass().getName() != return.getClass().getName()
+this.backgroundAnnotations.getClass().getName() != return.getClass().getName()
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::ENTER
+this.getClass().getName() == obj.getClass().getName()
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.backgroundAnnotations[] elements has only one value
+this.foregroundAnnotations[] elements has only one value
+obj != null
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1481
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1481;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1485
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1485;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1489
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1489;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1493
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1493;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1497
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1497;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1501
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1501;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1505
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1505;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1509
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator has only one value
+this.legendItemURLGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1509;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1513
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemURLGenerator.getClass().getName())
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator has only one value
+this.legendItemURLGenerator has only one value
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1513;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1517
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemURLGenerator.getClass().getName())
+this.rowCount == size(this.backgroundAnnotations[])-1
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))-1
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator has only one value
+this.legendItemURLGenerator has only one value
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] contains no nulls and has only one value, of length 1
+this.backgroundAnnotations[].getClass().getName() == [org.jfree.chart.annotations.CategoryTextAnnotation]
+this.foregroundAnnotations has only one value
+this.foregroundAnnotations[] == []
+this.foregroundAnnotations[].getClass().getName() == []
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+size(this.backgroundAnnotations[]) == 1
+this.backgroundAnnotations[] elements == this.backgroundAnnotations[this.rowCount]
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1517;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1521
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemURLGenerator.getClass().getName())
+this.rowCount == size(this.backgroundAnnotations[])-1
+this.rowCount == size(this.foregroundAnnotations[])-1
+this.rowCount == orig(size(this.backgroundAnnotations[]))-1
+this.rowCount == orig(size(this.foregroundAnnotations[]))-1
+size(this.backgroundAnnotations[]) == size(this.foregroundAnnotations[])
+size(this.backgroundAnnotations[]) == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator has only one value
+this.urlGeneratorList has only one value
+this.baseURLGenerator has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator has only one value
+this.legendItemURLGenerator has only one value
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] contains no nulls and has only one value, of length 1
+this.backgroundAnnotations[].getClass().getName() == [org.jfree.chart.annotations.CategoryTextAnnotation]
+this.foregroundAnnotations has only one value
+this.foregroundAnnotations[] contains no nulls and has only one value, of length 1
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+size(this.backgroundAnnotations[]) == 1
+this.backgroundAnnotations[] elements == this.backgroundAnnotations[this.rowCount]
+this.foregroundAnnotations[] elements == this.foregroundAnnotations[this.rowCount]
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1521;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1523
+return == true
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT1523;condition="return == true"
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.baseURLGenerator.getClass().getName() == orig(this.baseURLGenerator.getClass().getName())
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.legendItemURLGenerator == orig(this.legendItemURLGenerator)
+this.legendItemURLGenerator.getClass().getName() == orig(this.legendItemURLGenerator.getClass().getName())
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.foregroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+(return == false)  ==>  (orig(obj) has only one value)
+(return == false)  ==>  (orig(this) has only one value)
+(return == false)  ==>  (this.backgroundAnnotations has only one value)
+(return == false)  ==>  (this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class)
+(return == false)  ==>  (this.foregroundAnnotations has only one value)
+(return == false)  ==>  (this.itemLabelGeneratorList has only one value)
+(return == false)  ==>  (this.toolTipGeneratorList has only one value)
+(return == false)  ==>  (this.urlGeneratorList has only one value)
+this.backgroundAnnotations[] elements has only one value
+this.foregroundAnnotations[] elements has only one value
+this.baseItemLabelGenerator.getClass().getName() != orig(this.getClass().getName())
+this.baseToolTipGenerator.getClass().getName() != orig(this.getClass().getName())
+this.baseURLGenerator.getClass().getName() != orig(this.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() != orig(this.getClass().getName())
+this.legendItemToolTipGenerator.getClass().getName() != orig(this.getClass().getName())
+this.legendItemURLGenerator.getClass().getName() != orig(this.getClass().getName())
+this.backgroundAnnotations.getClass().getName() != orig(this.getClass().getName())
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.equals(java.lang.Object):::EXIT;condition="not(return == true)"
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.urlGeneratorList has only one value
+this.backgroundAnnotations has only one value
+this.foregroundAnnotations has only one value
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.findRangeBounds(org.jfree.data.category.CategoryDataset):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this has only one value
+this.getClass().getName() == org.jfree.chart.renderer.category.LineAndShapeRenderer.class
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+dataset.getClass().getName() == org.jfree.data.category.DefaultCategoryDataset.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.findRangeBounds(org.jfree.data.category.CategoryDataset):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.findRangeBounds(org.jfree.data.category.CategoryDataset, boolean):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this has only one value
+this.getClass().getName() == org.jfree.chart.renderer.category.LineAndShapeRenderer.class
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+dataset.getClass().getName() == org.jfree.data.category.DefaultCategoryDataset.class
+includeInterval == false
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.findRangeBounds(org.jfree.data.category.CategoryDataset, boolean):::EXIT920
+return == null
+orig(dataset) == null
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.findRangeBounds(org.jfree.data.category.CategoryDataset, boolean):::EXIT930
+orig(dataset) has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.findRangeBounds(org.jfree.data.category.CategoryDataset, boolean):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItemLabelGenerator():::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItemLabelGenerator():::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == return
+this.legendItemLabelGenerator.getClass().getName() == return.getClass().getName()
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+return == orig(this.legendItemLabelGenerator)
+return.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return.getClass().getName() == org.jfree.chart.labels.StandardCategorySeriesLabelGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItemToolTipGenerator():::ENTER
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemURLGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItemToolTipGenerator():::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == return.getClass().getName()
+this.legendItemToolTipGenerator == return
+this.legendItemToolTipGenerator.getClass().getName() == return.getClass().getName()
+this.legendItemURLGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+return == orig(this.legendItemToolTipGenerator)
+return.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+return.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemURLGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return.getClass().getName() == org.jfree.chart.labels.StandardCategorySeriesLabelGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItemURLGenerator():::ENTER
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItemURLGenerator():::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == return.getClass().getName()
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemURLGenerator == return
+this.legendItemURLGenerator.getClass().getName() == return.getClass().getName()
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+return == orig(this.legendItemURLGenerator)
+return.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+return.getClass().getName() == orig(this.legendItemURLGenerator.getClass().getName())
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return.getClass().getName() == org.jfree.chart.labels.StandardCategorySeriesLabelGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getSeriesItemLabelGenerator(int):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this has only one value
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+series == 2
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getSeriesItemLabelGenerator(int):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.baseURLGenerator == null
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getSeriesURLGenerator(int):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this has only one value
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+series == 2
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getSeriesURLGenerator(int):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.itemLabelGeneratorList has only one value
+this.baseItemLabelGenerator == null
+this.toolTipGeneratorList has only one value
+this.baseToolTipGenerator == null
+this.urlGeneratorList has only one value
+this.legendItemLabelGenerator has only one value
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations has only one value
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.foregroundAnnotations has only one value
+return.getClass().getName() == org.jfree.chart.urls.StandardCategoryURLGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseItemLabelGenerator(org.jfree.chart.labels.CategoryItemLabelGenerator):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.getClass().getName() != generator.getClass().getName()
+this.legendItemLabelGenerator.getClass().getName() != generator.getClass().getName()
+this.backgroundAnnotations.getClass().getName() != generator.getClass().getName()
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseItemLabelGenerator(org.jfree.chart.labels.CategoryItemLabelGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(generator)
+this.baseItemLabelGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.baseItemLabelGenerator.getClass().getName() != orig(this.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() != orig(this.getClass().getName())
+this.backgroundAnnotations.getClass().getName() != orig(this.getClass().getName())
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseItemLabelGenerator(org.jfree.chart.labels.CategoryItemLabelGenerator, boolean):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+notify == true
+this.getClass().getName() != generator.getClass().getName()
+this.legendItemLabelGenerator.getClass().getName() != generator.getClass().getName()
+this.backgroundAnnotations.getClass().getName() != generator.getClass().getName()
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseItemLabelGenerator(org.jfree.chart.labels.CategoryItemLabelGenerator, boolean):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(generator)
+this.baseItemLabelGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+this.baseItemLabelGenerator.getClass().getName() != orig(this.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() != orig(this.getClass().getName())
+this.backgroundAnnotations.getClass().getName() != orig(this.getClass().getName())
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator(org.jfree.chart.labels.CategoryToolTipGenerator):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+generator.getClass().getName() == org.jfree.chart.labels.StandardCategoryToolTipGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator(org.jfree.chart.labels.CategoryToolTipGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(generator)
+this.baseToolTipGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator(org.jfree.chart.labels.CategoryToolTipGenerator, boolean):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+generator.getClass().getName() == org.jfree.chart.labels.StandardCategoryToolTipGenerator.class
+notify == true
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator(org.jfree.chart.labels.CategoryToolTipGenerator, boolean):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(generator)
+this.baseToolTipGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseURLGenerator(org.jfree.chart.urls.CategoryURLGenerator):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+generator.getClass().getName() == org.jfree.chart.urls.StandardCategoryURLGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseURLGenerator(org.jfree.chart.urls.CategoryURLGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(generator)
+this.baseURLGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseURLGenerator(org.jfree.chart.urls.CategoryURLGenerator, boolean):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+generator.getClass().getName() == org.jfree.chart.urls.StandardCategoryURLGenerator.class
+notify == true
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseURLGenerator(org.jfree.chart.urls.CategoryURLGenerator, boolean):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(generator)
+this.baseURLGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setLegendItemLabelGenerator(org.jfree.chart.labels.CategorySeriesLabelGenerator):::ENTER
+this.legendItemLabelGenerator.getClass().getName() == generator.getClass().getName()
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setLegendItemLabelGenerator(org.jfree.chart.labels.CategorySeriesLabelGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.baseURLGenerator.getClass().getName() == orig(this.baseURLGenerator.getClass().getName())
+this.legendItemLabelGenerator == orig(generator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setLegendItemToolTipGenerator(org.jfree.chart.labels.CategorySeriesLabelGenerator):::ENTER
+this.legendItemLabelGenerator.getClass().getName() == generator.getClass().getName()
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setLegendItemToolTipGenerator(org.jfree.chart.labels.CategorySeriesLabelGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.baseURLGenerator.getClass().getName() == orig(this.baseURLGenerator.getClass().getName())
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.legendItemToolTipGenerator == orig(generator)
+this.legendItemURLGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemURLGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.legendItemURLGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setLegendItemURLGenerator(org.jfree.chart.labels.CategorySeriesLabelGenerator):::ENTER
+this.legendItemLabelGenerator.getClass().getName() == generator.getClass().getName()
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.legendItemURLGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setLegendItemURLGenerator(org.jfree.chart.labels.CategorySeriesLabelGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.baseURLGenerator.getClass().getName() == orig(this.baseURLGenerator.getClass().getName())
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemLabelGenerator.getClass().getName() == orig(generator.getClass().getName())
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator.getClass().getName() == orig(this.legendItemToolTipGenerator.getClass().getName())
+this.legendItemURLGenerator == orig(generator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesItemLabelGenerator(int, org.jfree.chart.labels.CategoryItemLabelGenerator):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+series one of { 0, 1, 2 }
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesItemLabelGenerator(int, org.jfree.chart.labels.CategoryItemLabelGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesItemLabelGenerator(int, org.jfree.chart.labels.CategoryItemLabelGenerator, boolean):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+series one of { 0, 1, 2 }
+notify == true
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesItemLabelGenerator(int, org.jfree.chart.labels.CategoryItemLabelGenerator, boolean):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesToolTipGenerator(int, org.jfree.chart.labels.CategoryToolTipGenerator):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+series == 1
+generator.getClass().getName() == org.jfree.chart.labels.StandardCategoryToolTipGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesToolTipGenerator(int, org.jfree.chart.labels.CategoryToolTipGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesToolTipGenerator(int, org.jfree.chart.labels.CategoryToolTipGenerator, boolean):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+series == 1
+generator.getClass().getName() == org.jfree.chart.labels.StandardCategoryToolTipGenerator.class
+notify == true
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesToolTipGenerator(int, org.jfree.chart.labels.CategoryToolTipGenerator, boolean):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator == null
+this.baseToolTipGenerator == null
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesURLGenerator(int, org.jfree.chart.urls.CategoryURLGenerator):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+series one of { 1, 2 }
+generator.getClass().getName() == org.jfree.chart.urls.StandardCategoryURLGenerator.class
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesURLGenerator(int, org.jfree.chart.urls.CategoryURLGenerator):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesURLGenerator(int, org.jfree.chart.urls.CategoryURLGenerator, boolean):::ENTER
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.getClass().getName() == org.jfree.chart.renderer.category.BarRenderer.class
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+series one of { 1, 2 }
+generator.getClass().getName() == org.jfree.chart.urls.StandardCategoryURLGenerator.class
+notify == true
+===========================================================================
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setSeriesURLGenerator(int, org.jfree.chart.urls.CategoryURLGenerator, boolean):::EXIT
+this.plot == orig(this.plot)
+this.itemLabelGeneratorList == orig(this.itemLabelGeneratorList)
+this.baseItemLabelGenerator == orig(this.baseItemLabelGenerator)
+this.baseItemLabelGenerator.getClass().getName() == orig(this.baseItemLabelGenerator.getClass().getName())
+this.toolTipGeneratorList == orig(this.toolTipGeneratorList)
+this.baseToolTipGenerator == orig(this.baseToolTipGenerator)
+this.baseToolTipGenerator.getClass().getName() == orig(this.baseToolTipGenerator.getClass().getName())
+this.urlGeneratorList == orig(this.urlGeneratorList)
+this.baseURLGenerator == orig(this.baseURLGenerator)
+this.legendItemLabelGenerator == orig(this.legendItemLabelGenerator)
+this.legendItemLabelGenerator.getClass().getName() == orig(this.legendItemLabelGenerator.getClass().getName())
+this.legendItemToolTipGenerator == this.legendItemURLGenerator
+this.legendItemToolTipGenerator == orig(this.legendItemToolTipGenerator)
+this.legendItemToolTipGenerator == orig(this.legendItemURLGenerator)
+this.backgroundAnnotations == orig(this.backgroundAnnotations)
+this.backgroundAnnotations[] == this.foregroundAnnotations[]
+this.backgroundAnnotations[] == orig(this.backgroundAnnotations[])
+this.backgroundAnnotations[] == orig(this.foregroundAnnotations[])
+this.backgroundAnnotations.getClass().getName() == orig(this.backgroundAnnotations.getClass().getName())
+this.backgroundAnnotations.getClass().getName() == orig(this.foregroundAnnotations.getClass().getName())
+this.foregroundAnnotations == orig(this.foregroundAnnotations)
+this.rowCount == orig(this.rowCount)
+this.rowCount == orig(this.columnCount)
+this.rowCount == size(this.backgroundAnnotations[])
+this.rowCount == size(this.foregroundAnnotations[])
+this.rowCount == orig(size(this.backgroundAnnotations[]))
+this.rowCount == orig(size(this.foregroundAnnotations[]))
+this.baseItemLabelGenerator.getClass().getName() == org.jfree.chart.labels.StandardCategoryItemLabelGenerator.class
+this.baseURLGenerator == null
+this.legendItemToolTipGenerator == null
+this.backgroundAnnotations[] == []
+this.backgroundAnnotations[].getClass().getName() == []
+Exiting Daikon.

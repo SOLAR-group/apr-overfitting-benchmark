@@ -1,0 +1,1264 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 1 time.  Unmatched entries are ignored!
+Unterminated calls:
+  org.jfree.data.time.TimePeriodValues.add(org.jfree.data.time.TimePeriodValue) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.jfree.data.time.TimePeriodValues:::CLASS
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION has only one value
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION != null
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == "Time"
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION has only one value
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION != null
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == "Value"
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString < org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString
+===========================================================================
+org.jfree.data.time.TimePeriodValues:::OBJECT
+this.domain.toString one of { "Time", "XYZ" }
+this.range.toString one of { "Value", "XYZ" }
+this.data != null
+this.data[] elements != null
+this.data[].getClass().getName() elements == org.jfree.data.time.TimePeriodValue.class
+this.data.getClass().getName() == java.util.ArrayList.class
+this.minStartIndex one of { -1, 0, 2 }
+this.maxStartIndex >= -1
+this.minMiddleIndex one of { -1, 0, 2 }
+this.maxMiddleIndex >= -1
+this.minEndIndex one of { -1, 0, 2 }
+this.maxEndIndex >= -1
+org.jfree.data.time.TimePeriodValues.serialVersionUID < this.minStartIndex
+org.jfree.data.time.TimePeriodValues.serialVersionUID < this.maxStartIndex
+org.jfree.data.time.TimePeriodValues.serialVersionUID < this.minMiddleIndex
+org.jfree.data.time.TimePeriodValues.serialVersionUID < this.maxMiddleIndex
+org.jfree.data.time.TimePeriodValues.serialVersionUID < this.minEndIndex
+org.jfree.data.time.TimePeriodValues.serialVersionUID < this.maxEndIndex
+org.jfree.data.time.TimePeriodValues.serialVersionUID < size(this.data[])-1
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString <= this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString < this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString != this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString <= this.range.toString
+this.domain.toString != this.range.toString
+this.minStartIndex >= this.minMiddleIndex
+this.minStartIndex >= this.minEndIndex
+this.minStartIndex <= size(this.data[])
+this.maxStartIndex >= this.maxMiddleIndex
+this.maxStartIndex >= this.maxEndIndex
+this.minMiddleIndex >= this.minEndIndex
+this.minMiddleIndex <= size(this.data[])
+this.maxMiddleIndex >= this.maxEndIndex
+this.minEndIndex <= size(this.data[])
+===========================================================================
+org.jfree.data.time.TimePeriodValues.TimePeriodValues(java.lang.Comparable):::ENTER
+name != null
+name.getClass().getName() == java.lang.String.class
+===========================================================================
+org.jfree.data.time.TimePeriodValues.TimePeriodValues(java.lang.Comparable):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == size(this.data[])-1
+this.data[] == []
+this.data[].getClass().getName() == []
+this.data.getClass().getName() != orig(name.getClass().getName())
+===========================================================================
+org.jfree.data.time.TimePeriodValues.TimePeriodValues(java.lang.Comparable, java.lang.String, java.lang.String):::ENTER
+name != null
+name.getClass().getName() == java.lang.String.class
+domain has only one value
+domain != null
+domain.toString == "Time"
+range has only one value
+range != null
+range.toString == "Value"
+domain.toString < range.toString
+===========================================================================
+org.jfree.data.time.TimePeriodValues.TimePeriodValues(java.lang.Comparable, java.lang.String, java.lang.String):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(range.toString)
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == size(this.data[])-1
+this.data[] == []
+this.data[].getClass().getName() == []
+this.data.getClass().getName() != orig(name.getClass().getName())
+===========================================================================
+org.jfree.data.time.TimePeriodValues.add(org.jfree.data.time.TimePeriod, double):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == size(this.data[])-1
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { -1, 0 }
+period != null
+value >= 1.0
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+this.data.getClass().getName() != period.getClass().getName()
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.add(org.jfree.data.time.TimePeriod, double):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.domain.toString == orig(this.domain.toString)
+this.range == orig(this.range)
+this.range.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+size(this.data[])-1 == orig(size(this.data[]))
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { 0, 2 }
+this.maxStartIndex >= 0
+size(this.data[]) >= 1
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+this.data.getClass().getName() != orig(period.getClass().getName())
+this.minStartIndex >= orig(this.minStartIndex)
+this.minStartIndex <= size(this.data[])-1
+this.maxStartIndex > orig(this.minStartIndex)
+this.maxStartIndex >= orig(this.maxStartIndex)
+this.maxStartIndex <= size(this.data[])-1
+orig(this.minStartIndex) % size(this.data[]) == 0
+this.minStartIndex + 2 * this.maxStartIndex - 2 * orig(this.maxStartIndex) - 2 == 0
+this.minStartIndex + 2 * this.maxStartIndex - 2 * size(this.data[]) + 2 == 0
+this.minStartIndex + 2 * this.maxStartIndex - 2 * size(this.data[])-1 == 0
+===========================================================================
+org.jfree.data.time.TimePeriodValues.add(org.jfree.data.time.TimePeriod, java.lang.Number):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == size(this.data[])-1
+this.minStartIndex one of { -1, 0 }
+period != null
+value.getClass().getName() == java.lang.Integer.class
+this.data.getClass().getName() != period.getClass().getName()
+this.data.getClass().getName() != value.getClass().getName()
+this.minStartIndex <= this.maxStartIndex
+period.getClass().getName() != value.getClass().getName()
+===========================================================================
+org.jfree.data.time.TimePeriodValues.add(org.jfree.data.time.TimePeriod, java.lang.Number):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == size(this.data[])-1
+this.maxStartIndex == orig(size(this.data[]))
+this.minStartIndex == 0
+size(this.data[]) >= 1
+this.data.getClass().getName() != orig(period.getClass().getName())
+this.data.getClass().getName() != orig(value.getClass().getName())
+this.minStartIndex <= this.maxStartIndex
+this.minStartIndex >= orig(this.minStartIndex)
+orig(this.minStartIndex) % size(this.data[]) == 0
+===========================================================================
+org.jfree.data.time.TimePeriodValues.add(org.jfree.data.time.TimePeriodValue):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { -1, 0 }
+item != null
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+this.minStartIndex <= this.maxStartIndex
+this.maxStartIndex <= size(this.data[])
+this.maxStartIndex >= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimePeriodValues.add(org.jfree.data.time.TimePeriodValue):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.domain.toString == orig(this.domain.toString)
+this.range == orig(this.range)
+this.range.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+size(this.data[])-1 == orig(size(this.data[]))
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { 0, 2 }
+this.maxStartIndex >= 0
+size(this.data[]) >= 1
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+orig(item) in this.data[]
+this.minStartIndex >= orig(this.minStartIndex)
+this.minStartIndex <= size(this.data[])-1
+this.maxStartIndex >= orig(this.minStartIndex)
+this.maxStartIndex >= orig(this.maxStartIndex)
+this.maxStartIndex <= size(this.data[])-1
+this.maxStartIndex >= orig(size(this.data[]))-1
+orig(this.minStartIndex) % size(this.data[]) == 0
+orig(this.minStartIndex) <= size(this.data[])-1
+orig(this.maxStartIndex) <= size(this.data[])-1
+this.minStartIndex + 2 * this.maxStartIndex - 2 * size(this.data[]) + 2 == 0
+this.minStartIndex + 2 * this.maxStartIndex - 2 * size(this.data[])-1 == 0
+this.minStartIndex + 2 * this.maxStartIndex - 2 * orig(size(this.data[]))-1 - 2 == 0
+===========================================================================
+org.jfree.data.time.TimePeriodValues.clone():::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == size(this.data[])-1
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 1
+this.data[] elements has only one value
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.clone():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 1
+this.data[] elements has only one value
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+return has only one value
+return.getClass().getName() == org.jfree.data.time.TimePeriodValues.class
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.createCopy(int, int):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == start
+this.minStartIndex == end
+this.minStartIndex == size(this.data[])-1
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 1
+this.data[] elements has only one value
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.createCopy(int, int):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == return.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == return.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == return.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == return.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == return.data.getClass().getName()
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == return.minStartIndex
+this.minStartIndex == return.maxStartIndex
+this.minStartIndex == return.minMiddleIndex
+this.minStartIndex == return.maxMiddleIndex
+this.minStartIndex == return.minEndIndex
+this.minStartIndex == return.maxEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == orig(start)
+this.minStartIndex == orig(end)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == size(return.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+size(this.data[]) == size(return.data[])
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 1
+this.data[] elements has only one value
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+return has only one value
+return.data has only one value
+return.data[] contains no nulls and has only one value, of length 1
+return.data[] elements has only one value
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+return.data[] elements == return.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.delete(int, int):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == start
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == end
+this.maxStartIndex == size(this.data[])-1
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 2
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue, org.jfree.data.time.TimePeriodValue]
+this.minStartIndex == 0
+size(this.data[]) == 2
+this.data[this.minStartIndex] has only one value
+this.data[this.maxStartIndex] has only one value
+===========================================================================
+org.jfree.data.time.TimePeriodValues.delete(int, int):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == size(this.data[])-1
+orig(this.minMiddleIndex) == orig(start)
+orig(this.maxMiddleIndex) == orig(end)
+orig(this.minEndIndex) == orig(start)
+orig(this.maxEndIndex) == orig(end)
+orig(start) == size(this.data[])
+orig(end) == orig(size(this.data[]))-1
+this.data has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+orig(this.data[start]) has only one value
+orig(this.data[end]) has only one value
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::ENTER
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == size(this.data[])-1
+this.minStartIndex one of { -1, 0 }
+obj != null
+obj.getClass().getName() == org.jfree.data.time.TimePeriodValues.class
+this.data.getClass().getName() != obj.getClass().getName()
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT412
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+orig(this) == orig(obj)
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 1
+this.data[] elements has only one value
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+return == true
+orig(this) has only one value
+orig(obj) has only one value
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT412;condition="return == true"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT418
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+this.data has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT418;condition="not(return == true)"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT423
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+this.domain.toString == "XYZ"
+this.data has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT423;condition="not(return == true)"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT427
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+this.domain == null
+this.range.toString == "XYZ"
+this.data has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT427;condition="not(return == true)"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT431
+this.domain == this.range
+this.domain == orig(this.range)
+this.data[this.minStartIndex] == this.data[this.maxStartIndex-1]
+this.data[this.minStartIndex] == this.data[this.maxMiddleIndex-1]
+this.data[this.minStartIndex] == this.data[this.maxEndIndex-1]
+this.data[this.minStartIndex] == this.data[orig(this.maxStartIndex)-1]
+this.data[this.minStartIndex] == this.data[orig(this.maxMiddleIndex)-1]
+this.data[this.minStartIndex] == this.data[orig(this.maxEndIndex)-1]
+this.data[this.minStartIndex] == orig(this.data[post(this.maxStartIndex)-1])
+this.data[this.minStartIndex] == orig(this.data[post(this.maxMiddleIndex)-1])
+this.data[this.minStartIndex] == orig(this.data[post(this.maxEndIndex)-1])
+this.data[this.minStartIndex] == orig(this.data[this.maxStartIndex-1])
+this.data[this.minStartIndex] == orig(this.data[this.maxMiddleIndex-1])
+this.data[this.minStartIndex] == orig(this.data[this.maxEndIndex-1])
+this.domain == null
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 2
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue, org.jfree.data.time.TimePeriodValue]
+this.minStartIndex == 0
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+size(this.data[]) == 2
+this.data[this.minStartIndex] has only one value
+this.data[this.maxStartIndex] has only one value
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT431;condition="not(return == true)"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT438
+return == true
+size(this.data[]) one of { 0, 2, 5 }
+this.minStartIndex % this.maxStartIndex == 0
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT438;condition="return == true"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.domain.toString == orig(this.domain.toString)
+this.range == orig(this.range)
+this.range.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == orig(this.maxStartIndex)
+this.maxStartIndex == orig(this.maxMiddleIndex)
+this.maxStartIndex == orig(this.maxEndIndex)
+this.maxStartIndex == size(this.data[])-1
+this.maxStartIndex == orig(size(this.data[]))-1
+(return == false)  ==>  (orig(obj) has only one value)
+(return == false)  ==>  (orig(this) has only one value)
+(return == false)  ==>  (size(this.data[]) one of { 0, 2 })
+(return == false)  ==>  (this.data has only one value)
+(return == false)  ==>  (this.data[].getClass().getName() one of { [], [org.jfree.data.time.TimePeriodValue, org.jfree.data.time.TimePeriodValue] })
+this.minStartIndex one of { -1, 0 }
+this.data.getClass().getName() != orig(obj.getClass().getName())
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.jfree.data.time.TimePeriodValues.equals(java.lang.Object):::EXIT;condition="not(return == true)"
+this.data has only one value
+this.data[].getClass().getName() one of { [], [org.jfree.data.time.TimePeriodValue, org.jfree.data.time.TimePeriodValue] }
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+size(this.data[]) one of { 0, 2 }
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getDataItem(int):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { 0, 2 }
+this.maxStartIndex >= 0
+this.minMiddleIndex one of { 0, 2 }
+this.maxMiddleIndex >= 0
+this.minEndIndex one of { 0, 2 }
+this.maxEndIndex >= 0
+index >= 0
+org.jfree.data.time.TimePeriodValues.serialVersionUID < index
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+this.minStartIndex <= size(this.data[])-1
+this.maxStartIndex <= size(this.data[])-1
+this.minMiddleIndex <= size(this.data[])-1
+this.maxMiddleIndex <= size(this.data[])-1
+this.minEndIndex <= size(this.data[])-1
+this.maxEndIndex <= size(this.data[])-1
+index <= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getDataItem(int):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.domain.toString == orig(this.domain.toString)
+this.range == orig(this.range)
+this.range.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == orig(this.minStartIndex)
+this.maxStartIndex == orig(this.maxStartIndex)
+this.minMiddleIndex == orig(this.minMiddleIndex)
+this.maxMiddleIndex == orig(this.maxMiddleIndex)
+this.minEndIndex == orig(this.minEndIndex)
+this.maxEndIndex == orig(this.maxEndIndex)
+return == this.data[orig(index)]
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { 0, 2 }
+this.maxStartIndex >= 0
+this.minMiddleIndex one of { 0, 2 }
+this.maxMiddleIndex >= 0
+this.minEndIndex one of { 0, 2 }
+this.maxEndIndex >= 0
+return != null
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+return in this.data[]
+this.minStartIndex <= size(this.data[])-1
+this.maxStartIndex <= size(this.data[])-1
+this.minMiddleIndex <= size(this.data[])-1
+this.maxMiddleIndex <= size(this.data[])-1
+this.minEndIndex <= size(this.data[])-1
+this.maxEndIndex <= size(this.data[])-1
+orig(index) <= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getDomainDescription():::ENTER
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == size(this.data[])-1
+this.minStartIndex one of { -1, 0 }
+size(this.data[]) one of { 0, 2, 5 }
+this.minStartIndex % this.maxStartIndex == 0
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getDomainDescription():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == return
+this.domain.toString == return.toString
+this.range == orig(this.range)
+this.range.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == orig(this.maxStartIndex)
+this.maxStartIndex == orig(this.maxMiddleIndex)
+this.maxStartIndex == orig(this.maxEndIndex)
+this.maxStartIndex == size(this.data[])-1
+this.maxStartIndex == orig(size(this.data[]))-1
+return == orig(this.domain)
+return.toString == orig(this.domain.toString)
+this.minStartIndex one of { -1, 0 }
+return.toString one of { "Time", "XYZ" }
+size(this.data[]) one of { 0, 2, 5 }
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString <= return.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString != return.toString
+this.range.toString != return.toString
+this.minStartIndex % this.maxStartIndex == 0
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getItemCount():::ENTER
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == size(this.data[])-1
+this.minStartIndex one of { -1, 0 }
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getItemCount():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.domain.toString == orig(this.domain.toString)
+this.range == orig(this.range)
+this.range.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == orig(this.maxStartIndex)
+this.maxStartIndex == orig(this.maxMiddleIndex)
+this.maxStartIndex == orig(this.maxEndIndex)
+this.maxStartIndex == size(this.data[])-1
+this.maxStartIndex == orig(size(this.data[]))-1
+return == size(this.data[])
+return == orig(size(this.data[]))
+this.minStartIndex one of { -1, 0 }
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getMaxStartIndex():::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this has only one value
+this.data has only one value
+this.maxStartIndex one of { -1, 0, 1 }
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getMaxStartIndex():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.maxStartIndex == return
+this.maxMiddleIndex == return
+this.maxEndIndex == return
+return == orig(this.maxStartIndex)
+return == orig(this.maxMiddleIndex)
+return == orig(this.maxEndIndex)
+this.data has only one value
+return one of { -1, 0, 1 }
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getMinMiddleIndex():::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this has only one value
+this.data has only one value
+this.maxStartIndex one of { -1, 0, 1 }
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getMinMiddleIndex():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == return
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == orig(this.maxStartIndex)
+this.maxStartIndex == orig(this.maxMiddleIndex)
+this.maxStartIndex == orig(this.maxEndIndex)
+this.minMiddleIndex == return
+this.minEndIndex == return
+return == orig(this.minStartIndex)
+return == orig(this.minMiddleIndex)
+return == orig(this.minEndIndex)
+this.data has only one value
+this.maxStartIndex one of { -1, 0, 1 }
+return one of { -1, 0, 2 }
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getMinStartIndex():::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this has only one value
+this.data has only one value
+this.maxStartIndex one of { -1, 0, 1 }
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getMinStartIndex():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == return
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == orig(this.maxStartIndex)
+this.maxStartIndex == orig(this.maxMiddleIndex)
+this.maxStartIndex == orig(this.maxEndIndex)
+this.minMiddleIndex == return
+this.minEndIndex == return
+return == orig(this.minStartIndex)
+return == orig(this.minMiddleIndex)
+return == orig(this.minEndIndex)
+this.data has only one value
+this.maxStartIndex one of { -1, 0, 1 }
+return one of { -1, 0, 2 }
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getRangeDescription():::ENTER
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == size(this.data[])-1
+this.minStartIndex one of { -1, 0 }
+size(this.data[]) one of { 0, 2, 5 }
+this.minStartIndex % this.maxStartIndex == 0
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getRangeDescription():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.domain.toString == orig(this.domain.toString)
+this.range == return
+this.range.toString == return.toString
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this.maxStartIndex == orig(this.maxStartIndex)
+this.maxStartIndex == orig(this.maxMiddleIndex)
+this.maxStartIndex == orig(this.maxEndIndex)
+this.maxStartIndex == size(this.data[])-1
+this.maxStartIndex == orig(size(this.data[]))-1
+return == orig(this.range)
+return.toString == orig(this.range.toString)
+this.minStartIndex one of { -1, 0 }
+return.toString one of { "Value", "XYZ" }
+size(this.data[]) one of { 0, 2, 5 }
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString < return.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString <= return.toString
+this.minStartIndex % this.maxStartIndex == 0
+this.minStartIndex <= this.maxStartIndex
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getValue(int):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == index
+this.minStartIndex == size(this.data[])-1
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.getValue(int):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == orig(index)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.recalculateBounds():::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == size(this.data[])
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+this has only one value
+this.data has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+this.maxStartIndex == 1
+===========================================================================
+org.jfree.data.time.TimePeriodValues.recalculateBounds():::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+orig(this.minStartIndex) == size(this.data[])
+this.data has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+===========================================================================
+org.jfree.data.time.TimePeriodValues.setDomainDescription(java.lang.String):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == size(this.data[])-1
+this.data[] == []
+this.data[].getClass().getName() == []
+description.toString == "XYZ"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.setDomainDescription(java.lang.String):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.domain == orig(description)
+this.domain.toString == description.toString
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+description.toString == orig(description.toString)
+this.data[] == []
+this.data[].getClass().getName() == []
+description.toString == "XYZ"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.setRangeDescription(java.lang.String):::ENTER
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == size(this.data[])-1
+this.domain == null
+this.data[] == []
+this.data[].getClass().getName() == []
+description.toString == "XYZ"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.setRangeDescription(java.lang.String):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.range == orig(description)
+this.range.toString == description.toString
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+description.toString == orig(description.toString)
+this.domain == null
+this.data[] == []
+this.data[].getClass().getName() == []
+description.toString == "XYZ"
+===========================================================================
+org.jfree.data.time.TimePeriodValues.update(int, java.lang.Number):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == index
+this.minStartIndex == size(this.data[])-1
+this has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 1
+this.data[] elements has only one value
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+value has only one value
+value.getClass().getName() == java.lang.Integer.class
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.update(int, java.lang.Number):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.maxStartIndex
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.maxMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.minStartIndex == this.maxEndIndex
+this.minStartIndex == orig(this.minStartIndex)
+this.minStartIndex == orig(this.maxStartIndex)
+this.minStartIndex == orig(this.minMiddleIndex)
+this.minStartIndex == orig(this.maxMiddleIndex)
+this.minStartIndex == orig(this.minEndIndex)
+this.minStartIndex == orig(this.maxEndIndex)
+this.minStartIndex == orig(index)
+this.minStartIndex == size(this.data[])-1
+this.minStartIndex == orig(size(this.data[]))-1
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 1
+this.data[] elements has only one value
+this.data[].getClass().getName() == [org.jfree.data.time.TimePeriodValue]
+size(this.data[]) == 1
+this.data[] elements == this.data[this.minStartIndex]
+===========================================================================
+org.jfree.data.time.TimePeriodValues.updateBounds(org.jfree.data.time.TimePeriod, int):::ENTER
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+index == size(this.data[])-1
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { -1, 0 }
+period != null
+size(this.data[]) >= 1
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+this.data.getClass().getName() != period.getClass().getName()
+this.minStartIndex <= this.maxStartIndex
+this.minStartIndex % size(this.data[]) == 0
+this.minStartIndex <= size(this.data[])-1
+this.maxStartIndex <= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimePeriodValues.updateBounds(org.jfree.data.time.TimePeriod, int):::EXIT
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString)
+this.domain == orig(this.domain)
+this.domain.toString == orig(this.domain.toString)
+this.range == orig(this.range)
+this.range.toString == orig(this.range.toString)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.minStartIndex == this.minMiddleIndex
+this.minStartIndex == this.minEndIndex
+this.maxStartIndex == this.maxMiddleIndex
+this.maxStartIndex == this.maxEndIndex
+orig(index) == size(this.data[])-1
+this.domain.toString == "Time"
+this.range.toString == "Value"
+this.minStartIndex one of { 0, 2 }
+this.maxStartIndex >= 0
+size(this.data[]) >= 1
+org.jfree.data.time.TimePeriodValues.serialVersionUID < orig(index)
+org.jfree.data.time.TimePeriodValues.DEFAULT_RANGE_DESCRIPTION.toString > this.domain.toString
+this.domain.toString < this.range.toString
+this.data.getClass().getName() != orig(period.getClass().getName())
+this.minStartIndex >= orig(this.minStartIndex)
+this.minStartIndex <= orig(index)
+this.maxStartIndex >= orig(this.minStartIndex)
+this.maxStartIndex >= orig(this.maxStartIndex)
+this.maxStartIndex <= orig(index)
+orig(this.minStartIndex) <= orig(index)
+orig(this.minStartIndex) % size(this.data[]) == 0
+orig(this.maxStartIndex) <= orig(index)
+this.minStartIndex + 2 * this.maxStartIndex - 2 * orig(index) == 0
+this.minStartIndex + 2 * this.maxStartIndex - 2 * size(this.data[]) + 2 == 0
+Exiting Daikon.

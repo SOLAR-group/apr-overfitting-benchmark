@@ -1,0 +1,330 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 2 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.jfree.data.time.Week.getFirstMillisecond(java.util.Calendar) : 1 invocation
+  org.jfree.data.time.Week.getLastMillisecond(java.util.Calendar) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.jfree.data.time.Week:::CLASS
+===========================================================================
+org.jfree.data.time.Week:::OBJECT
+this.week >= 1
+org.jfree.data.time.Week.serialVersionUID > this.year
+org.jfree.data.time.Week.serialVersionUID > this.week
+org.jfree.data.time.Week.serialVersionUID > this.firstMillisecond
+org.jfree.data.time.Week.serialVersionUID > this.lastMillisecond
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR < this.year
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR <= this.week
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR != this.firstMillisecond
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR != this.lastMillisecond
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR < this.year
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR >= this.week
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR != this.firstMillisecond
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR != this.lastMillisecond
+this.year > this.week
+this.year != this.firstMillisecond
+this.year != this.lastMillisecond
+this.week != this.firstMillisecond
+this.week != this.lastMillisecond
+===========================================================================
+org.jfree.data.time.Week.Week(int, int):::ENTER
+week >= 1
+week < year
+===========================================================================
+org.jfree.data.time.Week.Week(int, int):::EXIT
+this.year == orig(year)
+this.week == orig(week)
+this.firstMillisecond < this.lastMillisecond
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * this.firstMillisecond - 5.03497358244E17 == 0
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * this.lastMillisecond - 5.0349245996880813E17 == 0
+===========================================================================
+org.jfree.data.time.Week.Week(java.util.Date, java.util.TimeZone):::ENTER
+zone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+===========================================================================
+org.jfree.data.time.Week.Week(java.util.Date, java.util.TimeZone):::EXIT
+this.year one of { 2004, 2005 }
+this.week one of { 52, 53 }
+this.firstMillisecond one of { 1104066000000L, 1135515600000L }
+this.lastMillisecond one of { 1104670799999L, 1136120399999L }
+===========================================================================
+org.jfree.data.time.Week.Week(java.util.Date, java.util.TimeZone, java.util.Locale):::ENTER
+zone has only one value
+zone.getClass().getName() == sun.util.calendar.ZoneInfo.class
+locale has only one value
+===========================================================================
+org.jfree.data.time.Week.Week(java.util.Date, java.util.TimeZone, java.util.Locale):::EXIT
+this.year one of { 2004, 2005 }
+this.week one of { 52, 53 }
+this.firstMillisecond one of { 1104066000000L, 1135515600000L }
+this.lastMillisecond one of { 1104670799999L, 1136120399999L }
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::ENTER
+obj.getClass().getName() == org.jfree.data.time.Week.class
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR > this.week
+this.firstMillisecond < this.lastMillisecond
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT449
+this.year == 2002
+this.week == 2
+this.firstMillisecond == 1010235600000L
+this.lastMillisecond == 1010840399999L
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT449;condition="not(return == true)"
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT452
+this.year == 2003
+this.week == 2
+this.firstMillisecond == 1041685200000L
+this.lastMillisecond == 1042289999999L
+return == false
+orig(this) has only one value
+orig(obj) has only one value
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT452;condition="not(return == true)"
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT454
+return == true
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT454;condition="return == true"
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+(return == false)  ==>  (this.firstMillisecond one of { 1010235600000L, 1041685200000L })
+(return == false)  ==>  (this.lastMillisecond one of { 1010840399999L, 1042289999999L })
+(return == false)  ==>  (this.week == 2)
+(return == false)  ==>  (this.year one of { 2002, 2003 })
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR > this.week
+this.firstMillisecond < this.lastMillisecond
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.jfree.data.time.Week.equals(java.lang.Object):::EXIT;condition="not(return == true)"
+this.year one of { 2002, 2003 }
+this.week == 2
+this.firstMillisecond one of { 1010235600000L, 1041685200000L }
+this.lastMillisecond one of { 1010840399999L, 1042289999999L }
+return == false
+===========================================================================
+org.jfree.data.time.Week.getFirstMillisecond():::ENTER
+this.year one of { 1970, 2006 }
+this.week == 3
+this.firstMillisecond one of { 946800000, 1137330000000L }
+this.lastMillisecond one of { 1551599999, 1137934799999L }
+===========================================================================
+org.jfree.data.time.Week.getFirstMillisecond():::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == return
+this.lastMillisecond == orig(this.lastMillisecond)
+return == orig(this.firstMillisecond)
+this.year one of { 1970, 2006 }
+this.week == 3
+this.lastMillisecond one of { 1551599999, 1137934799999L }
+return one of { 946800000, 1137330000000L }
+===========================================================================
+org.jfree.data.time.Week.getFirstMillisecond(java.util.Calendar):::ENTER
+this.firstMillisecond >= 0
+this.lastMillisecond >= 0
+calendar != null
+calendar.getClass().getName() == java.util.GregorianCalendar.class
+this.firstMillisecond <= this.lastMillisecond
+===========================================================================
+org.jfree.data.time.Week.getFirstMillisecond(java.util.Calendar):::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+this.firstMillisecond >= 0
+this.lastMillisecond >= 0
+org.jfree.data.time.Week.serialVersionUID > return
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR != return
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR != return
+this.year != return
+this.week != return
+this.firstMillisecond <= this.lastMillisecond
+this.firstMillisecond != return
+this.lastMillisecond != return
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * return - 5.03497358244E17 == 0
+===========================================================================
+org.jfree.data.time.Week.getLastMillisecond():::ENTER
+this.year one of { 1970, 2006 }
+this.week one of { 1, 31 }
+this.firstMillisecond one of { 17881200000L, 1136120400000L }
+this.lastMillisecond one of { 18485999999L, 1136725199999L }
+===========================================================================
+org.jfree.data.time.Week.getLastMillisecond():::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == return
+return == orig(this.lastMillisecond)
+this.year one of { 1970, 2006 }
+this.week one of { 1, 31 }
+this.firstMillisecond one of { 17881200000L, 1136120400000L }
+return one of { 18485999999L, 1136725199999L }
+===========================================================================
+org.jfree.data.time.Week.getLastMillisecond(java.util.Calendar):::ENTER
+this.lastMillisecond >= 0
+calendar != null
+calendar.getClass().getName() == java.util.GregorianCalendar.class
+this.firstMillisecond != this.lastMillisecond
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * this.firstMillisecond - 5.03497358244E17 == 0
+===========================================================================
+org.jfree.data.time.Week.getLastMillisecond(java.util.Calendar):::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+this.lastMillisecond >= 0
+org.jfree.data.time.Week.serialVersionUID > return
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR != return
+org.jfree.data.time.Week.LAST_WEEK_IN_YEAR != return
+this.year != return
+this.week != return
+this.firstMillisecond != this.lastMillisecond
+this.firstMillisecond < return
+this.lastMillisecond != return
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * this.firstMillisecond - 5.03497358244E17 == 0
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * return - 5.0349245996880813E17 == 0
+===========================================================================
+org.jfree.data.time.Week.getSerialIndex():::ENTER
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR == this.week
+this.year one of { 1900, 2000 }
+this.firstMillisecond one of { -2209111200000L, 946126800000L }
+this.lastMillisecond one of { -2208506400001L, 946731599999L }
+===========================================================================
+org.jfree.data.time.Week.getSerialIndex():::EXIT
+org.jfree.data.time.Week.FIRST_WEEK_IN_YEAR == this.week
+this.year == orig(this.year)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+this.year one of { 1900, 2000 }
+this.firstMillisecond one of { -2209111200000L, 946126800000L }
+this.lastMillisecond one of { -2208506400001L, 946731599999L }
+return one of { 100701, 106001 }
+===========================================================================
+org.jfree.data.time.Week.getWeek():::ENTER
+this.year one of { 2000, 2004, 2005 }
+this.week one of { 13, 52, 53 }
+this.firstMillisecond one of { 953384400000L, 1104066000000L, 1135515600000L }
+this.lastMillisecond one of { 953989199999L, 1104670799999L, 1136120399999L }
+===========================================================================
+org.jfree.data.time.Week.getWeek():::EXIT
+this.year == orig(this.year)
+this.week == return
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+return == orig(this.week)
+this.year one of { 2000, 2004, 2005 }
+this.firstMillisecond one of { 953384400000L, 1104066000000L, 1135515600000L }
+this.lastMillisecond one of { 953989199999L, 1104670799999L, 1136120399999L }
+return one of { 13, 52, 53 }
+===========================================================================
+org.jfree.data.time.Week.getYear():::ENTER
+this.year one of { 2000, 2004 }
+this.week one of { 13, 53 }
+this.firstMillisecond one of { 953384400000L, 1104066000000L }
+this.lastMillisecond one of { 953989199999L, 1104670799999L }
+===========================================================================
+org.jfree.data.time.Week.getYear():::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+this.year one of { 2000, 2004 }
+this.week one of { 13, 53 }
+this.firstMillisecond one of { 953384400000L, 1104066000000L }
+this.lastMillisecond one of { 953989199999L, 1104670799999L }
+===========================================================================
+org.jfree.data.time.Week.getYearValue():::ENTER
+this has only one value
+this.year == 2005
+this.week == 52
+this.firstMillisecond == 1135515600000L
+this.lastMillisecond == 1136120399999L
+===========================================================================
+org.jfree.data.time.Week.getYearValue():::EXIT
+this.year == return
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+return == orig(this.year)
+this.week == 52
+this.firstMillisecond == 1135515600000L
+this.lastMillisecond == 1136120399999L
+return == 2005
+===========================================================================
+org.jfree.data.time.Week.hashCode():::ENTER
+this.year == 2003
+this.week == 2
+this.firstMillisecond == 1041685200000L
+this.lastMillisecond == 1042289999999L
+===========================================================================
+org.jfree.data.time.Week.hashCode():::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+this.year == 2003
+this.week == 2
+this.firstMillisecond == 1041685200000L
+this.lastMillisecond == 1042289999999L
+return == 25350
+===========================================================================
+org.jfree.data.time.Week.next():::ENTER
+this.year one of { 1900, 2000, 9999 }
+===========================================================================
+org.jfree.data.time.Week.next():::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+this.year one of { 1900, 2000, 9999 }
+return.getClass().getName() == org.jfree.data.time.Week.class
+===========================================================================
+org.jfree.data.time.Week.peg(java.util.Calendar):::ENTER
+this.firstMillisecond == this.lastMillisecond
+this.firstMillisecond == 0
+calendar != null
+calendar.getClass().getName() == java.util.GregorianCalendar.class
+this.year > this.firstMillisecond
+this.week > this.firstMillisecond
+===========================================================================
+org.jfree.data.time.Week.peg(java.util.Calendar):::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.year > orig(this.firstMillisecond)
+this.week > orig(this.firstMillisecond)
+this.firstMillisecond < this.lastMillisecond
+this.firstMillisecond != orig(this.firstMillisecond)
+this.lastMillisecond != orig(this.firstMillisecond)
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * this.firstMillisecond - 5.03497358244E17 == 0
+2.555794044E14 * this.year + 4.8982752E12 * this.week - 8099 * this.lastMillisecond - 5.0349245996880813E17 == 0
+===========================================================================
+org.jfree.data.time.Week.previous():::ENTER
+this.year one of { 1900, 9999 }
+this.week one of { 1, 52 }
+this.firstMillisecond one of { -2209111200000L, 253401138000000L }
+this.lastMillisecond one of { -2208506400001L, 253401742799999L }
+===========================================================================
+org.jfree.data.time.Week.previous():::EXIT
+this.year == orig(this.year)
+this.week == orig(this.week)
+this.firstMillisecond == orig(this.firstMillisecond)
+this.lastMillisecond == orig(this.lastMillisecond)
+this.year one of { 1900, 9999 }
+this.week one of { 1, 52 }
+this.firstMillisecond one of { -2209111200000L, 253401138000000L }
+this.lastMillisecond one of { -2208506400001L, 253401742799999L }
+return.getClass().getName() == org.jfree.data.time.Week.class
+Exiting Daikon.

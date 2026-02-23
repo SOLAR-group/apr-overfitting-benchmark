@@ -1,0 +1,7 @@
+{
+  "ID": "Patch107",
+  "tool": "repairllama-ir4",
+  "correctness": "Correct",
+  "bug_id": "69",
+  "project": "Math"
+}

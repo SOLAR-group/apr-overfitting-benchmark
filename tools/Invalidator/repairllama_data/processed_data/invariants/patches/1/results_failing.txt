@@ -1,0 +1,140 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot:::CLASS
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot:::OBJECT
+this.dataset.getClass().getName() == org.jfree.data.category.DefaultCategoryDataset.class
+this.limit == 0.0
+this.aggregatedItemsKey.getClass().getName() == java.lang.String.class
+this.aggregatedItemsPaint.getClass().getName() == java.awt.Color.class
+this.sectionPaints.getClass().getName() == java.util.HashMap.class
+this.aggregatedItemsKey.getClass().getName() != this.aggregatedItemsPaint.getClass().getName()
+this.aggregatedItemsKey.getClass().getName() != this.sectionPaints.getClass().getName()
+this.aggregatedItemsPaint.getClass().getName() != this.sectionPaints.getClass().getName()
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.MultiplePiePlot():::EXIT
+this.pieChart has only one value
+this.dataset == null
+this.dataExtractOrder has only one value
+this.aggregatedItemsKey has only one value
+this.aggregatedItemsPaint has only one value
+this.sectionPaints has only one value
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.MultiplePiePlot(org.jfree.data.category.CategoryDataset):::ENTER
+dataset.getClass().getName() == org.jfree.data.category.DefaultCategoryDataset.class
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.MultiplePiePlot(org.jfree.data.category.CategoryDataset):::EXIT
+this.dataset == orig(dataset)
+this.dataset.getClass().getName() == orig(dataset.getClass().getName())
+this.dataExtractOrder has only one value
+this.aggregatedItemsKey has only one value
+this.aggregatedItemsPaint has only one value
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::ENTER
+this has only one value
+this.pieChart has only one value
+this.dataset has only one value
+this.dataExtractOrder has only one value
+this.aggregatedItemsKey has only one value
+this.aggregatedItemsPaint has only one value
+this.sectionPaints has only one value
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::EXIT565
+orig(this) == orig(obj)
+return == true
+orig(obj) has only one value
+orig(obj.getClass().getName()) == org.jfree.chart.plot.MultiplePiePlot.class
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::EXIT565;condition="return == true"
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::EXIT568
+return == false
+orig(obj) has only one value
+orig(obj.getClass().getName()) == java.lang.Class.class
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::EXIT568;condition="not(return == true)"
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::EXIT
+this.pieChart == orig(this.pieChart)
+this.dataset == orig(this.dataset)
+this.dataset.getClass().getName() == orig(this.dataset.getClass().getName())
+this.dataExtractOrder == orig(this.dataExtractOrder)
+this.limit == orig(this.limit)
+this.aggregatedItemsKey == orig(this.aggregatedItemsKey)
+this.aggregatedItemsKey.getClass().getName() == orig(this.aggregatedItemsKey.getClass().getName())
+this.aggregatedItemsPaint == orig(this.aggregatedItemsPaint)
+this.aggregatedItemsPaint.getClass().getName() == orig(this.aggregatedItemsPaint.getClass().getName())
+this.sectionPaints == orig(this.sectionPaints)
+this.sectionPaints.getClass().getName() == orig(this.sectionPaints.getClass().getName())
+(return == false)  <==>  (orig(obj.getClass().getName()) == java.lang.Class.class)
+(return == true)  <==>  (orig(obj.getClass().getName()) == org.jfree.chart.plot.MultiplePiePlot.class)
+(return == true)  ==>  (orig(this) == orig(obj))
+this.pieChart has only one value
+this.dataset has only one value
+this.dataExtractOrder has only one value
+this.aggregatedItemsKey has only one value
+this.aggregatedItemsPaint has only one value
+this.sectionPaints has only one value
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::EXIT;condition="return == true"
+orig(this) == orig(obj)
+return == true
+orig(obj) has only one value
+orig(obj.getClass().getName()) == org.jfree.chart.plot.MultiplePiePlot.class
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.equals(java.lang.Object):::EXIT;condition="not(return == true)"
+return == false
+orig(obj) has only one value
+orig(obj.getClass().getName()) == java.lang.Class.class
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.getDataset():::ENTER
+this has only one value
+this.pieChart has only one value
+this.dataset == null
+this.dataExtractOrder has only one value
+this.aggregatedItemsKey has only one value
+this.aggregatedItemsPaint has only one value
+this.sectionPaints has only one value
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.getDataset():::EXIT
+this.pieChart == orig(this.pieChart)
+this.dataset == return
+this.dataExtractOrder == orig(this.dataExtractOrder)
+this.limit == orig(this.limit)
+this.aggregatedItemsKey == orig(this.aggregatedItemsKey)
+this.aggregatedItemsPaint == orig(this.aggregatedItemsPaint)
+this.sectionPaints == orig(this.sectionPaints)
+return == orig(this.dataset)
+this.pieChart has only one value
+this.dataExtractOrder has only one value
+this.aggregatedItemsKey has only one value
+this.aggregatedItemsPaint has only one value
+this.sectionPaints has only one value
+return == null
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.setDataset(org.jfree.data.category.CategoryDataset):::ENTER
+this.pieChart == null
+this.dataset == null
+this.dataExtractOrder == null
+this.aggregatedItemsKey == null
+this.aggregatedItemsPaint == null
+this.sectionPaints == null
+dataset.getClass().getName() == org.jfree.data.category.DefaultCategoryDataset.class
+===========================================================================
+org.jfree.chart.plot.MultiplePiePlot.setDataset(org.jfree.data.category.CategoryDataset):::EXIT
+this.pieChart == orig(this.pieChart)
+this.dataset == orig(dataset)
+this.dataset.getClass().getName() == orig(dataset.getClass().getName())
+this.dataExtractOrder == orig(this.dataExtractOrder)
+this.limit == orig(this.limit)
+this.aggregatedItemsKey == orig(this.aggregatedItemsKey)
+this.aggregatedItemsPaint == orig(this.aggregatedItemsPaint)
+this.sectionPaints == orig(this.sectionPaints)
+this.pieChart == null
+this.dataExtractOrder == null
+this.aggregatedItemsKey == null
+this.aggregatedItemsPaint == null
+this.sectionPaints == null
+Exiting Daikon.

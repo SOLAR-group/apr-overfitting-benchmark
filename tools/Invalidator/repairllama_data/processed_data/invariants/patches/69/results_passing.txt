@@ -1,0 +1,931 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 17 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.apache.commons.lang.BooleanUtils.xor(boolean[]) : 2 invocations
+  org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer) : 2 invocations
+  org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer) : 2 invocations
+  org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String) : 4 invocations
+  org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int) : 1 invocation
+  org.apache.commons.lang.BooleanUtils.xor(java.lang.Boolean[]) : 3 invocations
+  org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String) : 2 invocations
+  org.apache.commons.lang.BooleanUtils.toBooleanObject(int, int, int, int) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.apache.commons.lang.BooleanUtils:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.BooleanUtils():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT127
+return == false
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT127;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT129
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT129;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT129;condition="not(return == true)"
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT
+(orig(bool) == null)  ==>  (return == false)
+(return == true)  <==>  (orig(bool) has only one value)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT;condition="return == true"
+return == true
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isFalse(java.lang.Boolean):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotFalse(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotFalse(java.lang.Boolean):::EXIT
+(return == false)  <==>  (orig(bool) has only one value)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotFalse(java.lang.Boolean):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotFalse(java.lang.Boolean):::EXIT;condition="not(return == true)"
+return == false
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotTrue(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotTrue(java.lang.Boolean):::EXIT
+(return == false)  <==>  (orig(bool) has only one value)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotTrue(java.lang.Boolean):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isNotTrue(java.lang.Boolean):::EXIT;condition="not(return == true)"
+return == false
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT88
+return == false
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT88;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT90
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT90;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT90;condition="not(return == true)"
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT
+(orig(bool) == null)  ==>  (return == false)
+(return == true)  <==>  (orig(bool) has only one value)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT;condition="return == true"
+return == true
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.isTrue(java.lang.Boolean):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.negate(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.negate(java.lang.Boolean):::EXIT65
+return == orig(bool)
+return == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.negate(java.lang.Boolean):::EXIT67
+===========================================================================
+org.apache.commons.lang.BooleanUtils.negate(java.lang.Boolean):::EXIT
+(return == null)  <==>  (orig(bool) == null)
+(return == null)  ==>  (return == orig(bool))
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int):::ENTER
+value one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int):::EXIT
+(return == false)  <==>  (orig(value) == 0)
+(return == true)  <==>  (orig(value) one of { -1, 1 })
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int):::EXIT;condition="return == true"
+return == true
+orig(value) one of { -1, 1 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int):::EXIT;condition="not(return == true)"
+return == false
+orig(value) == 0
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::ENTER
+value one of { 6, 7 }
+trueValue == 6
+falseValue == 7
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::EXIT288
+orig(value) == orig(trueValue)
+return == true
+orig(value) == 6
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::EXIT288;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::EXIT290
+orig(value) == orig(falseValue)
+return == false
+orig(value) == 7
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::EXIT290;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::EXIT
+(return == false)  <==>  (orig(value) == 7)
+(return == false)  <==>  (orig(value) == orig(falseValue))
+(return == true)  <==>  (orig(value) == 6)
+(return == true)  <==>  (orig(value) == orig(trueValue))
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::EXIT;condition="return == true"
+orig(value) == orig(trueValue)
+return == true
+orig(value) == 6
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(int, int, int):::EXIT;condition="not(return == true)"
+orig(value) == orig(falseValue)
+return == false
+orig(value) == 7
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT184
+return == false
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT184;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT186
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT186;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT186;condition="not(return == true)"
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT
+(orig(bool) == null)  ==>  (return == false)
+(return == true)  <==>  (orig(bool) has only one value)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT;condition="return == true"
+return == true
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Boolean):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT318
+orig(value) == orig(trueValue)
+return == true
+orig(value) == null
+orig(falseValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT318;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT320
+orig(value) == orig(falseValue)
+return == false
+orig(value) == null
+orig(trueValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT320;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT323
+return == true
+orig(value) has only one value
+orig(trueValue) has only one value
+orig(falseValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT323;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT325
+return == false
+orig(value) has only one value
+orig(trueValue) has only one value
+orig(falseValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT325;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT
+(return == false)  ==>  (orig(trueValue) has only one value)
+(return == true)  ==>  (orig(falseValue) has only one value)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT;condition="return == true"
+return == true
+orig(falseValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT;condition="not(return == true)"
+return == false
+orig(trueValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::ENTER
+str.toString one of { "N", "Y" }
+trueString.toString == "Y"
+falseString.toString == "N"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT731
+orig(str) == orig(trueString)
+return == true
+orig(str) == null
+orig(falseString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT731;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT733
+orig(str) == orig(falseString)
+return == false
+orig(str) == null
+orig(trueString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT733;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT736
+str.toString == trueString.toString
+str.toString == orig(trueString.toString)
+orig(str) == orig(trueString)
+str.toString == "Y"
+return == true
+orig(str) has only one value
+orig(falseString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT736;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT738
+str.toString == falseString.toString
+str.toString == orig(falseString.toString)
+orig(str) == orig(falseString)
+str.toString == "N"
+return == false
+orig(str) has only one value
+orig(trueString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT738;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT
+str.toString == orig(str.toString)
+trueString.toString == orig(trueString.toString)
+falseString.toString == orig(falseString.toString)
+(str.toString == "N")  <==>  (return == false)
+(str.toString == "N")  <==>  (str.toString == falseString.toString)
+(str.toString == "N")  ==>  (orig(str) == orig(falseString))
+(str.toString == "N")  ==>  (orig(trueString) has only one value)
+(str.toString == "Y")  <==>  (return == true)
+(str.toString == "Y")  <==>  (str.toString == trueString.toString)
+(str.toString == "Y")  ==>  (orig(falseString) has only one value)
+(str.toString == "Y")  ==>  (orig(str) == orig(trueString))
+str.toString one of { "N", "Y" }
+trueString.toString == "Y"
+falseString.toString == "N"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT;condition="return == true"
+str.toString == trueString.toString
+str.toString == orig(trueString.toString)
+orig(str) == orig(trueString)
+str.toString == "Y"
+return == true
+orig(falseString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBoolean(java.lang.String, java.lang.String, java.lang.String):::EXIT;condition="not(return == true)"
+str.toString == falseString.toString
+str.toString == orig(falseString.toString)
+orig(str) == orig(falseString)
+str.toString == "N"
+return == false
+orig(trueString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT204
+return == orig(valueIfNull)
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT204;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT204;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT206
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT206;condition="return == true"
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT206;condition="not(return == true)"
+orig(bool) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT
+(orig(bool) == null)  ==>  (return == orig(valueIfNull))
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanDefaultIfNull(java.lang.Boolean, boolean):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(boolean):::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(int):::ENTER
+value one of { -1, 0, 1 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(int):::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(int, int, int, int):::ENTER
+value one of { 6, 7, 8 }
+trueValue == 6
+falseValue == 7
+nullValue == 8
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(int, int, int, int):::EXIT349
+orig(value) == orig(trueValue)
+return has only one value
+orig(value) == 6
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(int, int, int, int):::EXIT351
+orig(value) == orig(falseValue)
+return has only one value
+orig(value) == 7
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(int, int, int, int):::EXIT353
+orig(value) == orig(nullValue)
+return == null
+orig(value) == 8
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(int, int, int, int):::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer):::EXIT265
+return == null
+orig(value) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer):::EXIT267
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer):::EXIT
+(return == null)  <==>  (orig(value) == null)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT381
+orig(value) == orig(trueValue)
+return has only one value
+orig(value) == null
+orig(falseValue) has only one value
+orig(nullValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT383
+orig(value) == orig(falseValue)
+return has only one value
+orig(value) == null
+orig(trueValue) has only one value
+orig(nullValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT385
+orig(value) == orig(nullValue)
+return == null
+orig(value) == null
+orig(trueValue) has only one value
+orig(falseValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT388
+return has only one value
+orig(value) has only one value
+orig(trueValue) has only one value
+orig(falseValue) has only one value
+orig(nullValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT390
+return has only one value
+orig(value) has only one value
+orig(trueValue) has only one value
+orig(falseValue) has only one value
+orig(nullValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT392
+return == null
+orig(value) has only one value
+orig(trueValue) has only one value
+orig(falseValue) has only one value
+orig(nullValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.Integer, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT564
+str.toString one of { "TRUE", "TruE", "true" }
+return has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT566
+str.toString one of { "FALSE", "false" }
+return has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT568
+str.toString one of { "ON", "on" }
+return has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT570
+str.toString one of { "OFF", "off" }
+return has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT572
+str.toString one of { "YES", "yes" }
+return has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT574
+str.toString one of { "NO", "no" }
+return has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT577
+str.toString one of { "", "oof" }
+return == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::ENTER
+str.toString one of { "N", "U", "Y" }
+trueString.toString == "Y"
+falseString.toString == "N"
+nullString.toString == "U"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::EXIT605
+orig(str) == orig(trueString)
+return has only one value
+orig(str) == null
+orig(falseString) has only one value
+orig(nullString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::EXIT607
+orig(str) == orig(falseString)
+return has only one value
+orig(str) == null
+orig(trueString) has only one value
+orig(nullString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::EXIT609
+orig(str) == orig(nullString)
+return == null
+orig(str) == null
+orig(trueString) has only one value
+orig(falseString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::EXIT612
+str.toString == trueString.toString
+str.toString == orig(trueString.toString)
+orig(str) == orig(trueString)
+str.toString == "Y"
+return has only one value
+orig(str) has only one value
+orig(falseString) has only one value
+orig(nullString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::EXIT614
+str.toString == falseString.toString
+str.toString == orig(falseString.toString)
+orig(str) == orig(falseString)
+str.toString == "N"
+return has only one value
+orig(str) has only one value
+orig(trueString) has only one value
+orig(nullString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::EXIT616
+str.toString == nullString.toString
+str.toString == orig(nullString.toString)
+orig(str) == orig(nullString)
+str.toString == "U"
+return == null
+orig(str) has only one value
+orig(trueString) has only one value
+orig(falseString) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toBooleanObject(java.lang.String, java.lang.String, java.lang.String, java.lang.String):::EXIT
+str.toString == orig(str.toString)
+trueString.toString == orig(trueString.toString)
+falseString.toString == orig(falseString.toString)
+nullString.toString == orig(nullString.toString)
+str.toString one of { "N", "U", "Y" }
+trueString.toString == "Y"
+falseString.toString == "N"
+nullString.toString == "U"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(boolean):::EXIT
+return one of { 0, 1 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(boolean, int, int):::ENTER
+trueValue == 6
+falseValue == 7
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(boolean, int, int):::EXIT
+return one of { 6, 7 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(java.lang.Boolean, int, int, int):::ENTER
+trueValue == 6
+falseValue == 7
+nullValue == 8
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(java.lang.Boolean, int, int, int):::EXIT487
+return == orig(nullValue)
+return == 8
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(java.lang.Boolean, int, int, int):::EXIT489
+return one of { 6, 7 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toInteger(java.lang.Boolean, int, int, int):::EXIT
+(return == 8)  <==>  (orig(bool) == null)
+(return == 8)  <==>  (return == orig(nullValue))
+return one of { 6, 7, 8 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(boolean):::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(boolean, java.lang.Integer, java.lang.Integer):::ENTER
+trueValue has only one value
+falseValue has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(boolean, java.lang.Integer, java.lang.Integer):::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean):::EXIT448
+return == null
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean):::EXIT450
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean):::EXIT
+(return == null)  <==>  (orig(bool) == null)
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean, java.lang.Integer, java.lang.Integer, java.lang.Integer):::ENTER
+trueValue has only one value
+falseValue has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT531
+return == orig(nullValue)
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT533
+orig(nullValue) has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toIntegerObject(java.lang.Boolean, java.lang.Integer, java.lang.Integer, java.lang.Integer):::EXIT
+(orig(bool) == null)  ==>  (return == orig(nullValue))
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toString(boolean, java.lang.String, java.lang.String):::ENTER
+trueString.toString > falseString.toString
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toString(boolean, java.lang.String, java.lang.String):::EXIT
+trueString.toString == orig(trueString.toString)
+falseString.toString == orig(falseString.toString)
+trueString.toString > falseString.toString
+trueString.toString >= return.toString
+falseString.toString <= return.toString
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toString(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String):::ENTER
+trueString != null
+falseString != null
+nullString.toString == "U"
+trueString.toString > falseString.toString
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toString(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String):::EXIT820
+nullString.toString == return.toString
+return == orig(nullString)
+orig(bool) == null
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toString(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String):::EXIT822
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toString(java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String):::EXIT
+trueString.toString == orig(trueString.toString)
+falseString.toString == orig(falseString.toString)
+nullString.toString == orig(nullString.toString)
+(orig(bool) == null)  <==>  (nullString.toString == return.toString)
+(orig(bool) == null)  ==>  (return == orig(nullString))
+(orig(bool) == null)  ==>  (return.toString == "U")
+nullString.toString == "U"
+trueString.toString > falseString.toString
+trueString.toString >= return.toString
+falseString.toString <= return.toString
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringOnOff(boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringOnOff(boolean):::EXIT
+return.toString one of { "off", "on" }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringOnOff(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringOnOff(java.lang.Boolean):::EXIT
+return.toString one of { "off", "on" }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringTrueFalse(boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringTrueFalse(boolean):::EXIT
+return.toString one of { "false", "true" }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringTrueFalse(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringTrueFalse(java.lang.Boolean):::EXIT
+return.toString one of { "false", "true" }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringYesNo(boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringYesNo(boolean):::EXIT
+return.toString one of { "no", "yes" }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringYesNo(java.lang.Boolean):::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtils.toStringYesNo(java.lang.Boolean):::EXIT
+return.toString one of { "no", "yes" }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::ENTER
+array != null
+size(array[]) one of { 2, 3 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT930
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT930;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT936
+(return == false)  ==>  (array[] elements == false)
+(return == false)  ==>  (array[] elements == return)
+(return == false)  ==>  (array[] one of { [0, 0], [0, 0, 0] })
+return in array[]
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT936;condition="return == true"
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT936;condition="not(return == true)"
+array[] elements == false
+array[] one of { [0, 0], [0, 0, 0] }
+array[] elements == return
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT
+array[] == orig(array[])
+(return == true)  ==>  (return in array[])
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT;condition="return == true"
+return == true
+return in array[]
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(boolean[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(java.lang.Boolean[]):::ENTER
+array != null
+array.getClass().getName() == java.lang.Boolean[].class
+array[] elements != null
+size(array[]) one of { 2, 3 }
+===========================================================================
+org.apache.commons.lang.BooleanUtils.xor(java.lang.Boolean[]):::EXIT
+array[] == orig(array[])
+array[] elements != null
+return != null
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests:::OBJECT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.BooleanUtilsTestPassingTests(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.BooleanUtilsTestPassingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.setUp():::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.setUp():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.suite():::EXIT
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.tearDown():::ENTER
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.tearDown():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testConstructor():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testConstructor():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_emptyInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_emptyInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_nullElementInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_nullElementInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_nullInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_nullInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_validInput_2items():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_validInput_2items():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_validInput_3items():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_object_validInput_3items():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_emptyInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_emptyInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_nullInput():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_nullInput():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_validInput_2items():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_validInput_2items():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_validInput_3items():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.testXor_primitive_validInput_3items():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isFalse_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isFalse_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isNotFalse_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isNotFalse_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isNotTrue_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isNotTrue_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isTrue_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_isTrue_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_negate_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_negate_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanDefaultIfNull_Boolean_boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanDefaultIfNull_Boolean_boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_Integer():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_Integer():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_Integer_Integer_Integer_Integer():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_Integer_Integer_Integer_Integer():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_String():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_String_String_String_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_String_String_String_String():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_int():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_int():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_int_int_int():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBooleanObject_int_int_int():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_Integer_Integer_Integer():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_Integer_Integer_Integer():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_String_String_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_String_String_String():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_int():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_int():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_int_int_int():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toBoolean_int_int_int():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_Boolean_Integer_Integer_Integer():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_Boolean_Integer_Integer_Integer():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_boolean_Integer_Integer():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toIntegerObject_boolean_Integer_Integer():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toInteger_Boolean_int_int_int():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toInteger_Boolean_int_int_int():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toInteger_boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toInteger_boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toInteger_boolean_int_int():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toInteger_boolean_int_int():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringOnOff_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringOnOff_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringOnOff_boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringOnOff_boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringTrueFalse_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringTrueFalse_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringTrueFalse_boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringTrueFalse_boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringYesNo_Boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringYesNo_Boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringYesNo_boolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toStringYesNo_boolean():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toString_Boolean_String_String_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toString_Boolean_String_String_String():::EXIT
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toString_boolean_String_String_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.BooleanUtilsTestPassingTests.test_toString_boolean_String_String_String():::EXIT
+Exiting Daikon.

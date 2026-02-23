@@ -1,0 +1,8 @@
+pandas
+matplotlib
+numpy
+scikit-learn
+scipy
+seaborn
+upsetplot
+jinja2

@@ -1,0 +1,316 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.apache.commons.lang.WordUtils:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtils.WordUtils():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalize(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalize(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+str.toString >= return.toString
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalize(java.lang.String, char[]):::ENTER
+delimiters[] one of { [], [45, 43, 32, 64], [46] }
+size(delimiters[]) one of { 0, 1, 4 }
+delimiters[] elements > size(delimiters[])
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalize(java.lang.String, char[]):::EXIT278
+str.toString == return.toString
+return == orig(str)
+str.toString one of { "", "  " }
+delimiters[] == []
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalize(java.lang.String, char[]):::EXIT296
+delimiters[] one of { [45, 43, 32, 64], [46] }
+return != null
+orig(str) != null
+orig(size(delimiters[])) one of { 1, 4 }
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalize(java.lang.String, char[]):::EXIT
+str.toString == orig(str.toString)
+delimiters[] == orig(delimiters[])
+(delimiters[] == [])  ==>  (return == orig(str))
+(delimiters[] == [])  ==>  (return.toString one of { "", "  " })
+(delimiters[] == [])  ==>  (str.toString == return.toString)
+(delimiters[] == [])  ==>  (str.toString one of { "", "  " })
+(delimiters[] one of { [45, 43, 32, 64], [46] })  <==>  (orig(size(delimiters[])) one of { 1, 4 })
+(delimiters[] one of { [45, 43, 32, 64], [46] })  ==>  (orig(str) != null)
+(delimiters[] one of { [45, 43, 32, 64], [46] })  ==>  (return != null)
+delimiters[] one of { [], [45, 43, 32, 64], [46] }
+str.toString >= return.toString
+delimiters[] elements > orig(size(delimiters[]))
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalizeFully(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalizeFully(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalizeFully(java.lang.String, char[]):::ENTER
+delimiters[] one of { [], [45, 43, 32, 64], [46] }
+size(delimiters[]) one of { 0, 1, 4 }
+delimiters[] elements > size(delimiters[])
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalizeFully(java.lang.String, char[]):::EXIT352
+str.toString == return.toString
+str.toString == orig(str.toString)
+return == orig(str)
+str.toString one of { "", "  " }
+delimiters[] == []
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalizeFully(java.lang.String, char[]):::EXIT355
+delimiters[] one of { [45, 43, 32, 64], [46] }
+return != null
+orig(str) != null
+orig(size(delimiters[])) one of { 1, 4 }
+===========================================================================
+org.apache.commons.lang.WordUtils.capitalizeFully(java.lang.String, char[]):::EXIT
+delimiters[] == orig(delimiters[])
+(delimiters[] == [])  ==>  (orig(str.toString) one of { "", "  " })
+(delimiters[] == [])  ==>  (return == orig(str))
+(delimiters[] == [])  ==>  (return.toString one of { "", "  " })
+(delimiters[] == [])  ==>  (str == return)
+(delimiters[] == [])  ==>  (str.toString == orig(str.toString))
+(delimiters[] == [])  ==>  (str.toString == return.toString)
+(delimiters[] == [])  ==>  (str.toString one of { "", "  " })
+(delimiters[] one of { [45, 43, 32, 64], [46] })  <==>  (orig(size(delimiters[])) one of { 1, 4 })
+(delimiters[] one of { [45, 43, 32, 64], [46] })  ==>  (orig(str) != null)
+(delimiters[] one of { [45, 43, 32, 64], [46] })  ==>  (return != null)
+(delimiters[] one of { [45, 43, 32, 64], [46] })  ==>  (str != null)
+delimiters[] one of { [], [45, 43, 32, 64], [46] }
+delimiters[] elements > orig(size(delimiters[]))
+===========================================================================
+org.apache.commons.lang.WordUtils.initials(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.WordUtils.initials(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.WordUtils.initials(java.lang.String, char[]):::ENTER
+delimiters[] elements > size(delimiters[])
+===========================================================================
+org.apache.commons.lang.WordUtils.initials(java.lang.String, char[]):::EXIT540
+str.toString == return.toString
+return == orig(str)
+str.toString == ""
+===========================================================================
+org.apache.commons.lang.WordUtils.initials(java.lang.String, char[]):::EXIT543
+delimiters[] == []
+return has only one value
+return.toString == ""
+orig(delimiters) has only one value
+str.toString > return.toString
+===========================================================================
+org.apache.commons.lang.WordUtils.initials(java.lang.String, char[]):::EXIT561
+return != null
+orig(str) != null
+orig(size(delimiters[])) >= 1
+===========================================================================
+org.apache.commons.lang.WordUtils.initials(java.lang.String, char[]):::EXIT
+str.toString == orig(str.toString)
+delimiters[] == orig(delimiters[])
+delimiters[] elements > orig(size(delimiters[]))
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::ENTER
+size(delimiters[]) >= 1
+ch > size(delimiters[])
+delimiters[] elements > size(delimiters[])
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT574
+(return == true)  <==>  (orig(ch) == 32)
+orig(delimiters) == null
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT574;condition="return == true"
+orig(ch) == 32
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT574;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT578
+return == true
+orig(delimiters) != null
+orig(ch) in delimiters[]
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT578;condition="return == true"
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT581
+return == false
+orig(delimiters) != null
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT581;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT
+delimiters[] == orig(delimiters[])
+(return == true)  ==>  (orig(ch) in delimiters[])
+delimiters[] elements > orig(size(delimiters[]))
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT;condition="return == true"
+return == true
+orig(ch) in delimiters[]
+===========================================================================
+org.apache.commons.lang.WordUtils.isDelimiter(char, char[]):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang.WordUtils.swapCase(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.WordUtils.swapCase(java.lang.String):::EXIT455
+str.toString == return.toString
+return == orig(str)
+str.toString == ""
+===========================================================================
+org.apache.commons.lang.WordUtils.swapCase(java.lang.String):::EXIT481
+===========================================================================
+org.apache.commons.lang.WordUtils.swapCase(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.WordUtils.uncapitalize(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.WordUtils.uncapitalize(java.lang.String):::EXIT
+str.toString == orig(str.toString)
+str.toString <= return.toString
+===========================================================================
+org.apache.commons.lang.WordUtils.uncapitalize(java.lang.String, char[]):::ENTER
+delimiters[] one of { [], [45, 43, 32, 64], [46] }
+size(delimiters[]) one of { 0, 1, 4 }
+delimiters[] elements > size(delimiters[])
+===========================================================================
+org.apache.commons.lang.WordUtils.uncapitalize(java.lang.String, char[]):::EXIT408
+str.toString == return.toString
+return == orig(str)
+str.toString one of { "", "  " }
+delimiters[] == []
+===========================================================================
+org.apache.commons.lang.WordUtils.uncapitalize(java.lang.String, char[]):::EXIT426
+delimiters[] one of { [45, 43, 32, 64], [46] }
+return != null
+orig(str) != null
+orig(size(delimiters[])) one of { 1, 4 }
+===========================================================================
+org.apache.commons.lang.WordUtils.uncapitalize(java.lang.String, char[]):::EXIT
+str.toString == orig(str.toString)
+delimiters[] == orig(delimiters[])
+(delimiters[] == [])  ==>  (return == orig(str))
+(delimiters[] == [])  ==>  (return.toString one of { "", "  " })
+(delimiters[] == [])  ==>  (str.toString == return.toString)
+(delimiters[] == [])  ==>  (str.toString one of { "", "  " })
+(delimiters[] one of { [45, 43, 32, 64], [46] })  <==>  (orig(size(delimiters[])) one of { 1, 4 })
+(delimiters[] one of { [45, 43, 32, 64], [46] })  ==>  (orig(str) != null)
+(delimiters[] one of { [45, 43, 32, 64], [46] })  ==>  (return != null)
+delimiters[] one of { [], [45, 43, 32, 64], [46] }
+str.toString <= return.toString
+delimiters[] elements > orig(size(delimiters[]))
+===========================================================================
+org.apache.commons.lang.WordUtils.wrap(java.lang.String, int):::ENTER
+wrapLength one of { -1, 20 }
+===========================================================================
+org.apache.commons.lang.WordUtils.wrap(java.lang.String, int):::EXIT
+str.toString == orig(str.toString)
+===========================================================================
+org.apache.commons.lang.WordUtils.wrap(java.lang.String, int, java.lang.String, boolean):::ENTER
+newLineStr.toString one of { "\n", "<br />" }
+str.toString != newLineStr.toString
+===========================================================================
+org.apache.commons.lang.WordUtils.wrap(java.lang.String, int, java.lang.String, boolean):::EXIT165
+return == orig(str)
+newLineStr.toString == "\n"
+return == null
+orig(wrapLength) one of { -1, 20 }
+===========================================================================
+org.apache.commons.lang.WordUtils.wrap(java.lang.String, int, java.lang.String, boolean):::EXIT215
+return != null
+orig(str) != null
+===========================================================================
+org.apache.commons.lang.WordUtils.wrap(java.lang.String, int, java.lang.String, boolean):::EXIT
+str.toString == orig(str.toString)
+(return != null)  <==>  (orig(str) != null)
+(return != null)  ==>  (newLineStr != null)
+(return != null)  ==>  (newLineStr.toString != return.toString)
+(return != null)  ==>  (newLineStr.toString one of { "\n", "<br />" })
+(return != null)  ==>  (orig(newLineStr.toString) one of { "\n", "<br />" })
+(return != null)  ==>  (return.toString != orig(newLineStr.toString))
+(return != null)  ==>  (str.toString != newLineStr.toString)
+(return != null)  ==>  (str.toString != orig(newLineStr.toString))
+(return == null)  <==>  (orig(str) == null)
+(return == null)  ==>  (newLineStr == orig(newLineStr))
+(return == null)  ==>  (newLineStr.toString == "\n")
+(return == null)  ==>  (orig(newLineStr.toString) == "\n")
+(return == null)  ==>  (orig(wrapLength) one of { -1, 20 })
+(return == null)  ==>  (return == orig(str))
+(return == null)  ==>  (wrapLength == orig(wrapLength))
+(return == null)  ==>  (wrapLength one of { -1, 20 })
+str.toString != orig(newLineStr.toString)
+return.toString != orig(newLineStr.toString)
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests:::OBJECT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.WordUtilsTestPassingTests(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.WordUtilsTestPassingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.suite():::EXIT
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalizeFullyWithDelimiters_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalizeFullyWithDelimiters_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalizeFully_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalizeFully_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalizeWithDelimiters_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalizeWithDelimiters_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalize_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testCapitalize_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testConstructor():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testConstructor():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testInitials_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testInitials_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testInitials_String_charArray():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testInitials_String_charArray():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testSwapCase_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testSwapCase_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testUncapitalizeWithDelimiters_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testUncapitalizeWithDelimiters_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testUncapitalize_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testUncapitalize_String():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testWrap_StringInt():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testWrap_StringInt():::EXIT
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testWrap_StringIntStringBoolean():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang.WordUtilsTestPassingTests.testWrap_StringIntStringBoolean():::EXIT
+Exiting Daikon.

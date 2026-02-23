@@ -1,0 +1,114 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 4 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.jfree.chart.block.BorderArrangement.arrange(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint) : 2 invocations
+  org.jfree.chart.block.BorderArrangement.arrangeFN(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, double) : 1 invocation
+  org.jfree.chart.block.BorderArrangement.arrangeFF(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.jfree.chart.block.BorderArrangement:::CLASS
+===========================================================================
+org.jfree.chart.block.BorderArrangement:::OBJECT
+this.centerBlock.getClass().getName() == this.leftBlock.getClass().getName()
+this.centerBlock.getClass().getName() == this.rightBlock.getClass().getName()
+this.topBlock == this.bottomBlock
+this.leftBlock.getClass().getName() == this.rightBlock.getClass().getName()
+this has only one value
+this.centerBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+this.topBlock == null
+this.leftBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+this.rightBlock.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+===========================================================================
+org.jfree.chart.block.BorderArrangement.BorderArrangement():::EXIT
+this.centerBlock == this.topBlock
+this.centerBlock == this.bottomBlock
+this.centerBlock == this.leftBlock
+this.centerBlock == this.rightBlock
+this.centerBlock == null
+===========================================================================
+org.jfree.chart.block.BorderArrangement.add(org.jfree.chart.block.Block, java.lang.Object):::ENTER
+this.centerBlock.getClass().getName() == block.getClass().getName()
+this.topBlock == this.leftBlock
+this.rightBlock.getClass().getName() == block.getClass().getName()
+block.getClass().getName() == org.jfree.chart.block.EmptyBlock.class
+key.getClass().getName() == org.jfree.chart.util.RectangleEdge.class
+===========================================================================
+org.jfree.chart.block.BorderArrangement.add(org.jfree.chart.block.Block, java.lang.Object):::EXIT
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.centerBlock.getClass().getName() == orig(block.getClass().getName())
+this.topBlock == orig(this.topBlock)
+this.topBlock == orig(this.bottomBlock)
+this.topBlock == orig(this.leftBlock)
+this.leftBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.leftBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.leftBlock.getClass().getName() == orig(block.getClass().getName())
+this.rightBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+this.rightBlock.getClass().getName() == orig(block.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrange(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint):::ENTER
+container has only one value
+container != null
+g2 has only one value
+g2 != null
+g2.getClass().getName() == sun.java2d.SunGraphics2D.class
+constraint != null
+this.centerBlock.getClass().getName() != g2.getClass().getName()
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrange(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint):::EXIT
+this.centerBlock == orig(this.centerBlock)
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.topBlock == orig(this.topBlock)
+this.topBlock == orig(this.bottomBlock)
+this.leftBlock == orig(this.leftBlock)
+this.leftBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.rightBlock == orig(this.rightBlock)
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+return != null
+this.centerBlock.getClass().getName() != orig(g2.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrangeFF(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint):::ENTER
+container has only one value
+g2 has only one value
+g2.getClass().getName() == sun.java2d.SunGraphics2D.class
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrangeFF(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, org.jfree.chart.block.RectangleConstraint):::EXIT
+this.centerBlock == orig(this.centerBlock)
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.topBlock == orig(this.topBlock)
+this.topBlock == orig(this.bottomBlock)
+this.leftBlock == orig(this.leftBlock)
+this.leftBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.rightBlock == orig(this.rightBlock)
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrangeFN(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, double):::ENTER
+container has only one value
+g2 has only one value
+g2.getClass().getName() == sun.java2d.SunGraphics2D.class
+width == 10.0
+===========================================================================
+org.jfree.chart.block.BorderArrangement.arrangeFN(org.jfree.chart.block.BlockContainer, java.awt.Graphics2D, double):::EXIT
+this.centerBlock == orig(this.centerBlock)
+this.centerBlock.getClass().getName() == orig(this.centerBlock.getClass().getName())
+this.topBlock == orig(this.topBlock)
+this.topBlock == orig(this.bottomBlock)
+this.leftBlock == orig(this.leftBlock)
+this.leftBlock.getClass().getName() == orig(this.leftBlock.getClass().getName())
+this.rightBlock == orig(this.rightBlock)
+this.rightBlock.getClass().getName() == orig(this.rightBlock.getClass().getName())
+===========================================================================
+org.jfree.chart.block.BorderArrangement.clear():::ENTER
+===========================================================================
+org.jfree.chart.block.BorderArrangement.clear():::EXIT
+this.centerBlock == this.topBlock
+this.centerBlock == this.bottomBlock
+this.centerBlock == this.leftBlock
+this.centerBlock == this.rightBlock
+this.centerBlock == orig(this.topBlock)
+this.centerBlock == orig(this.bottomBlock)
+this.centerBlock == null
+Exiting Daikon.

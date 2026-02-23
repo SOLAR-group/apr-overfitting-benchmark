@@ -1,0 +1,427 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 2 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.jfree.data.time.TimeSeries.createCopy(org.jfree.data.time.RegularTimePeriod, org.jfree.data.time.RegularTimePeriod) : 1 invocation
+  org.jfree.data.time.TimeSeries.createCopy(int, int) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.jfree.data.time.TimeSeries:::CLASS
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION has only one value
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION != null
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == "Time"
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION has only one value
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION != null
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == "Value"
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString < org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString
+===========================================================================
+org.jfree.data.time.TimeSeries:::OBJECT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == this.domain
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == this.domain.toString
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == this.range
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == this.range.toString
+this.timePeriodClass != null
+this.data != null
+this.data[] elements != null
+this.data[].getClass().getName() elements == org.jfree.data.time.TimeSeriesDataItem.class
+this.data.getClass().getName() == java.util.ArrayList.class
+this.maximumItemCount == 2147483647
+this.maximumItemAge == 9223372036854775807L
+org.jfree.data.time.TimeSeries.serialVersionUID < size(this.data[])-1
+this.maximumItemCount > size(this.data[])
+this.maximumItemAge > size(this.data[])
+===========================================================================
+org.jfree.data.time.TimeSeries.TimeSeries(java.lang.Comparable):::ENTER
+name has only one value
+name.getClass().getName() == java.lang.String.class
+===========================================================================
+org.jfree.data.time.TimeSeries.TimeSeries(java.lang.Comparable):::EXIT
+this.timePeriodClass has only one value
+this.data has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+===========================================================================
+org.jfree.data.time.TimeSeries.TimeSeries(java.lang.Comparable, java.lang.Class):::ENTER
+name.getClass().getName() == java.lang.String.class
+timePeriodClass has only one value
+===========================================================================
+org.jfree.data.time.TimeSeries.TimeSeries(java.lang.Comparable, java.lang.Class):::EXIT
+this.timePeriodClass == orig(timePeriodClass)
+this.timePeriodClass has only one value
+this.data[] == []
+this.data[].getClass().getName() == []
+===========================================================================
+org.jfree.data.time.TimeSeries.TimeSeries(java.lang.Comparable, java.lang.String, java.lang.String, java.lang.Class):::ENTER
+name.getClass().getName() == java.lang.String.class
+domain has only one value
+domain.toString == "Time"
+range has only one value
+range.toString == "Value"
+===========================================================================
+org.jfree.data.time.TimeSeries.TimeSeries(java.lang.Comparable, java.lang.String, java.lang.String, java.lang.Class):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == domain.toString
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == range.toString
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(range.toString)
+this.timePeriodClass == orig(timePeriodClass)
+this.data[] == []
+this.data[].getClass().getName() == []
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, double):::ENTER
+this has only one value
+this.timePeriodClass has only one value
+this.data has only one value
+this.data[] elements has only one value
+this.data[].getClass().getName() one of { [], [org.jfree.data.time.TimeSeriesDataItem] }
+period.getClass().getName() == org.jfree.data.time.Day.class
+value == 1.0
+size(this.data[]) one of { 0, 1 }
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, double):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+size(this.data[])-1 == orig(size(this.data[]))
+this.timePeriodClass has only one value
+this.data has only one value
+this.data[].getClass().getName() one of { [org.jfree.data.time.TimeSeriesDataItem], [org.jfree.data.time.TimeSeriesDataItem, org.jfree.data.time.TimeSeriesDataItem] }
+size(this.data[]) one of { 1, 2 }
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, double, boolean):::ENTER
+this has only one value
+this.timePeriodClass has only one value
+this.data has only one value
+this.data[] elements has only one value
+this.data[].getClass().getName() one of { [], [org.jfree.data.time.TimeSeriesDataItem] }
+period.getClass().getName() == org.jfree.data.time.Day.class
+value == 1.0
+notify == true
+size(this.data[]) one of { 0, 1 }
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, double, boolean):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+size(this.data[])-1 == orig(size(this.data[]))
+this.timePeriodClass has only one value
+this.data has only one value
+this.data[].getClass().getName() one of { [org.jfree.data.time.TimeSeriesDataItem], [org.jfree.data.time.TimeSeriesDataItem, org.jfree.data.time.TimeSeriesDataItem] }
+size(this.data[]) one of { 1, 2 }
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, java.lang.Number):::ENTER
+this.timePeriodClass has only one value
+period != null
+period.getClass().getName() == org.jfree.data.time.Year.class
+value != null
+value.getClass().getName() == java.lang.Integer.class
+this.data.getClass().getName() != period.getClass().getName()
+this.data.getClass().getName() != value.getClass().getName()
+period.getClass().getName() != value.getClass().getName()
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, java.lang.Number):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+size(this.data[])-1 == orig(size(this.data[]))
+this.timePeriodClass has only one value
+size(this.data[]) >= 1
+this.data.getClass().getName() != orig(period.getClass().getName())
+this.data.getClass().getName() != orig(value.getClass().getName())
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, java.lang.Number, boolean):::ENTER
+this.timePeriodClass has only one value
+period != null
+period.getClass().getName() == org.jfree.data.time.Year.class
+value != null
+value.getClass().getName() == java.lang.Integer.class
+notify == true
+this.data.getClass().getName() != period.getClass().getName()
+this.data.getClass().getName() != value.getClass().getName()
+period.getClass().getName() != value.getClass().getName()
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.RegularTimePeriod, java.lang.Number, boolean):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+size(this.data[])-1 == orig(size(this.data[]))
+this.timePeriodClass has only one value
+size(this.data[]) >= 1
+this.data.getClass().getName() != orig(period.getClass().getName())
+this.data.getClass().getName() != orig(value.getClass().getName())
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.TimeSeriesDataItem, boolean):::ENTER
+item != null
+item.period != null
+item.value != null
+notify == true
+this.data.getClass().getName() != item.period.getClass().getName()
+this.data.getClass().getName() != item.value.getClass().getName()
+org.jfree.data.time.TimeSeriesDataItem.serialVersionUID < size(this.data[])-1
+item.period.getClass().getName() != item.value.getClass().getName()
+===========================================================================
+org.jfree.data.time.TimeSeries.add(org.jfree.data.time.TimeSeriesDataItem, boolean):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+item.period == orig(item.period)
+item.period.getClass().getName() == orig(item.period.getClass().getName())
+item.value == orig(item.value)
+item.value.getClass().getName() == orig(item.value.getClass().getName())
+size(this.data[])-1 == orig(size(this.data[]))
+item.period != null
+item.value != null
+size(this.data[]) >= 1
+orig(item) in this.data[]
+this.data.getClass().getName() != item.period.getClass().getName()
+this.data.getClass().getName() != item.value.getClass().getName()
+item.period.getClass().getName() != item.value.getClass().getName()
+===========================================================================
+org.jfree.data.time.TimeSeries.getDataItem(int):::ENTER
+index >= 0
+size(this.data[]) >= 1
+org.jfree.data.time.TimeSeries.serialVersionUID < index
+this.maximumItemCount > index
+this.maximumItemAge > index
+index <= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimeSeries.getDataItem(int):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+return == this.data[orig(index)]
+return != null
+return.period != null
+return.value != null
+size(this.data[]) >= 1
+return in this.data[]
+this.data.getClass().getName() != return.period.getClass().getName()
+this.data.getClass().getName() != return.value.getClass().getName()
+this.maximumItemCount > orig(index)
+this.maximumItemAge > orig(index)
+org.jfree.data.time.TimeSeriesDataItem.serialVersionUID < orig(index)
+org.jfree.data.time.TimeSeriesDataItem.serialVersionUID < size(this.data[])-1
+return.period.getClass().getName() != return.value.getClass().getName()
+orig(index) <= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimeSeries.getIndex(org.jfree.data.time.RegularTimePeriod):::ENTER
+this has only one value
+this.timePeriodClass has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 2
+this.data[].getClass().getName() == [org.jfree.data.time.TimeSeriesDataItem, org.jfree.data.time.TimeSeriesDataItem]
+period.getClass().getName() == org.jfree.data.time.Day.class
+size(this.data[]) == 2
+===========================================================================
+org.jfree.data.time.TimeSeries.getIndex(org.jfree.data.time.RegularTimePeriod):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+this.timePeriodClass has only one value
+this.data has only one value
+this.data[] contains no nulls and has only one value, of length 2
+this.data[].getClass().getName() == [org.jfree.data.time.TimeSeriesDataItem, org.jfree.data.time.TimeSeriesDataItem]
+return == -2
+size(this.data[]) == 2
+===========================================================================
+org.jfree.data.time.TimeSeries.getItemCount():::ENTER
+===========================================================================
+org.jfree.data.time.TimeSeries.getItemCount():::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+return == size(this.data[])
+return == orig(size(this.data[]))
+this.maximumItemCount > return
+this.maximumItemAge > return
+===========================================================================
+org.jfree.data.time.TimeSeries.getTimePeriod(int):::ENTER
+index >= 0
+size(this.data[]) >= 1
+org.jfree.data.time.TimeSeries.serialVersionUID < index
+this.maximumItemCount > index
+this.maximumItemAge > index
+index <= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimeSeries.getTimePeriod(int):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+return != null
+size(this.data[]) >= 1
+this.data.getClass().getName() != return.getClass().getName()
+this.maximumItemCount > orig(index)
+this.maximumItemAge > orig(index)
+orig(index) <= size(this.data[])-1
+===========================================================================
+org.jfree.data.time.TimeSeries.removeAgedItems(boolean):::ENTER
+notify == false
+size(this.data[]) >= 1
+===========================================================================
+org.jfree.data.time.TimeSeries.removeAgedItems(boolean):::EXIT
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION == orig(this.domain)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_DOMAIN_DESCRIPTION.toString == orig(this.domain.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION == orig(this.range)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString)
+org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.toString == orig(this.range.toString)
+this.timePeriodClass == orig(this.timePeriodClass)
+this.data == orig(this.data)
+this.data[] == orig(this.data[])
+this.data.getClass().getName() == orig(this.data.getClass().getName())
+this.maximumItemCount == orig(this.maximumItemCount)
+this.maximumItemAge == orig(this.maximumItemAge)
+size(this.data[]) >= 1
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem:::CLASS
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem:::OBJECT
+this.period != null
+this.value != null
+this.period.getClass().getName() != this.value.getClass().getName()
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.TimeSeriesDataItem(org.jfree.data.time.RegularTimePeriod, double):::ENTER
+period.getClass().getName() == org.jfree.data.time.Day.class
+value one of { -2.147483648E9, 1.0 }
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.TimeSeriesDataItem(org.jfree.data.time.RegularTimePeriod, double):::EXIT
+this.period == orig(period)
+this.period.getClass().getName() == orig(period.getClass().getName())
+this.period.getClass().getName() == org.jfree.data.time.Day.class
+this.value.getClass().getName() == java.lang.Double.class
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.TimeSeriesDataItem(org.jfree.data.time.RegularTimePeriod, java.lang.Number):::ENTER
+period != null
+value != null
+period.getClass().getName() != value.getClass().getName()
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.TimeSeriesDataItem(org.jfree.data.time.RegularTimePeriod, java.lang.Number):::EXIT
+this.period == orig(period)
+this.period.getClass().getName() == orig(period.getClass().getName())
+this.value == orig(value)
+this.value.getClass().getName() == orig(value.getClass().getName())
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.compareTo(java.lang.Object):::ENTER
+this.period.getClass().getName() == org.jfree.data.time.Day.class
+this.value.getClass().getName() == java.lang.Double.class
+o1.getClass().getName() == org.jfree.data.time.TimeSeriesDataItem.class
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.compareTo(java.lang.Object):::EXIT
+this.period == orig(this.period)
+this.period.getClass().getName() == orig(this.period.getClass().getName())
+this.value == orig(this.value)
+this.value.getClass().getName() == orig(this.value.getClass().getName())
+this.period.getClass().getName() == org.jfree.data.time.Day.class
+this.value.getClass().getName() == java.lang.Double.class
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.getPeriod():::ENTER
+===========================================================================
+org.jfree.data.time.TimeSeriesDataItem.getPeriod():::EXIT
+this.period == return
+this.period.getClass().getName() == return.getClass().getName()
+this.value == orig(this.value)
+this.value.getClass().getName() == orig(this.value.getClass().getName())
+return == orig(this.period)
+return.getClass().getName() == orig(this.period.getClass().getName())
+return != null
+this.value.getClass().getName() != return.getClass().getName()
+Exiting Daikon.

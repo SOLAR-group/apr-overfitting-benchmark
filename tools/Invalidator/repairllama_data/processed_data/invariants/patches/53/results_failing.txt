@@ -1,0 +1,86 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.apache.commons.lang3.ClassUtils:::CLASS
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName()
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName()
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName()
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR has only one value
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == "."
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR has only one value
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == "$"
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap has only one value
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == java.util.HashMap.class
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap has only one value
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap has only one value
+org.apache.commons.lang3.ClassUtils.abbreviationMap has only one value
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == java.util.Collections$UnmodifiableMap.class
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap has only one value
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString > org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName()
+===========================================================================
+org.apache.commons.lang3.ClassUtils.toClass(java.lang.Object[]):::ENTER
+array.getClass().getName() == java.lang.Object[].class
+size(array[]) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.toClass(java.lang.Object[]):::EXIT1232
+return == orig(array)
+return == null
+orig(array) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.toClass(java.lang.Object[]):::EXIT1234
+array[] == return[]
+array[] == []
+return has only one value
+return[] == []
+orig(array) has only one value
+array[] is the reverse of return[]
+===========================================================================
+org.apache.commons.lang3.ClassUtils.toClass(java.lang.Object[]):::EXIT1240
+size(return[]) == 3
+===========================================================================
+org.apache.commons.lang3.ClassUtils.toClass(java.lang.Object[]):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+array[] == orig(array[])
+size(return[]) == orig(size(array[]))
+return.getClass().getName() == java.lang.Class[].class
+size(return[]) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests:::OBJECT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.ClassUtilsTestFailingTests(java.lang.String):::ENTER
+name.toString one of { "testShowJavaBug", "testToClass_object", "test_isAssignable" }
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.ClassUtilsTestFailingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+name.toString one of { "testShowJavaBug", "testToClass_object", "test_isAssignable" }
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.testShowJavaBug():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.testShowJavaBug():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.testToClass_object():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.testToClass_object():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.test_isAssignable():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestFailingTests.test_isAssignable():::EXIT
+Exiting Daikon.

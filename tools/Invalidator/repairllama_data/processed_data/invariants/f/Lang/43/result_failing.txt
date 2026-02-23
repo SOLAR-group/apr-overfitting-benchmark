@@ -1,0 +1,569 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat:::CLASS
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN has only one value
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN != null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == ""
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE has only one value
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE != null
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == "''"
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat:::OBJECT
+this.registry.getClass().getName() == java.util.HashMap.class
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString <= this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString != this.toPattern.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String):::ENTER
+pattern != null
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String):::EXIT
+pattern.toString == orig(pattern.toString)
+this.toPattern != null
+this.registry == null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < pattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < pattern.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String, java.util.Locale):::ENTER
+pattern != null
+locale != null
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String, java.util.Locale):::EXIT
+pattern.toString == orig(pattern.toString)
+this.toPattern != null
+this.registry == null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < pattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < pattern.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String, java.util.Locale, java.util.Map):::ENTER
+pattern != null
+locale != null
+registry.getClass().getName() == java.util.HashMap.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String, java.util.Locale, java.util.Map):::EXIT
+this.registry == orig(registry)
+this.registry.getClass().getName() == orig(registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+this.toPattern != null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < pattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < pattern.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String, java.util.Map):::ENTER
+pattern has only one value
+pattern.toString == "it''s a {0,lower} 'test'!"
+registry has only one value
+registry.getClass().getName() == java.util.HashMap.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.ExtendedMessageFormat(java.lang.String, java.util.Map):::EXIT
+this.registry == orig(registry)
+this.registry.getClass().getName() == orig(registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+this.toPattern has only one value
+this.toPattern.toString == "it''s a {0,lower} test!"
+this.registry has only one value
+pattern.toString == "it''s a {0,lower} 'test'!"
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.appendQuotedString(java.lang.String, java.text.ParsePosition, java.lang.StringBuffer, boolean):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this has only one value
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString one of { "it''s a {0,lower} 'test'!", "it''s a {0} test!" }
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.appendQuotedString(java.lang.String, java.text.ParsePosition, java.lang.StringBuffer, boolean):::EXIT423
+pattern.toString == "it''s a {0,lower} 'test'!"
+return has only one value
+orig(pattern) has only one value
+orig(pos) has only one value
+orig(escapingOn) == true
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.appendQuotedString(java.lang.String, java.text.ParsePosition, java.lang.StringBuffer, boolean):::EXIT437
+pattern.toString == "it''s a {0} test!"
+return has only one value
+orig(pattern) has only one value
+orig(pos) has only one value
+orig(escapingOn) == false
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.appendQuotedString(java.lang.String, java.text.ParsePosition, java.lang.StringBuffer, boolean):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+return == orig(appendTo)
+(pattern.toString == "it''s a {0,lower} 'test'!")  <==>  (orig(escapingOn) == true)
+(pattern.toString == "it''s a {0} test!")  <==>  (orig(escapingOn) == false)
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString one of { "it''s a {0,lower} 'test'!", "it''s a {0} test!" }
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.applyPattern(java.lang.String):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this.toPattern.toString == ""
+pattern != null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString <= pattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString > this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString != pattern.toString
+this.toPattern.toString < pattern.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.applyPattern(java.lang.String):::EXIT146
+this.registry == null
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.applyPattern(java.lang.String):::EXIT206
+this.toPattern has only one value
+this.toPattern.toString == "it''s a {0,lower} test!"
+this.registry has only one value
+pattern.toString == "it''s a {0,lower} 'test'!"
+orig(this) has only one value
+orig(this.toPattern) has only one value
+orig(pattern) has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.applyPattern(java.lang.String):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+(this.registry has only one value)  ==>  (orig(pattern) has only one value)
+(this.registry has only one value)  ==>  (orig(this) has only one value)
+(this.registry has only one value)  ==>  (orig(this.toPattern) has only one value)
+(this.registry has only one value)  ==>  (pattern.toString == "it''s a {0,lower} 'test'!")
+(this.registry has only one value)  ==>  (this.registry.getClass().getName() == java.util.HashMap.class)
+(this.registry has only one value)  ==>  (this.toPattern has only one value)
+(this.registry has only one value)  ==>  (this.toPattern.toString == "it''s a {0,lower} test!")
+this.toPattern != null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString <= pattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString != pattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString > orig(this.toPattern.toString)
+this.toPattern.toString > orig(this.toPattern.toString)
+pattern.toString > orig(this.toPattern.toString)
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.containsElements(java.util.Collection):::ENTER
+this has only one value
+this.toPattern.toString one of { "", "it''s a {0,lower} test!" }
+this.registry has only one value
+coll.getClass().getName() == java.util.ArrayList.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.containsElements(java.util.Collection):::EXIT470
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.containsElements(java.util.Collection):::EXIT470;condition="return == true"
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.containsElements(java.util.Collection):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.toPattern.toString == orig(this.toPattern.toString)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+this.toPattern.toString one of { "", "it''s a {0,lower} test!" }
+this.registry has only one value
+return == true
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.containsElements(java.util.Collection):::EXIT;condition="return == true"
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.getFormat(java.lang.String):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this has only one value
+this.toPattern has only one value
+this.registry has only one value
+desc has only one value
+desc.toString == "lower"
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.getFormat(java.lang.String):::EXIT257
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.getFormat(java.lang.String):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+desc.toString == orig(desc.toString)
+this.toPattern has only one value
+this.registry has only one value
+desc.toString == "lower"
+return has only one value
+return.getClass().getName() == org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormat.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.insertFormats(java.lang.String, java.util.ArrayList):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this has only one value
+this.toPattern has only one value
+this.registry has only one value
+pattern has only one value
+pattern.toString == "it''s a {0} test!"
+customPatterns has only one value
+customPatterns[] contains no nulls and has only one value, of length 1
+customPatterns[] elements has only one value
+customPatterns[].getClass().getName() == [java.lang.String]
+customPatterns[].getClass().getName() elements == java.lang.String.class
+size(customPatterns[]) == 1
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.insertFormats(java.lang.String, java.util.ArrayList):::EXIT378
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.insertFormats(java.lang.String, java.util.ArrayList):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+customPatterns[] == orig(customPatterns[])
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString == "it''s a {0} test!"
+customPatterns[] contains no nulls and has only one value, of length 1
+customPatterns[] elements has only one value
+customPatterns[].getClass().getName() == [java.lang.String]
+customPatterns[].getClass().getName() elements == java.lang.String.class
+return has only one value
+return.toString == "it''s a {0,lower} test!"
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.next(java.text.ParsePosition):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this has only one value
+this.toPattern has only one value
+this.toPattern != null
+this.registry has only one value
+this.registry != null
+pos != null
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.next(java.text.ParsePosition):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+return == orig(pos)
+this.toPattern has only one value
+this.toPattern != null
+this.registry has only one value
+this.registry != null
+return != null
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.parseFormatDescription(java.lang.String, java.text.ParsePosition):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this has only one value
+this.toPattern has only one value
+this.registry has only one value
+pattern has only one value
+pattern.toString == "it''s a {0,lower} 'test'!"
+pos has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.parseFormatDescription(java.lang.String, java.text.ParsePosition):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString == "it''s a {0,lower} 'test'!"
+return has only one value
+return.toString == "lower"
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.readArgumentIndex(java.lang.String, java.text.ParsePosition):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this has only one value
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString one of { "it''s a {0,lower} 'test'!", "it''s a {0} test!" }
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.readArgumentIndex(java.lang.String, java.text.ParsePosition):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString one of { "it''s a {0,lower} 'test'!", "it''s a {0} test!" }
+return == 0
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.seekNonWs(java.lang.String, java.text.ParsePosition):::ENTER
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+this has only one value
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString one of { "it''s a {0,lower} 'test'!", "it''s a {0} test!" }
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.seekNonWs(java.lang.String, java.text.ParsePosition):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(this.toPattern.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == orig(this.toPattern)
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+this.toPattern has only one value
+this.registry has only one value
+pattern.toString one of { "it''s a {0,lower} 'test'!", "it''s a {0} test!" }
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.toPattern():::ENTER
+this.toPattern != null
+this.registry == null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < this.toPattern.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < this.toPattern.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormat.toPattern():::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN)
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE)
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString == orig(org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString)
+this.toPattern == return
+this.toPattern.toString == return.toString
+this.registry == orig(this.registry)
+return == orig(this.toPattern)
+return.toString == orig(this.toPattern.toString)
+this.registry == null
+return != null
+org.apache.commons.lang.text.ExtendedMessageFormat.DUMMY_PATTERN.toString < return.toString
+org.apache.commons.lang.text.ExtendedMessageFormat.ESCAPED_QUOTE.toString < return.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormat:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormat.LowerCaseFormat():::EXIT
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormat.format(java.lang.Object, java.lang.StringBuffer, java.text.FieldPosition):::ENTER
+obj has only one value
+obj.getClass().getName() == java.lang.String.class
+toAppendTo has only one value
+pos has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormat.format(java.lang.Object, java.lang.StringBuffer, java.text.FieldPosition):::EXIT
+return == orig(toAppendTo)
+return has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory:::CLASS
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE has only one value
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE.getClass().getName() == org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormat.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory:::OBJECT
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LowerCaseFormatFactory():::EXIT
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.getFormat(java.lang.String, java.lang.String, java.util.Locale):::ENTER
+this has only one value
+name has only one value
+name.toString == "lower"
+arguments == null
+locale has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.getFormat(java.lang.String, java.lang.String, java.util.Locale):::EXIT
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE == return
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE == orig(org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE)
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE.getClass().getName() == return.getClass().getName()
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE.getClass().getName() == orig(org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$LowerCaseFormatFactory.LOWER_INSTANCE.getClass().getName())
+name.toString == orig(name.toString)
+name.toString == "lower"
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormat:::OBJECT
+this has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormat.UpperCaseFormat():::EXIT
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormatFactory:::CLASS
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormatFactory.UPPER_INSTANCE has only one value
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormatFactory.UPPER_INSTANCE.getClass().getName() == org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormat.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormatFactory:::OBJECT
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests$UpperCaseFormatFactory.UpperCaseFormatFactory():::EXIT
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests:::OBJECT
+this.registry != null
+this.registry.getClass().getName() == java.util.HashMap.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.ExtendedMessageFormatTestFailingTests(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.ExtendedMessageFormatTestFailingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.assertPatternsEqual(java.lang.String, java.lang.String, java.lang.String):::ENTER
+expected.toString == actual.toString
+message != null
+expected != null
+actual != null
+message.toString > expected.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.assertPatternsEqual(java.lang.String, java.lang.String, java.lang.String):::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+message.toString == orig(message.toString)
+expected.toString == actual.toString
+expected.toString == orig(expected.toString)
+expected.toString == orig(actual.toString)
+message.toString > expected.toString
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.checkBuiltInFormat(java.lang.String, java.lang.Object[], java.util.Locale[]):::ENTER
+pattern != null
+args != null
+args.getClass().getName() == java.lang.Object[].class
+args[] elements != null
+locales != null
+locales.getClass().getName() == java.util.Locale[].class
+locales[] elements != null
+size(args[]) == 1
+size(locales[]) == 748
+this.registry.getClass().getName() != args.getClass().getName()
+this.registry.getClass().getName() != locales.getClass().getName()
+args.getClass().getName() != locales.getClass().getName()
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.checkBuiltInFormat(java.lang.String, java.lang.Object[], java.util.Locale[]):::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+args[] == orig(args[])
+locales[] == orig(locales[])
+args[] elements != null
+locales[] elements != null
+this.registry.getClass().getName() != orig(args.getClass().getName())
+this.registry.getClass().getName() != orig(locales.getClass().getName())
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.checkBuiltInFormat(java.lang.String, java.util.Map, java.lang.Object[], java.util.Locale):::ENTER
+pattern != null
+registry == null
+args != null
+args.getClass().getName() == java.lang.Object[].class
+args[] elements != null
+size(args[]) == 1
+this.registry.getClass().getName() != args.getClass().getName()
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.checkBuiltInFormat(java.lang.String, java.util.Map, java.lang.Object[], java.util.Locale):::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+args[] == orig(args[])
+args[] elements != null
+this.registry.getClass().getName() != orig(args.getClass().getName())
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.checkBuiltInFormat(java.lang.String, java.util.Map, java.lang.Object[], java.util.Locale[]):::ENTER
+pattern != null
+registry == null
+args != null
+args.getClass().getName() == java.lang.Object[].class
+args[] elements != null
+locales != null
+locales.getClass().getName() == java.util.Locale[].class
+locales[] elements != null
+size(args[]) == 1
+size(locales[]) == 748
+this.registry.getClass().getName() != args.getClass().getName()
+this.registry.getClass().getName() != locales.getClass().getName()
+args.getClass().getName() != locales.getClass().getName()
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.checkBuiltInFormat(java.lang.String, java.util.Map, java.lang.Object[], java.util.Locale[]):::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+args[] == orig(args[])
+locales[] == orig(locales[])
+args[] elements != null
+locales[] elements != null
+this.registry.getClass().getName() != orig(args.getClass().getName())
+this.registry.getClass().getName() != orig(locales.getClass().getName())
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.createMessageFormat(java.lang.String, java.util.Locale):::ENTER
+pattern != null
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.createMessageFormat(java.lang.String, java.util.Locale):::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+pattern.toString == orig(pattern.toString)
+return != null
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.setUp():::ENTER
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.setUp():::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.suite():::EXIT
+return has only one value
+return.getClass().getName() == junit.framework.TestSuite.class
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.tearDown():::ENTER
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.tearDown():::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testBuiltInChoiceFormat():::ENTER
+this has only one value
+this.registry has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testBuiltInChoiceFormat():::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+this.registry has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testBuiltInDateTimeFormat():::ENTER
+this has only one value
+this.registry has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testBuiltInDateTimeFormat():::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+this.registry has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testBuiltInNumberFormat():::ENTER
+this has only one value
+this.registry has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testBuiltInNumberFormat():::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+this.registry has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testEscapedQuote_LANG_477():::ENTER
+this has only one value
+this.registry has only one value
+===========================================================================
+org.apache.commons.lang.text.ExtendedMessageFormatTestFailingTests.testEscapedQuote_LANG_477():::EXIT
+this.registry == orig(this.registry)
+this.registry.getClass().getName() == orig(this.registry.getClass().getName())
+this.registry has only one value
+Exiting Daikon.

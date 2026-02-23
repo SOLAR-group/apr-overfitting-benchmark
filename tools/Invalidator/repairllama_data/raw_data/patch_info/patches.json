@@ -1,0 +1,1016 @@
+[
+  {
+    "project": "Chart",
+    "bug_id": "12",
+    "patch_file": "Patch1",
+    "id": 1
+  },
+  {
+    "project": "Chart",
+    "bug_id": "12",
+    "patch_file": "Patch2",
+    "id": 2
+  },
+  {
+    "project": "Chart",
+    "bug_id": "8",
+    "patch_file": "Patch3",
+    "id": 3
+  },
+  {
+    "project": "Chart",
+    "bug_id": "8",
+    "patch_file": "Patch4",
+    "id": 4
+  },
+  {
+    "project": "Chart",
+    "bug_id": "20",
+    "patch_file": "Patch5",
+    "id": 5
+  },
+  {
+    "project": "Chart",
+    "bug_id": "4",
+    "patch_file": "Patch6",
+    "id": 6
+  },
+  {
+    "project": "Chart",
+    "bug_id": "4",
+    "patch_file": "Patch7",
+    "id": 7
+  },
+  {
+    "project": "Chart",
+    "bug_id": "4",
+    "patch_file": "Patch8",
+    "id": 8
+  },
+  {
+    "project": "Chart",
+    "bug_id": "4",
+    "patch_file": "Patch9",
+    "id": 9
+  },
+  {
+    "project": "Chart",
+    "bug_id": "4",
+    "patch_file": "Patch10",
+    "id": 10
+  },
+  {
+    "project": "Chart",
+    "bug_id": "7",
+    "patch_file": "Patch11",
+    "id": 11
+  },
+  {
+    "project": "Chart",
+    "bug_id": "7",
+    "patch_file": "Patch12",
+    "id": 12
+  },
+  {
+    "project": "Chart",
+    "bug_id": "7",
+    "patch_file": "Patch13",
+    "id": 13
+  },
+  {
+    "project": "Chart",
+    "bug_id": "7",
+    "patch_file": "Patch14",
+    "id": 14
+  },
+  {
+    "project": "Chart",
+    "bug_id": "7",
+    "patch_file": "Patch15",
+    "id": 15
+  },
+  {
+    "project": "Chart",
+    "bug_id": "11",
+    "patch_file": "Patch16",
+    "id": 16
+  },
+  {
+    "project": "Chart",
+    "bug_id": "11",
+    "patch_file": "Patch17",
+    "id": 17
+  },
+  {
+    "project": "Chart",
+    "bug_id": "11",
+    "patch_file": "Patch18",
+    "id": 18
+  },
+  {
+    "project": "Chart",
+    "bug_id": "11",
+    "patch_file": "Patch19",
+    "id": 19
+  },
+  {
+    "project": "Chart",
+    "bug_id": "13",
+    "patch_file": "Patch20",
+    "id": 20
+  },
+  {
+    "project": "Chart",
+    "bug_id": "13",
+    "patch_file": "Patch21",
+    "id": 21
+  },
+  {
+    "project": "Chart",
+    "bug_id": "13",
+    "patch_file": "Patch22",
+    "id": 22
+  },
+  {
+    "project": "Chart",
+    "bug_id": "13",
+    "patch_file": "Patch23",
+    "id": 23
+  },
+  {
+    "project": "Chart",
+    "bug_id": "13",
+    "patch_file": "Patch24",
+    "id": 24
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch25",
+    "id": 25
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch26",
+    "id": 26
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch27",
+    "id": 27
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch28",
+    "id": 28
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch29",
+    "id": 29
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch30",
+    "id": 30
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch31",
+    "id": 31
+  },
+  {
+    "project": "Chart",
+    "bug_id": "1",
+    "patch_file": "Patch32",
+    "id": 32
+  },
+  {
+    "project": "Chart",
+    "bug_id": "9",
+    "patch_file": "Patch33",
+    "id": 33
+  },
+  {
+    "project": "Chart",
+    "bug_id": "9",
+    "patch_file": "Patch34",
+    "id": 34
+  },
+  {
+    "project": "Chart",
+    "bug_id": "9",
+    "patch_file": "Patch35",
+    "id": 35
+  },
+  {
+    "project": "Chart",
+    "bug_id": "9",
+    "patch_file": "Patch36",
+    "id": 36
+  },
+  {
+    "project": "Chart",
+    "bug_id": "9",
+    "patch_file": "Patch37",
+    "id": 37
+  },
+  {
+    "project": "Chart",
+    "bug_id": "26",
+    "patch_file": "Patch38",
+    "id": 38
+  },
+  {
+    "project": "Chart",
+    "bug_id": "26",
+    "patch_file": "Patch39",
+    "id": 39
+  },
+  {
+    "project": "Chart",
+    "bug_id": "26",
+    "patch_file": "Patch40",
+    "id": 40
+  },
+  {
+    "project": "Chart",
+    "bug_id": "26",
+    "patch_file": "Patch41",
+    "id": 41
+  },
+  {
+    "project": "Chart",
+    "bug_id": "26",
+    "patch_file": "Patch42",
+    "id": 42
+  },
+  {
+    "project": "Chart",
+    "bug_id": "26",
+    "patch_file": "Patch43",
+    "id": 43
+  },
+  {
+    "project": "Chart",
+    "bug_id": "26",
+    "patch_file": "Patch44",
+    "id": 44
+  },
+  {
+    "project": "Lang",
+    "bug_id": "59",
+    "patch_file": "Patch45",
+    "id": 45
+  },
+  {
+    "project": "Lang",
+    "bug_id": "59",
+    "patch_file": "Patch46",
+    "id": 46
+  },
+  {
+    "project": "Lang",
+    "bug_id": "59",
+    "patch_file": "Patch47",
+    "id": 47
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch48",
+    "id": 48
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch49",
+    "id": 49
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch50",
+    "id": 50
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch51",
+    "id": 51
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch52",
+    "id": 52
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch53",
+    "id": 53
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch54",
+    "id": 54
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch55",
+    "id": 55
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch56",
+    "id": 56
+  },
+  {
+    "project": "Lang",
+    "bug_id": "33",
+    "patch_file": "Patch57",
+    "id": 57
+  },
+  {
+    "project": "Lang",
+    "bug_id": "58",
+    "patch_file": "Patch58",
+    "id": 58
+  },
+  {
+    "project": "Lang",
+    "bug_id": "43",
+    "patch_file": "Patch59",
+    "id": 59
+  },
+  {
+    "project": "Lang",
+    "bug_id": "43",
+    "patch_file": "Patch60",
+    "id": 60
+  },
+  {
+    "project": "Lang",
+    "bug_id": "43",
+    "patch_file": "Patch61",
+    "id": 61
+  },
+  {
+    "project": "Lang",
+    "bug_id": "43",
+    "patch_file": "Patch62",
+    "id": 62
+  },
+  {
+    "project": "Lang",
+    "bug_id": "43",
+    "patch_file": "Patch63",
+    "id": 63
+  },
+  {
+    "project": "Lang",
+    "bug_id": "43",
+    "patch_file": "Patch64",
+    "id": 64
+  },
+  {
+    "project": "Lang",
+    "bug_id": "43",
+    "patch_file": "Patch65",
+    "id": 65
+  },
+  {
+    "project": "Lang",
+    "bug_id": "51",
+    "patch_file": "Patch66",
+    "id": 66
+  },
+  {
+    "project": "Lang",
+    "bug_id": "51",
+    "patch_file": "Patch67",
+    "id": 67
+  },
+  {
+    "project": "Lang",
+    "bug_id": "51",
+    "patch_file": "Patch68",
+    "id": 68
+  },
+  {
+    "project": "Lang",
+    "bug_id": "51",
+    "patch_file": "Patch69",
+    "id": 69
+  },
+  {
+    "project": "Lang",
+    "bug_id": "51",
+    "patch_file": "Patch70",
+    "id": 70
+  },
+  {
+    "project": "Lang",
+    "bug_id": "10",
+    "patch_file": "Patch71",
+    "id": 71
+  },
+  {
+    "project": "Lang",
+    "bug_id": "45",
+    "patch_file": "Patch72",
+    "id": 72
+  },
+  {
+    "project": "Lang",
+    "bug_id": "45",
+    "patch_file": "Patch73",
+    "id": 73
+  },
+  {
+    "project": "Lang",
+    "bug_id": "45",
+    "patch_file": "Patch74",
+    "id": 74
+  },
+  {
+    "project": "Lang",
+    "bug_id": "45",
+    "patch_file": "Patch75",
+    "id": 75
+  },
+  {
+    "project": "Closure",
+    "bug_id": "57",
+    "patch_file": "Patch76",
+    "id": 76
+  },
+  {
+    "project": "Closure",
+    "bug_id": "86",
+    "patch_file": "Patch77",
+    "id": 77
+  },
+  {
+    "project": "Closure",
+    "bug_id": "86",
+    "patch_file": "Patch78",
+    "id": 78
+  },
+  {
+    "project": "Closure",
+    "bug_id": "86",
+    "patch_file": "Patch79",
+    "id": 79
+  },
+  {
+    "project": "Closure",
+    "bug_id": "86",
+    "patch_file": "Patch80",
+    "id": 80
+  },
+  {
+    "project": "Closure",
+    "bug_id": "86",
+    "patch_file": "Patch81",
+    "id": 81
+  },
+  {
+    "project": "Closure",
+    "bug_id": "86",
+    "patch_file": "Patch82",
+    "id": 82
+  },
+  {
+    "project": "Closure",
+    "bug_id": "86",
+    "patch_file": "Patch83",
+    "id": 83
+  },
+  {
+    "project": "Closure",
+    "bug_id": "115",
+    "patch_file": "Patch84",
+    "id": 84
+  },
+  {
+    "project": "Closure",
+    "bug_id": "73",
+    "patch_file": "Patch85",
+    "id": 85
+  },
+  {
+    "project": "Closure",
+    "bug_id": "73",
+    "patch_file": "Patch86",
+    "id": 86
+  },
+  {
+    "project": "Closure",
+    "bug_id": "73",
+    "patch_file": "Patch87",
+    "id": 87
+  },
+  {
+    "project": "Closure",
+    "bug_id": "13",
+    "patch_file": "Patch88",
+    "id": 88
+  },
+  {
+    "project": "Closure",
+    "bug_id": "13",
+    "patch_file": "Patch89",
+    "id": 89
+  },
+  {
+    "project": "Closure",
+    "bug_id": "13",
+    "patch_file": "Patch90",
+    "id": 90
+  },
+  {
+    "project": "Closure",
+    "bug_id": "62",
+    "patch_file": "Patch91",
+    "id": 91
+  },
+  {
+    "project": "Closure",
+    "bug_id": "62",
+    "patch_file": "Patch92",
+    "id": 92
+  },
+  {
+    "project": "Closure",
+    "bug_id": "10",
+    "patch_file": "Patch93",
+    "id": 93
+  },
+  {
+    "project": "Closure",
+    "bug_id": "10",
+    "patch_file": "Patch94",
+    "id": 94
+  },
+  {
+    "project": "Math",
+    "bug_id": "84",
+    "patch_file": "Patch95",
+    "id": 95
+  },
+  {
+    "project": "Math",
+    "bug_id": "84",
+    "patch_file": "Patch96",
+    "id": 96
+  },
+  {
+    "project": "Math",
+    "bug_id": "70",
+    "patch_file": "Patch97",
+    "id": 97
+  },
+  {
+    "project": "Math",
+    "bug_id": "70",
+    "patch_file": "Patch98",
+    "id": 98
+  },
+  {
+    "project": "Math",
+    "bug_id": "95",
+    "patch_file": "Patch99",
+    "id": 99
+  },
+  {
+    "project": "Math",
+    "bug_id": "95",
+    "patch_file": "Patch100",
+    "id": 100
+  },
+  {
+    "project": "Math",
+    "bug_id": "95",
+    "patch_file": "Patch101",
+    "id": 101
+  },
+  {
+    "project": "Math",
+    "bug_id": "95",
+    "patch_file": "Patch102",
+    "id": 102
+  },
+  {
+    "project": "Math",
+    "bug_id": "8",
+    "patch_file": "Patch103",
+    "id": 103
+  },
+  {
+    "project": "Math",
+    "bug_id": "41",
+    "patch_file": "Patch104",
+    "id": 104
+  },
+  {
+    "project": "Math",
+    "bug_id": "41",
+    "patch_file": "Patch105",
+    "id": 105
+  },
+  {
+    "project": "Math",
+    "bug_id": "41",
+    "patch_file": "Patch106",
+    "id": 106
+  },
+  {
+    "project": "Math",
+    "bug_id": "69",
+    "patch_file": "Patch107",
+    "id": 107
+  },
+  {
+    "project": "Math",
+    "bug_id": "57",
+    "patch_file": "Patch108",
+    "id": 108
+  },
+  {
+    "project": "Math",
+    "bug_id": "57",
+    "patch_file": "Patch109",
+    "id": 109
+  },
+  {
+    "project": "Math",
+    "bug_id": "57",
+    "patch_file": "Patch110",
+    "id": 110
+  },
+  {
+    "project": "Math",
+    "bug_id": "57",
+    "patch_file": "Patch111",
+    "id": 111
+  },
+  {
+    "project": "Math",
+    "bug_id": "50",
+    "patch_file": "Patch112",
+    "id": 112
+  },
+  {
+    "project": "Math",
+    "bug_id": "50",
+    "patch_file": "Patch113",
+    "id": 113
+  },
+  {
+    "project": "Math",
+    "bug_id": "50",
+    "patch_file": "Patch114",
+    "id": 114
+  },
+  {
+    "project": "Math",
+    "bug_id": "50",
+    "patch_file": "Patch115",
+    "id": 115
+  },
+  {
+    "project": "Math",
+    "bug_id": "32",
+    "patch_file": "Patch116",
+    "id": 116
+  },
+  {
+    "project": "Math",
+    "bug_id": "32",
+    "patch_file": "Patch117",
+    "id": 117
+  },
+  {
+    "project": "Math",
+    "bug_id": "32",
+    "patch_file": "Patch118",
+    "id": 118
+  },
+  {
+    "project": "Math",
+    "bug_id": "32",
+    "patch_file": "Patch119",
+    "id": 119
+  },
+  {
+    "project": "Math",
+    "bug_id": "28",
+    "patch_file": "Patch120",
+    "id": 120
+  },
+  {
+    "project": "Math",
+    "bug_id": "28",
+    "patch_file": "Patch121",
+    "id": 121
+  },
+  {
+    "project": "Math",
+    "bug_id": "59",
+    "patch_file": "Patch122",
+    "id": 122
+  },
+  {
+    "project": "Math",
+    "bug_id": "59",
+    "patch_file": "Patch123",
+    "id": 123
+  },
+  {
+    "project": "Math",
+    "bug_id": "59",
+    "patch_file": "Patch124",
+    "id": 124
+  },
+  {
+    "project": "Math",
+    "bug_id": "59",
+    "patch_file": "Patch125",
+    "id": 125
+  },
+  {
+    "project": "Math",
+    "bug_id": "82",
+    "patch_file": "Patch126",
+    "id": 126
+  },
+  {
+    "project": "Math",
+    "bug_id": "82",
+    "patch_file": "Patch127",
+    "id": 127
+  },
+  {
+    "project": "Math",
+    "bug_id": "58",
+    "patch_file": "Patch128",
+    "id": 128
+  },
+  {
+    "project": "Math",
+    "bug_id": "11",
+    "patch_file": "Patch129",
+    "id": 129
+  },
+  {
+    "project": "Math",
+    "bug_id": "11",
+    "patch_file": "Patch130",
+    "id": 130
+  },
+  {
+    "project": "Math",
+    "bug_id": "11",
+    "patch_file": "Patch131",
+    "id": 131
+  },
+  {
+    "project": "Math",
+    "bug_id": "11",
+    "patch_file": "Patch132",
+    "id": 132
+  },
+  {
+    "project": "Math",
+    "bug_id": "11",
+    "patch_file": "Patch133",
+    "id": 133
+  },
+  {
+    "project": "Math",
+    "bug_id": "2",
+    "patch_file": "Patch134",
+    "id": 134
+  },
+  {
+    "project": "Math",
+    "bug_id": "79",
+    "patch_file": "Patch135",
+    "id": 135
+  },
+  {
+    "project": "Math",
+    "bug_id": "79",
+    "patch_file": "Patch136",
+    "id": 136
+  },
+  {
+    "project": "Math",
+    "bug_id": "79",
+    "patch_file": "Patch137",
+    "id": 137
+  },
+  {
+    "project": "Math",
+    "bug_id": "79",
+    "patch_file": "Patch138",
+    "id": 138
+  },
+  {
+    "project": "Math",
+    "bug_id": "79",
+    "patch_file": "Patch139",
+    "id": 139
+  },
+  {
+    "project": "Math",
+    "bug_id": "101",
+    "patch_file": "Patch140",
+    "id": 140
+  },
+  {
+    "project": "Math",
+    "bug_id": "101",
+    "patch_file": "Patch141",
+    "id": 141
+  },
+  {
+    "project": "Math",
+    "bug_id": "101",
+    "patch_file": "Patch142",
+    "id": 142
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch143",
+    "id": 143
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch144",
+    "id": 144
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch145",
+    "id": 145
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch146",
+    "id": 146
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch147",
+    "id": 147
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch148",
+    "id": 148
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch149",
+    "id": 149
+  },
+  {
+    "project": "Math",
+    "bug_id": "85",
+    "patch_file": "Patch150",
+    "id": 150
+  },
+  {
+    "project": "Math",
+    "bug_id": "30",
+    "patch_file": "Patch151",
+    "id": 151
+  },
+  {
+    "project": "Math",
+    "bug_id": "30",
+    "patch_file": "Patch152",
+    "id": 152
+  },
+  {
+    "project": "Math",
+    "bug_id": "30",
+    "patch_file": "Patch153",
+    "id": 153
+  },
+  {
+    "project": "Math",
+    "bug_id": "30",
+    "patch_file": "Patch154",
+    "id": 154
+  },
+  {
+    "project": "Math",
+    "bug_id": "53",
+    "patch_file": "Patch155",
+    "id": 155
+  },
+  {
+    "project": "Math",
+    "bug_id": "53",
+    "patch_file": "Patch156",
+    "id": 156
+  },
+  {
+    "project": "Math",
+    "bug_id": "80",
+    "patch_file": "Patch157",
+    "id": 157
+  },
+  {
+    "project": "Math",
+    "bug_id": "80",
+    "patch_file": "Patch158",
+    "id": 158
+  },
+  {
+    "project": "Math",
+    "bug_id": "75",
+    "patch_file": "Patch159",
+    "id": 159
+  },
+  {
+    "project": "Math",
+    "bug_id": "34",
+    "patch_file": "Patch160",
+    "id": 160
+  },
+  {
+    "project": "Math",
+    "bug_id": "34",
+    "patch_file": "Patch161",
+    "id": 161
+  },
+  {
+    "project": "Math",
+    "bug_id": "34",
+    "patch_file": "Patch162",
+    "id": 162
+  },
+  {
+    "project": "Math",
+    "bug_id": "34",
+    "patch_file": "Patch163",
+    "id": 163
+  },
+  {
+    "project": "Time",
+    "bug_id": "7",
+    "patch_file": "Patch164",
+    "id": 164
+  },
+  {
+    "project": "Time",
+    "bug_id": "7",
+    "patch_file": "Patch165",
+    "id": 165
+  },
+  {
+    "project": "Mockito",
+    "bug_id": "29",
+    "patch_file": "Patch166",
+    "id": 166
+  },
+  {
+    "project": "Mockito",
+    "bug_id": "29",
+    "patch_file": "Patch167",
+    "id": 167
+  },
+  {
+    "project": "Mockito",
+    "bug_id": "38",
+    "patch_file": "Patch168",
+    "id": 168
+  },
+  {
+    "project": "Mockito",
+    "bug_id": "38",
+    "patch_file": "Patch169",
+    "id": 169
+  }
+]

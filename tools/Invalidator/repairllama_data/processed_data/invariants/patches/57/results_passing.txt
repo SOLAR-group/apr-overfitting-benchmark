@@ -1,0 +1,1497 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+No return from procedure observed 41 times.  Unmatched entries are ignored!
+Unterminated calls:
+  org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_DefaultUnboxing_Widening() : 1 invocation
+  org.apache.commons.lang3.ClassUtils.getClass(java.lang.String) : 10 invocations
+  org.apache.commons.lang3.ClassUtils.getClass(java.lang.String, boolean) : 10 invocations
+  org.apache.commons.lang3.ClassUtils.getClass(java.lang.ClassLoader, java.lang.String, boolean) : 16 invocations
+  org.apache.commons.lang3.ClassUtils.toCanonicalName(java.lang.String) : 1 invocation
+  org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_ClassArray_ClassArray() : 1 invocation
+  org.apache.commons.lang3.ClassUtils.convertClassNamesToClasses(java.util.List) : 1 invocation
+  org.apache.commons.lang3.ClassUtils.convertClassesToClassNames(java.util.List) : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+org.apache.commons.lang3.ClassUtils:::CLASS
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName()
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName()
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName()
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR has only one value
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == "."
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR has only one value
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR != null
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == "$"
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap has only one value
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap != null
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == java.util.HashMap.class
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap has only one value
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap != null
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap has only one value
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap != null
+org.apache.commons.lang3.ClassUtils.abbreviationMap has only one value
+org.apache.commons.lang3.ClassUtils.abbreviationMap != null
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == java.util.Collections$UnmodifiableMap.class
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap has only one value
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString > org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName()
+===========================================================================
+org.apache.commons.lang3.ClassUtils:::OBJECT
+===========================================================================
+org.apache.commons.lang3.ClassUtils.ClassUtils():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassNamesToClasses(java.util.List):::ENTER
+classNames[].getClass().getName() elements == java.lang.String.class
+classNames[].getClass().getName() one of { [], [java.lang.String, java.lang.String, java.lang.String] }
+classNames.getClass().getName() == java.util.ArrayList.class
+size(classNames[]) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassNamesToClasses(java.util.List):::EXIT641
+return == orig(classNames)
+return == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassNamesToClasses(java.util.List):::EXIT651
+orig(classNames) has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassNamesToClasses(java.util.List):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+classNames[] == orig(classNames[])
+return.getClass().getName() == orig(classNames.getClass().getName())
+size(return[]) == orig(size(classNames[]))
+(return == null)  <==>  (orig(classNames) == null)
+(return == null)  ==>  (return == orig(classNames))
+classNames[].getClass().getName() elements == java.lang.String.class
+classNames[].getClass().getName() one of { [], [java.lang.String, java.lang.String, java.lang.String] }
+return[].getClass().getName() one of { [], [java.lang.Class, null, java.lang.Class] }
+return.getClass().getName() == java.util.ArrayList.class
+size(return[]) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassesToClassNames(java.util.List):::ENTER
+classes[].getClass().getName() one of { [], [java.lang.Class, null, java.lang.Class] }
+classes.getClass().getName() == java.util.ArrayList.class
+size(classes[]) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassesToClassNames(java.util.List):::EXIT668
+return == orig(classes)
+return == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassesToClassNames(java.util.List):::EXIT678
+orig(classes) has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.convertClassesToClassNames(java.util.List):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+classes[] == orig(classes[])
+return.getClass().getName() == orig(classes.getClass().getName())
+size(return[]) == orig(size(classes[]))
+(return == null)  <==>  (orig(classes) == null)
+(return == null)  ==>  (return == orig(classes))
+classes[].getClass().getName() one of { [], [java.lang.Class, null, java.lang.Class] }
+return[].getClass().getName() one of { [], [java.lang.String, null, java.lang.String] }
+return.getClass().getName() == java.util.ArrayList.class
+size(return[]) one of { 0, 3 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllInterfaces(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllInterfaces(java.lang.Class):::EXIT596
+return == null
+orig(cls) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllInterfaces(java.lang.Class):::EXIT602
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllInterfaces(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+(return == null)  <==>  (orig(cls) == null)
+return[].getClass().getName() elements == java.lang.Class.class
+return[].getClass().getName() one of { [java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class], [java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class] }
+return.getClass().getName() == java.util.ArrayList.class
+size(return[]) one of { 4, 6 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllInterfaces(java.lang.Class, java.util.HashSet):::ENTER
+cls != null
+interfacesFound != null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllInterfaces(java.lang.Class, java.util.HashSet):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllSuperclasses(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllSuperclasses(java.lang.Class):::EXIT570
+return == null
+orig(cls) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllSuperclasses(java.lang.Class):::EXIT578
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getAllSuperclasses(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+(return == null)  <==>  (orig(cls) == null)
+return[].getClass().getName() == [java.lang.Class, java.lang.Class]
+return[].getClass().getName() elements == java.lang.Class.class
+return.getClass().getName() == java.util.ArrayList.class
+size(return[]) == 2
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getCanonicalName(java.lang.String):::ENTER
+className != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getCanonicalName(java.lang.String):::EXIT1455
+className.toString == return.toString
+className.toString == orig(className.toString)
+return == orig(className)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getCanonicalName(java.lang.String):::EXIT1472
+return.toString > orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getCanonicalName(java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < orig(className.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < orig(className.toString)
+return.toString >= orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getClass(java.lang.ClassLoader, java.lang.String, boolean):::ENTER
+classLoader has only one value
+classLoader != null
+classLoader.getClass().getName() == jdk.internal.loader.ClassLoaders$AppClassLoader.class
+className != null
+initialize == true
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != classLoader.getClass().getName()
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != classLoader.getClass().getName()
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getClass(java.lang.ClassLoader, java.lang.String, boolean):::EXIT1071
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getClass(java.lang.ClassLoader, java.lang.String, boolean):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+className.toString == orig(className.toString)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != orig(classLoader.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != orig(classLoader.getClass().getName())
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getClass(java.lang.String):::ENTER
+className != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getClass(java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+className.toString == orig(className.toString)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getClass(java.lang.String, boolean):::ENTER
+className != null
+initialize == true
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getClass(java.lang.String, boolean):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+className.toString == orig(className.toString)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.Class):::EXIT1407
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+return.toString one of { "", "org.apache.commons.lang3" }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.Object, java.lang.String):::ENTER
+valueIfNull has only one value
+valueIfNull.toString == "<null>"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.Object, java.lang.String):::EXIT1391
+valueIfNull.toString == return.toString
+return == orig(valueIfNull)
+return has only one value
+orig(object) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.Object, java.lang.String):::EXIT1393
+return.toString one of { "", "org.apache.commons.lang3" }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.Object, java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+valueIfNull.toString == orig(valueIfNull.toString)
+(return.toString == "<null>")  <==>  (orig(object) == null)
+(return.toString == "<null>")  <==>  (valueIfNull.toString == return.toString)
+(return.toString == "<null>")  ==>  (return == orig(valueIfNull))
+(return.toString == "<null>")  ==>  (return has only one value)
+valueIfNull.toString == "<null>"
+return.toString one of { "", "<null>", "org.apache.commons.lang3" }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.String):::ENTER
+name != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < name.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < name.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageCanonicalName(java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+name.toString == orig(name.toString)
+return != null
+return.toString one of { "", "org.apache.commons.lang3" }
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < name.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < name.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != return.toString
+name.toString != return.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Class):::EXIT395
+return has only one value
+return.toString == ""
+orig(cls) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Class):::EXIT397
+orig(cls) != null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+(orig(cls) == null)  ==>  (return has only one value)
+(orig(cls) == null)  ==>  (return.toString == "")
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != return.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Object, java.lang.String):::ENTER
+valueIfNull has only one value
+valueIfNull.toString == "<null>"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Object, java.lang.String):::EXIT382
+valueIfNull.toString == return.toString
+return == orig(valueIfNull)
+return has only one value
+orig(object) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Object, java.lang.String):::EXIT384
+return.toString == "org.apache.commons.lang3"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.Object, java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+valueIfNull.toString == orig(valueIfNull.toString)
+(return.toString == "<null>")  <==>  (orig(object) == null)
+(return.toString == "<null>")  <==>  (valueIfNull.toString == return.toString)
+(return.toString == "<null>")  ==>  (return == orig(valueIfNull))
+(return.toString == "<null>")  ==>  (return has only one value)
+valueIfNull.toString == "<null>"
+return.toString one of { "<null>", "org.apache.commons.lang3" }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.String):::ENTER
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.String):::EXIT411
+className.toString == return.toString
+className.toString == orig(className.toString)
+className.toString == ""
+return has only one value
+return.toString == ""
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.String):::EXIT425
+return has only one value
+return.toString == ""
+orig(className) != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString > return.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < orig(className.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString > return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < orig(className.toString)
+return.toString < orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.String):::EXIT427
+return.toString one of { "java.lang", "java.util", "org.apache.commons.lang3" }
+orig(className) != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < orig(className.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < orig(className.toString)
+return.toString != orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPackageName(java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != orig(className.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPublicMethod(java.lang.Class, java.lang.String, java.lang.Class[]):::ENTER
+methodName.toString one of { "isEmpty", "toString" }
+parameterTypes.getClass().getName() == java.lang.Class[].class
+parameterTypes[] == []
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPublicMethod(java.lang.Class, java.lang.String, java.lang.Class[]):::EXIT1167
+methodName.toString == "toString"
+return has only one value
+orig(cls) has only one value
+orig(methodName) has only one value
+orig(parameterTypes) has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPublicMethod(java.lang.Class, java.lang.String, java.lang.Class[]):::EXIT1185
+methodName.toString == "isEmpty"
+return has only one value
+orig(cls) has only one value
+orig(methodName) has only one value
+orig(parameterTypes) has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getPublicMethod(java.lang.Class, java.lang.String, java.lang.Class[]):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+methodName.toString == orig(methodName.toString)
+parameterTypes[] == orig(parameterTypes[])
+methodName.toString one of { "isEmpty", "toString" }
+parameterTypes[] == []
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.Class):::EXIT1329
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.Object, java.lang.String):::ENTER
+valueIfNull has only one value
+valueIfNull.toString == "<null>"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.Object, java.lang.String):::EXIT1255
+valueIfNull.toString == return.toString
+return == orig(valueIfNull)
+return has only one value
+orig(object) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.Object, java.lang.String):::EXIT1257
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.Object, java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+valueIfNull.toString == orig(valueIfNull.toString)
+(orig(object) == null)  <==>  (valueIfNull.toString == return.toString)
+(orig(object) == null)  ==>  (return == orig(valueIfNull))
+(orig(object) == null)  ==>  (return has only one value)
+(orig(object) == null)  ==>  (return.toString == "<null>")
+valueIfNull.toString == "<null>"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.String):::ENTER
+canonicalName != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < canonicalName.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < canonicalName.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortCanonicalName(java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+canonicalName.toString == orig(canonicalName.toString)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < canonicalName.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < canonicalName.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Class):::EXIT200
+return has only one value
+return.toString == ""
+orig(cls) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Class):::EXIT202
+orig(cls) != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+(orig(cls) != null)  <==>  (org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString)
+(orig(cls) != null)  <==>  (org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < return.toString)
+(orig(cls) == null)  ==>  (return has only one value)
+(orig(cls) == null)  ==>  (return.toString == "")
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != return.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Object, java.lang.String):::ENTER
+valueIfNull has only one value
+valueIfNull.toString == "<null>"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Object, java.lang.String):::EXIT182
+valueIfNull.toString == return.toString
+return == orig(valueIfNull)
+return has only one value
+orig(object) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Object, java.lang.String):::EXIT184
+return.toString one of { "ClassUtils", "ClassUtilsTestPassingTests.Inner", "String" }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.Object, java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+valueIfNull.toString == orig(valueIfNull.toString)
+(return.toString == "<null>")  <==>  (orig(object) == null)
+(return.toString == "<null>")  <==>  (valueIfNull.toString == return.toString)
+(return.toString == "<null>")  ==>  (return == orig(valueIfNull))
+(return.toString == "<null>")  ==>  (return has only one value)
+valueIfNull.toString == "<null>"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.String):::ENTER
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.String):::EXIT232
+className.toString == return.toString
+className.toString == orig(className.toString)
+className.toString == ""
+return has only one value
+return.toString == ""
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.String):::EXIT260
+orig(className) != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < orig(className.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.getShortClassName(java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString)  <==>  (org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < className.toString)
+(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString)  <==>  (org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < orig(className.toString))
+(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString)  <==>  (org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString)
+(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString)  <==>  (org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < orig(className.toString))
+(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString)  <==>  (org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < return.toString)
+(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString)  ==>  (className != null)
+(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString < className.toString)  ==>  (orig(className) != null)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != orig(className.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class):::ENTER
+cls != null
+toClass != null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT868
+return == false
+orig(toClass) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT868;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT872
+(return == false)  ==>  (orig(toClass) has only one value)
+orig(cls) == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT872;condition="return == true"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT872;condition="not(return == true)"
+orig(toClass) has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT890
+return == true
+orig(cls) != null
+orig(toClass) != null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT890;condition="return == true"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT894
+return == orig(autoboxing)
+return == false
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT894;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT897
+(return == true)  ==>  (return == orig(autoboxing))
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT897;condition="return == true"
+return == orig(autoboxing)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT897;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT902
+(return == true)  ==>  (return == orig(autoboxing))
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT902;condition="return == true"
+return == orig(autoboxing)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT902;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT906
+return == false
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT906;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT909
+return == false
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT909;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT912
+(return == true)  ==>  (orig(toClass) has only one value)
+(return == true)  ==>  (return == orig(autoboxing))
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT912;condition="return == true"
+return == orig(autoboxing)
+orig(toClass) has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT912;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT915
+(return == true)  ==>  (return == orig(autoboxing))
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT915;condition="return == true"
+return == orig(autoboxing)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT915;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT921
+(return == true)  ==>  (return == orig(autoboxing))
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT921;condition="return == true"
+return == orig(autoboxing)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT921;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT927
+(return == true)  ==>  (return == orig(autoboxing))
+orig(cls) != null
+orig(toClass) != null
+orig(autoboxing) == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT927;condition="return == true"
+return == orig(autoboxing)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT927;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT936
+(return == false)  ==>  (cls == orig(cls))
+(return == true)  ==>  (orig(toClass) has only one value)
+orig(cls) != null
+orig(toClass) != null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT936;condition="return == true"
+orig(toClass) has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT936;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+(return == true)  ==>  (orig(toClass) != null)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT;condition="return == true"
+return == true
+orig(toClass) != null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class, java.lang.Class, boolean):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[]):::ENTER
+classArray.getClass().getName() == toClassArray.getClass().getName()
+classArray.getClass().getName() == java.lang.Class[].class
+toClassArray.getClass().getName() == java.lang.Class[].class
+toClassArray[] elements are equal
+size(classArray[]) one of { 0, 1 }
+size(toClassArray[]) one of { 0, 1, 2 }
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR_CHAR > size(toClassArray[])
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR_CHAR > size(toClassArray[])
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != toClassArray.getClass().getName()
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != toClassArray.getClass().getName()
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[]):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+classArray[] == orig(classArray[])
+toClassArray[] == orig(toClassArray[])
+(return == false)  ==>  (classArray[] contains no nulls and has only one value, of length 1)
+(return == false)  ==>  (orig(size(classArray[])) == 1)
+(return == false)  ==>  (orig(size(toClassArray[])) one of { 1, 2 })
+(return == true)  ==>  (orig(size(classArray[])) == orig(size(toClassArray[])))
+(return == true)  ==>  (orig(size(classArray[])) one of { 0, 1 })
+(return == true)  ==>  (orig(size(toClassArray[])) one of { 0, 1 })
+toClassArray[] elements are equal
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != orig(toClassArray.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != orig(toClassArray.getClass().getName())
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[]):::EXIT;condition="return == true"
+orig(size(classArray[])) == orig(size(toClassArray[]))
+classArray[] elements has only one value
+return == true
+orig(size(toClassArray[])) one of { 0, 1 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[]):::EXIT;condition="not(return == true)"
+classArray[] contains no nulls and has only one value, of length 1
+classArray[] elements has only one value
+return == false
+orig(size(classArray[])) == 1
+orig(size(toClassArray[])) one of { 1, 2 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::ENTER
+classArray.getClass().getName() == toClassArray.getClass().getName()
+classArray.getClass().getName() == java.lang.Class[].class
+classArray[] elements != null
+toClassArray.getClass().getName() == java.lang.Class[].class
+toClassArray[] elements != null
+size(classArray[]) one of { 0, 1, 2 }
+size(toClassArray[]) one of { 0, 1, 2 }
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR_CHAR > size(classArray[])
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR_CHAR > size(toClassArray[])
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR_CHAR > size(classArray[])
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR_CHAR > size(toClassArray[])
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != classArray.getClass().getName()
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != toClassArray.getClass().getName()
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != classArray.getClass().getName()
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != toClassArray.getClass().getName()
+size(classArray[]) >= size(toClassArray[])-1
+size(classArray[])-1 <= size(toClassArray[])
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT757
+toClassArray[] elements has only one value
+return == false
+orig(size(classArray[])) one of { 1, 2 }
+orig(size(toClassArray[])) one of { 1, 2 }
+size(classArray[])-1 != size(toClassArray[])-1
+orig(size(classArray[])) != orig(size(toClassArray[]))
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT757;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT767
+orig(size(classArray[])) == orig(size(toClassArray[]))
+return == false
+orig(size(classArray[])) one of { 1, 2 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT767;condition="not(return == true)"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT770
+orig(size(classArray[])) == orig(size(toClassArray[]))
+return == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT770;condition="return == true"
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+(return == false)  ==>  (classArray == orig(classArray))
+(return == false)  ==>  (orig(size(classArray[])) one of { 1, 2 })
+(return == false)  ==>  (orig(size(toClassArray[])) one of { 1, 2 })
+(return == false)  ==>  (orig(toClassArray) != null)
+(return == false)  ==>  (size(classArray[]) one of { 1, 2 })
+(return == false)  ==>  (size(toClassArray[]) one of { 1, 2 })
+(return == false)  ==>  (toClassArray == orig(toClassArray))
+(return == true)  ==>  (classArray != null)
+(return == true)  ==>  (orig(size(classArray[])) == orig(size(toClassArray[])))
+(return == true)  ==>  (orig(size(classArray[])) one of { 0, 1, 2 })
+(return == true)  ==>  (orig(size(toClassArray[])) one of { 0, 1, 2 })
+(return == true)  ==>  (size(classArray[]) == size(toClassArray[]))
+(return == true)  ==>  (size(classArray[]) one of { 0, 1, 2 })
+(return == true)  ==>  (size(toClassArray[]) one of { 0, 1, 2 })
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != orig(classArray.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() != orig(toClassArray.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != orig(classArray.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() != orig(toClassArray.getClass().getName())
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT;condition="return == true"
+orig(size(classArray[])) == orig(size(toClassArray[]))
+return == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isAssignable(java.lang.Class[], java.lang.Class[], boolean):::EXIT;condition="not(return == true)"
+return == false
+orig(toClassArray) != null
+orig(size(classArray[])) one of { 1, 2 }
+orig(size(toClassArray[])) one of { 1, 2 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isInnerClass(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isInnerClass(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isInnerClass(java.lang.Class):::EXIT;condition="return == true"
+return == true
+===========================================================================
+org.apache.commons.lang3.ClassUtils.isInnerClass(java.lang.Class):::EXIT;condition="not(return == true)"
+return == false
+===========================================================================
+org.apache.commons.lang3.ClassUtils.primitiveToWrapper(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.primitiveToWrapper(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.primitivesToWrappers(java.lang.Class[]):::ENTER
+classes.getClass().getName() == java.lang.Class[].class
+size(classes[]) one of { 0, 3, 10 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.primitivesToWrappers(java.lang.Class[]):::EXIT971
+return == orig(classes)
+return == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.primitivesToWrappers(java.lang.Class[]):::EXIT975
+classes[] == return[]
+return == orig(classes)
+classes[] == []
+return has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.primitivesToWrappers(java.lang.Class[]):::EXIT982
+size(return[]) one of { 3, 10 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.primitivesToWrappers(java.lang.Class[]):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+classes[] == orig(classes[])
+return.getClass().getName() == orig(classes.getClass().getName())
+size(return[]) == orig(size(classes[]))
+return.getClass().getName() == java.lang.Class[].class
+size(return[]) one of { 0, 3, 10 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.toCanonicalName(java.lang.String):::ENTER
+className != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != className.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != className.toString
+===========================================================================
+org.apache.commons.lang3.ClassUtils.toCanonicalName(java.lang.String):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+return != null
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != return.toString
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString != orig(className.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString < return.toString
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString != orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.wrapperToPrimitive(java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtils.wrapperToPrimitive(java.lang.Class):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+===========================================================================
+org.apache.commons.lang3.ClassUtils.wrappersToPrimitives(java.lang.Class[]):::ENTER
+classes.getClass().getName() == java.lang.Class[].class
+size(classes[]) one of { 0, 11 }
+===========================================================================
+org.apache.commons.lang3.ClassUtils.wrappersToPrimitives(java.lang.Class[]):::EXIT1021
+return == orig(classes)
+return == null
+===========================================================================
+org.apache.commons.lang3.ClassUtils.wrappersToPrimitives(java.lang.Class[]):::EXIT1025
+classes[] == return[]
+return == orig(classes)
+classes[] == []
+return has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtils.wrappersToPrimitives(java.lang.Class[]):::EXIT1032
+classes[] has only one value, of length 11
+return has only one value
+return[] has only one value, of length 11
+orig(classes) has only one value
+size(return[]) == 11
+===========================================================================
+org.apache.commons.lang3.ClassUtils.wrappersToPrimitives(java.lang.Class[]):::EXIT
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.PACKAGE_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR)
+org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString == orig(org.apache.commons.lang3.ClassUtils.INNER_CLASS_SEPARATOR.toString)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap)
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.namePrimitiveMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.primitiveWrapperMap == orig(org.apache.commons.lang3.ClassUtils.primitiveWrapperMap)
+org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap == orig(org.apache.commons.lang3.ClassUtils.wrapperPrimitiveMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap)
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.abbreviationMap.getClass().getName() == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap.getClass().getName())
+org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap == orig(org.apache.commons.lang3.ClassUtils.reverseAbbreviationMap)
+classes[] == orig(classes[])
+return.getClass().getName() == orig(classes.getClass().getName())
+size(return[]) == orig(size(classes[]))
+return.getClass().getName() == java.lang.Class[].class
+size(return[]) one of { 0, 11 }
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests$1:::OBJECT
+this has only one value
+org.apache.commons.lang3.ClassUtilsTestPassingTests.this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests$1.(org.apache.commons.lang3.ClassUtilsTestPassingTests):::ENTER
+org.apache.commons.lang3.ClassUtilsTestPassingTests.this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests$1.(org.apache.commons.lang3.ClassUtilsTestPassingTests):::EXIT
+org.apache.commons.lang3.ClassUtilsTestPassingTests.this == orig(org.apache.commons.lang3.ClassUtilsTestPassingTests.this)
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests$Inner:::OBJECT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests$Inner.Inner():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests:::OBJECT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.ClassUtilsTestPassingTests(java.lang.String):::ENTER
+name != null
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.ClassUtilsTestPassingTests(java.lang.String):::EXIT
+name.toString == orig(name.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassReturnsClass(java.lang.Class):::ENTER
+c != null
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassReturnsClass(java.lang.Class):::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassThrowsClassNotFound(java.lang.String):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassThrowsClassNotFound(java.lang.String):::EXIT
+className.toString == orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassThrowsException(java.lang.String, java.lang.Class):::ENTER
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassThrowsException(java.lang.String, java.lang.Class):::EXIT
+className.toString == orig(className.toString)
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassThrowsNullPointerException(java.lang.String):::ENTER
+this has only one value
+className == null
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.assertGetClassThrowsNullPointerException(java.lang.String):::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testConstructor():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testConstructor():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassByNormalNameArrays():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassByNormalNameArrays():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassByNormalNameArrays2D():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassByNormalNameArrays2D():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassClassNotFound():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassClassNotFound():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassInvalidArguments():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassInvalidArguments():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassRawPrimitives():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassRawPrimitives():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassWithArrayClasses():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassWithArrayClasses():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassWithArrayClasses2D():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetClassWithArrayClasses2D():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetPublicMethod():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testGetPublicMethod():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testPrimitiveToWrapper():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testPrimitiveToWrapper():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testPrimitivesToWrappers():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testPrimitivesToWrappers():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testShowJavaBug():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testShowJavaBug():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWithInterleavingWhitespace():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWithInterleavingWhitespace():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrapperToPrimitive():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrapperToPrimitive():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrapperToPrimitiveNoWrapper():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrapperToPrimitiveNoWrapper():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrapperToPrimitiveNull():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrapperToPrimitiveNull():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrappersToPrimitives():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrappersToPrimitives():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrappersToPrimitivesEmpty():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrappersToPrimitivesEmpty():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrappersToPrimitivesNull():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.testWrappersToPrimitivesNull():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_convertClassNamesToClasses_List():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_convertClassNamesToClasses_List():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_convertClassesToClassNames_List():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_convertClassesToClassNames_List():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getAllInterfaces_Class():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getAllInterfaces_Class():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getAllSuperclasses_Class():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getAllSuperclasses_Class():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageCanonicalName_Class():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageCanonicalName_Class():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageCanonicalName_Object():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageCanonicalName_Object():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageCanonicalName_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageCanonicalName_String():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageName_Class():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageName_Class():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageName_Object():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageName_Object():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageName_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getPackageName_String():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortCanonicalName_Class():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortCanonicalName_Class():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortCanonicalName_Object():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortCanonicalName_Object():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortCanonicalName_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortCanonicalName_String():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortClassName_Class():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortClassName_Class():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortClassName_Object():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortClassName_Object():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortClassName_String():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_getShortClassName_String():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_Autoboxing():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_Autoboxing():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_ClassArray_ClassArray_Autoboxing():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_ClassArray_ClassArray_Autoboxing():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_ClassArray_ClassArray_NoAutoboxing():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_ClassArray_ClassArray_NoAutoboxing():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_NoAutoboxing():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_NoAutoboxing():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_Unboxing_Widening():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_Unboxing_Widening():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_Widening():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isAssignable_Widening():::EXIT
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isInnerClass_Class():::ENTER
+this has only one value
+===========================================================================
+org.apache.commons.lang3.ClassUtilsTestPassingTests.test_isInnerClass_Class():::EXIT
+Exiting Daikon.

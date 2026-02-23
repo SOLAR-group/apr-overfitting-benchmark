@@ -1,0 +1,30 @@
+Daikon version 5.8.20, released May 14, 2024; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+org.jfree.chart.plot.ValueMarker:::OBJECT
+this has only one value
+this.value == 1.0
+===========================================================================
+org.jfree.chart.plot.ValueMarker.ValueMarker(double, java.awt.Paint, java.awt.Stroke, java.awt.Paint, java.awt.Stroke, float):::ENTER
+paint.getClass().getName() == outlinePaint.getClass().getName()
+stroke.getClass().getName() == outlineStroke.getClass().getName()
+value == 1.0
+paint has only one value
+paint.getClass().getName() == java.awt.Color.class
+stroke has only one value
+stroke.getClass().getName() == java.awt.BasicStroke.class
+outlinePaint has only one value
+outlineStroke has only one value
+alpha == 0.5
+===========================================================================
+org.jfree.chart.plot.ValueMarker.ValueMarker(double, java.awt.Paint, java.awt.Stroke, java.awt.Paint, java.awt.Stroke, float):::EXIT
+this.value == orig(value)
+===========================================================================
+org.jfree.chart.plot.ValueMarker.getValue():::ENTER
+===========================================================================
+org.jfree.chart.plot.ValueMarker.getValue():::EXIT
+this.value == return
+return == orig(this.value)
+return == 1.0
+Exiting Daikon.
