@@ -8,8 +8,8 @@ def main():
     parser = argparse.ArgumentParser(description="Replication script runner")
     parser.add_argument(
         "dataset_name",
-        choices=["petke_8h", "petke_1h", "repairllama", "combined"],
-        help="Dataset to use: 'petke_8h', 'petke_1h' or 'repairllama'"
+        choices=["petke_8h", "petke_1h", "repairllama", "repairllama_dedup", "combined", "combined_new"],
+        help="Dataset to use: 'petke_8h', 'petke_1h', 'repairllama', 'repairllama_dedup', 'combined', or 'combined_new'."
     )
     parser.add_argument(
         "--figures",
@@ -35,11 +35,21 @@ def main():
         results_csv_name = "repairllama_filtered"
         num_correct_patches = "63"
         num_overfitting_patches = "106"
+    elif args.dataset_name == "repairllama_dedup":
+        output_dir = "../repairllama_dedup_figures/"
+        results_csv_name = "repairllama_filtered_deduplicated"
+        num_correct_patches = "54"
+        num_overfitting_patches = "102"
     elif args.dataset_name == "combined":
         output_dir = "../combined_figures/"
         results_csv_name = "combined_filtered"
         num_correct_patches = "190"
         num_overfitting_patches = "777"
+    elif args.dataset_name == "combined_new":
+        output_dir = "../combined_new_figures/"
+        results_csv_name = "combined_filtered_new"
+        num_correct_patches = "181"
+        num_overfitting_patches = "773"
     else:
         raise ValueError("Invalid dataset name provided.")
 
