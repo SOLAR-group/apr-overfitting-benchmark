@@ -19,4 +19,9 @@ This filtering is achieved using the following script:
 python repairllama_filtering.py
 ```
 
-The second folder `context_size_3_filtered` contains the filtered patches used in our experiments.
+Finally, we identify any duplicates among the repairllama patches:
+```shell
+python identify_repairllama_duplicate_patches.py
+```
+
+The folder `final_dataset` contains the filtered, deduplicated patches used in our experiments.

@@ -26,8 +26,10 @@ apr-overfitting-benchmark/
 │   │   └── patches_by_time/ # Classical dataset patches grouped by discovery time.
 │   └── repairllama/ # repairllama dataset
 │       ├── context_size_3_evaluation_defects4j_repairllama_ir4_or2_martin/ # Original dataset
-│       ├── context_size_3_filtered/ # Filtered dataset for our experiments
+│       ├── context_size_3_filtered/ # Filtered dataset
+│       ├── final_dataset/ # Deduplicated filtered dataset for our experiments
 │       ├── repairllama_filtering.py # Filtering script
+│       ├── identify_repairllama_duplicate_patches.py # Deduplication script
 │       └── README.md # Explaining the source of the patches and filtering script
 │── defects4j_projects/ # Defects4J projects required to replicate experiments for each dataset
 │   ├── petke/ 
@@ -38,6 +40,7 @@ apr-overfitting-benchmark/
 │   ├── combined_figures/ # Raw data, tables and visualisations for classical and repairllama datasets combined 
 │   ├── petke_1h_figures/ # Raw data, tables and visualisations for classical (1h APR tool runtime)
 │   ├── petke_8h_figures/ # Raw data, tables and visualisations for classical dataset
+│   ├── repairllama_dedup_figures/ # Raw data, tables and visualisations for deduplicated repairllama dataset (presented in our paper)
 │   ├── repairllama_figures/ # Raw data, tables and visualisations for repairllama dataset
 │   ├── scripts/ # Scripts used to analyse the classifications in results/
 │   ├── figure-replication-requirements.txt # Requirements for analysis replication
